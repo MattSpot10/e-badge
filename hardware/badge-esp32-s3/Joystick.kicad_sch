@@ -1325,22 +1325,22 @@
 			)
 		)
 		(pin "Y-"
-			(uuid "05cf0b8b-9a2b-406d-b50f-576847106a1f")
+			(uuid "05cf0b8b-9a2b-406d-b50f-576847106a20")
 		)
 		(pin "X"
-			(uuid "310c6dea-51e3-4797-871e-22fe389652d2")
+			(uuid "310c6dea-51e3-4797-871e-22fe389652d3")
 		)
 		(pin "Y+"
-			(uuid "e2cf677e-7a25-4381-be4f-96ce342a7572")
+			(uuid "e2cf677e-7a25-4381-be4f-96ce342a7573")
 		)
 		(pin "X+"
-			(uuid "ef3cb9b5-3620-4bb5-ae3c-ad185abaf721")
+			(uuid "ef3cb9b5-3620-4bb5-ae3c-ad185abaf722")
 		)
 		(pin "Y"
-			(uuid "97c8d0a3-6cd2-430d-b468-aee5f24cb22f")
+			(uuid "97c8d0a3-6cd2-430d-b468-aee5f24cb230")
 		)
 		(pin "X-"
-			(uuid "fa5c8b16-dc18-4db7-98ff-3e04b050f46a")
+			(uuid "fa5c8b16-dc18-4db7-98ff-3e04b050f46b")
 		)
 		(instances
 			(project ""
