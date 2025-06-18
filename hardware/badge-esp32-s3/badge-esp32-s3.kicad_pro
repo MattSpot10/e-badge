@@ -910,8 +910,32 @@
       "Onboard Peripheral"
     ],
     [
-      "59e7d68d-5d39-4249-b811-d3905f2cced1",
-      "PushButton"
+      "087bbcb7-a424-4ca1-be9b-d5022ab24086",
+      "A"
+    ],
+    [
+      "0989687e-9d7d-4e52-9be0-bb3b08c4ff46",
+      "B"
+    ],
+    [
+      "2c30d35f-8df5-49f7-9dbc-9aa30ef1a1f2",
+      "Left"
+    ],
+    [
+      "b507dca5-e58d-4c04-8824-1d2aef8f7df4",
+      "Up"
+    ],
+    [
+      "ea61ae3c-04bf-4244-bb17-cecc21fce192",
+      "Right"
+    ],
+    [
+      "0e604a77-d00c-4663-aa0e-d86b906e110e",
+      "Joystick"
+    ],
+    [
+      "26f14f73-3c64-431d-bfa5-e30d3515d6c4",
+      "Down"
     ]
   ],
   "text_variables": {}

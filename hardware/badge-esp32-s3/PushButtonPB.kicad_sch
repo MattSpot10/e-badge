@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bb628e34-36ff-4c55-bbc5-e2d325aa6d8e")
+	(uuid "3df4ba36-75c7-47ee-bf08-afd9250f8b93")
 	(paper "A4")
 	(lib_symbols
 		(symbol "PCM_JLCPCB-Resistors:0603,10kΩ"
@@ -592,14 +592,14 @@
 		)
 	)
 	(junction
-		(at 138.43 102.87)
+		(at 125.73 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a835428e-2cf2-4a46-ab7f-72113c864578")
 	)
 	(wire
 		(pts
-			(xy 138.43 99.06) (xy 138.43 102.87)
+			(xy 125.73 76.2) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 138.43 99.06)
+			(xy 128.27 76.2) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 125.73 91.44)
+			(xy 107.95 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 140.97 102.87)
+			(xy 125.73 80.01) (xy 128.27 80.01)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 102.87) (xy 152.4 104.14)
+			(xy 139.7 80.01) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 140.97 99.06)
+			(xy 128.27 73.66) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 113.03)
+			(xy 125.73 80.01) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 152.4 102.87)
+			(xy 135.89 80.01) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +679,7 @@
 	)
 	(hierarchical_label "3.3v"
 		(shape input)
-		(at 120.65 91.44 180)
+		(at 107.95 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -690,7 +690,7 @@
 	)
 	(hierarchical_label "GPIO"
 		(shape input)
-		(at 138.43 113.03 270)
+		(at 125.73 90.17 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -701,7 +701,7 @@
 	)
 	(symbol
 		(lib_id "lcsc-lib:TS665CJ")
-		(at 133.35 93.98 0)
+		(at 120.65 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -709,8 +709,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e09e10-a328-4ba1-83c0-f373eb86b674")
-		(property "Reference" "SW1"
-			(at 133.35 86.36 0)
+		(property "Reference" "SW?"
+			(at 120.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +718,7 @@
 			)
 		)
 		(property "Value" "TS665CJ"
-			(at 133.35 88.9 0)
+			(at 120.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Footprint" "lcsc-lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 133.35 104.14 0)
+			(at 120.65 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +735,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665CJ_C393938.html"
-			(at 133.35 106.68 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 93.98 0)
+			(at 120.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +753,7 @@
 			)
 		)
 		(property "LCSC Part" "C393938"
-			(at 133.35 109.22 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,21 +762,41 @@
 			)
 		)
 		(pin "4"
-			(uuid "fcb85814-b133-4261-98a8-93738d70799e")
+			(uuid "c9430592-4504-4976-a387-8aa3bfe882a3")
 		)
 		(pin "3"
-			(uuid "80b3ea78-ff39-4035-b32b-f0c18b7954db")
+			(uuid "8df49089-c404-4bab-84d7-75de7679ecf9")
 		)
 		(pin "1"
-			(uuid "5b9330d9-9f50-454b-b2bd-18922df549be")
+			(uuid "5dde627f-e2a1-4eaa-81ed-9579f1f19fe1")
 		)
 		(pin "2"
-			(uuid "2c428273-b5bd-48d1-9958-13a23ef58956")
+			(uuid "b9d3259a-a9d9-4352-94bc-6b146b50097c")
 		)
 		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/59e7d68d-5d39-4249-b811-d3905f2cced1"
-					(reference "SW1")
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/087bbcb7-a424-4ca1-be9b-d5022ab24086"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0989687e-9d7d-4e52-9be0-bb3b08c4ff46"
+					(reference "SW4")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/26f14f73-3c64-431d-bfa5-e30d3515d6c4"
+					(reference "SW8")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/2c30d35f-8df5-49f7-9dbc-9aa30ef1a1f2"
+					(reference "SW5")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/b507dca5-e58d-4c04-8824-1d2aef8f7df4"
+					(reference "SW6")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/ea61ae3c-04bf-4244-bb17-cecc21fce192"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -784,7 +804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 104.14 0)
+		(at 139.7 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -792,8 +812,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7547b7-fe3b-450e-95b6-c29874465950")
-		(property "Reference" "#PWR037"
-			(at 152.4 110.49 0)
+		(property "Reference" "#PWR?"
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 109.22 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 104.14 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 104.14 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 104.14 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,12 +857,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "58e624a7-fe88-4990-a7bf-03810b1fbe66")
+			(uuid "70331da0-ce52-46c3-abf4-ae9753cfb386")
 		)
 		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/59e7d68d-5d39-4249-b811-d3905f2cced1"
-					(reference "#PWR037")
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/087bbcb7-a424-4ca1-be9b-d5022ab24086"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0989687e-9d7d-4e52-9be0-bb3b08c4ff46"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/26f14f73-3c64-431d-bfa5-e30d3515d6c4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/2c30d35f-8df5-49f7-9dbc-9aa30ef1a1f2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/b507dca5-e58d-4c04-8824-1d2aef8f7df4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/ea61ae3c-04bf-4244-bb17-cecc21fce192"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -850,7 +890,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
-		(at 144.78 102.87 90)
+		(at 132.08 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -858,8 +898,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4661328-a0f0-462c-a1a5-c21b1e20ffb4")
-		(property "Reference" "R23"
-			(at 144.78 99.06 90)
+		(property "Reference" "R?"
+			(at 132.08 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +907,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 144.78 102.87 90)
+			(at 132.08 80.01 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -876,7 +916,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 144.78 104.648 90)
+			(at 132.08 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +934,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +943,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +952,7 @@
 			)
 		)
 		(property "Stock" "30930334"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +961,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +970,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +979,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +988,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +997,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1006,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +1015,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1024,7 @@
 			)
 		)
 		(property "Part" "0603WAF1002T5E"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1033,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1042,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1051,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1060,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1069,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1078,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1087,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 144.78 102.87 0)
+			(at 132.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,15 +1096,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3c12370-8d80-424b-8167-181f7413d95b")
+			(uuid "e42fd1ef-d545-4a47-8866-28af232c4811")
 		)
 		(pin "2"
-			(uuid "6a7b5293-8af1-4075-893e-2b0882a98710")
+			(uuid "b9077f10-b41d-4aa4-818c-53ca6babc90f")
 		)
 		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/59e7d68d-5d39-4249-b811-d3905f2cced1"
-					(reference "R23")
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/087bbcb7-a424-4ca1-be9b-d5022ab24086"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0989687e-9d7d-4e52-9be0-bb3b08c4ff46"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/26f14f73-3c64-431d-bfa5-e30d3515d6c4"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/2c30d35f-8df5-49f7-9dbc-9aa30ef1a1f2"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/b507dca5-e58d-4c04-8824-1d2aef8f7df4"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/ea61ae3c-04bf-4244-bb17-cecc21fce192"
+					(reference "R28")
 					(unit 1)
 				)
 			)
