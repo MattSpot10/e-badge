@@ -1,4 +1,4 @@
-25834553556686317
+25816307653954775
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103445,20 +103445,20 @@ Varistor VF
 0
 2
 2
-jlc_extended
-FPC-SMD_AFC01-S12FCA-00
+lcsc-lib
+CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT
 
 
 0
-14
-14
-jlc_extended
-LED-ARRAY-SMD_4P-L1.6-W1.6-BL-CW
+6
+6
+lcsc-lib
+CONN-SMD_B4B-PH-SM4-TB-LF-SN
 
 
 0
-4
-4
+6
+6
 lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf

@@ -908,6 +908,14 @@
     [
       "9feb22ac-0492-47b5-89fe-3e77a54de168",
       "Onboard Peripheral"
+    ],
+    [
+      "413ba65d-5ca0-463a-95b0-db82da84a9a4",
+      "JST PH"
+    ],
+    [
+      "1fdc3e0d-2a8a-4604-944f-c963587d9c95",
+      "JST-SH"
     ]
   ],
   "text_variables": {}
