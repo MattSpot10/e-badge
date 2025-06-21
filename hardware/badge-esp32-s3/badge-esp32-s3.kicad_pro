@@ -908,6 +908,34 @@
     [
       "9feb22ac-0492-47b5-89fe-3e77a54de168",
       "Onboard Peripheral"
+    ],
+    [
+      "a24e4638-e764-42f8-9a03-a3574c3b6e5b",
+      "Right"
+    ],
+    [
+      "b99b1c65-2141-4657-af08-7b837c45a510",
+      "Up"
+    ],
+    [
+      "0c6f020c-1e0e-43cd-8a36-0a56f6d3220b",
+      "Left"
+    ],
+    [
+      "f11ff8f0-58bf-4f8c-9221-02eb2354874a",
+      "B"
+    ],
+    [
+      "fb6d2a04-654d-4115-8ed9-b9891bab072c",
+      "A"
+    ],
+    [
+      "0e604a77-d00c-4663-aa0e-d86b906e110e",
+      "Joystick"
+    ],
+    [
+      "26f14f73-3c64-431d-bfa5-e30d3515d6c4",
+      "Down"
     ]
   ],
   "text_variables": {}
