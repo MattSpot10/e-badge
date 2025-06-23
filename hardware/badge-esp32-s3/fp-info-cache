@@ -1,4 +1,11 @@
-25816307653954775
+25816306353033597
+AdafruitJoystick
+SW_2765
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103446,20 +103453,6 @@ Varistor VF
 2
 2
 lcsc-lib
-CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT
-
-
-0
-6
-6
-lcsc-lib
-CONN-SMD_B4B-PH-SM4-TB-LF-SN
-
-
-0
-6
-6
-lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
@@ -103501,6 +103494,13 @@ SW-SMD_L3.9-W3.0-P4.45
 0
 2
 2
+lcsc-lib
+SW-TH_4P-L6.0-W6.0-P4.50-LS6.5
+
+
+0
+4
+4
 lcsc-lib
 VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
 
