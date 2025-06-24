@@ -5,7 +5,7 @@
 	(uuid "3df4ba36-75c7-47ee-bf08-afd9250f8b93")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PCM_JLCPCB-Capacitors:0805,100nF,(2)"
+		(symbol "PCM_JLCPCB-Capacitors:0603,330nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,7 +24,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100nF"
+			(property "Value" "330nF"
 				(at 2.032 -0.3782 0)
 				(effects
 					(font
@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:C_0805"
+			(property "Footprint" "PCM_JLCPCB:C_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -42,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B334K250NT_C1615.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "25V 330nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C49678"
+			(property "LCSC" "C1615"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "23739199"
+			(property "Stock" "122277"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.008USD"
+			(property "Price" "0.014USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -114,7 +114,7 @@
 					(hide yes)
 				)
 			)
-			(property "Class" "Basic Component"
+			(property "Class" "Preferred Component"
 				(at 0 0 0)
 				(effects
 					(font
@@ -132,7 +132,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -141,7 +141,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "CC0805KRX7R9BB104"
+			(property "Part" "0603B334K250NT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -150,7 +150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage Rated" "50V"
+			(property "Voltage Rated" "25V"
 				(at 2.032 -2.0462 0)
 				(effects
 					(font
@@ -168,7 +168,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitance" "100nF"
+			(property "Capacitance" "330nF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -195,7 +195,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0805,100nF,(2)_0_1"
+			(symbol "0603,330nF_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -221,7 +221,7 @@
 					)
 				)
 			)
-			(symbol "0805,100nF,(2)_1_1"
+			(symbol "0603,330nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -854,26 +854,16 @@
 		(uuid "19ce8794-277d-45e3-aa5f-c542605df957")
 	)
 	(junction
-		(at 138.43 76.2)
+		(at 135.89 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2eec0383-a37d-4fb2-b17c-0c5dbdea7c87")
+		(uuid "6ac8c359-f5c7-4539-91d3-e06765ce3bc9")
 	)
 	(junction
-		(at 149.86 76.2)
+		(at 110.49 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4dcee3c-25b1-41f9-8034-da7f983ed6bd")
-	)
-	(wire
-		(pts
-			(xy 149.86 68.58) (xy 149.86 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074c8122-96ee-4a0d-a715-286e8dab7ca0")
+		(uuid "bbbc8c51-391b-40d7-81c2-8fd9f1b39368")
 	)
 	(wire
 		(pts
@@ -887,17 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 149.86 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2283a0ea-7271-4649-9aed-41d9bd39db65")
-	)
-	(wire
-		(pts
-			(xy 107.95 68.58) (xy 113.03 68.58)
+			(xy 107.95 68.58) (xy 110.49 68.58)
 		)
 		(stroke
 			(width 0)
@@ -937,6 +917,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 81.28) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8faf180-1158-41b4-a900-2cf3e27b2f90")
+	)
+	(wire
+		(pts
 			(xy 128.27 74.93) (xy 135.89 74.93)
 		)
 		(stroke
@@ -947,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2) (xy 135.89 86.36)
+			(xy 135.89 76.2) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
@@ -957,13 +947,33 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 138.43 76.2)
+			(xy 123.19 81.28) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f03401a5-5cb8-4ffd-ac8c-7e13aba2207d")
+		(uuid "d9eeaf47-c0f6-418f-b5c4-051770fcb413")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fcba2a-dd2e-48c2-918d-4a3ec549b261")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9736fd6-152a-4a8c-b09d-77106ad53102")
 	)
 	(wire
 		(pts
@@ -974,6 +984,16 @@
 			(type default)
 		)
 		(uuid "f77fadeb-6616-420f-a7f4-0e95e0a8419a")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccb7cd4-b5c4-4f58-abee-b369af6e21b7")
 	)
 	(hierarchical_label "3.3v"
 		(shape input)
@@ -1101,33 +1121,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0805,100nF,(2)")
-		(at 142.24 68.58 90)
+		(lib_id "PCM_JLCPCB-Capacitors:0603,330nF")
+		(at 119.38 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "593fd6a1-6426-4983-bcd2-ddce628dbe82")
+		(uuid "7c940150-fe64-4962-98e7-3c81833da631")
 		(property "Reference" "C15"
-			(at 142.24 59.69 90)
+			(at 119.38 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 142.24 62.23 90)
+		(property "Value" "330nF"
+			(at 119.38 74.93 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
-			(at 142.24 70.358 90)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 119.38 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,8 +1155,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 142.24 68.58 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B334K250NT_C1615.pdf"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,8 +1164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 142.24 68.58 0)
+		(property "Description" "25V 330nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,8 +1173,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
-			(at 142.24 68.58 0)
+		(property "LCSC" "C1615"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,8 +1182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23739199"
-			(at 142.24 68.58 0)
+		(property "Stock" "122277"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,8 +1191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.008USD"
-			(at 142.24 68.58 0)
+		(property "Price" "0.014USD"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1201,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1210,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1219,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,8 +1227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Class" "Basic Component"
-			(at 142.24 68.58 0)
+		(property "Class" "Preferred Component"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1237,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,8 +1245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 142.24 68.58 0)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,8 +1254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0805KRX7R9BB104"
-			(at 142.24 68.58 0)
+		(property "Part" "0603B334K250NT"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,8 +1263,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
-			(at 142.24 64.77 90)
+		(property "Voltage Rated" "25V"
+			(at 119.38 77.47 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1252,7 +1272,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,8 +1280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "100nF"
-			(at 142.24 68.58 0)
+		(property "Capacitance" "330nF"
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1290,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 142.24 68.58 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,19 +1299,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fdb170a-259a-4cb0-b25d-b161804ce6b1")
+			(uuid "3006eda1-0e15-48f3-938d-25ea54a093aa")
 		)
 		(pin "2"
-			(uuid "f52ebeab-4729-4a2b-b87f-e9b30f2485ed")
+			(uuid "4b143da4-4222-4981-bb42-2c9e7d96c224")
 		)
 		(instances
-			(project "badge-esp32-s3"
+			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0c6f020c-1e0e-43cd-8a36-0a56f6d3220b"
 					(reference "C17")
 					(unit 1)
 				)
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/26f14f73-3c64-431d-bfa5-e30d3515d6c4"
-					(reference "C?")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/a24e4638-e764-42f8-9a03-a3574c3b6e5b"
