@@ -2693,6 +2693,16 @@
 		)
 		(uuid "032b14bd-a98c-4629-b32c-62bffee86e8b")
 	)
+	(label "GPIO13"
+		(at 102.87 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0487a5ea-8ece-4462-80f5-5026289cd526")
+	)
 	(label "VBUSB"
 		(at 20.32 49.53 180)
 		(effects
@@ -2713,6 +2723,16 @@
 		)
 		(uuid "096bac03-485a-485b-95b4-918e30370709")
 	)
+	(label "GPIO14"
+		(at 102.87 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d1dc182-d554-48a7-ac1d-93525c4c495b")
+	)
 	(label "DISP_CMD"
 		(at 168.91 105.41 180)
 		(effects
@@ -2722,6 +2742,26 @@
 			(justify right bottom)
 		)
 		(uuid "1f757b9b-73c4-4f98-9a78-f514ca81c70a")
+	)
+	(label "GPIO1"
+		(at 102.87 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20966565-5ccd-4764-85ed-5379e9ca5567")
+	)
+	(label "GPIO37"
+		(at 133.35 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "230f15b9-bb0b-411f-a127-eaf3ff7868c9")
 	)
 	(label "ESP_EN"
 		(at 92.71 54.61 180)
@@ -2733,6 +2773,26 @@
 		)
 		(uuid "2d363286-c6fc-43f0-9694-d38ffe12a518")
 	)
+	(label "GPIO46"
+		(at 133.35 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33ea2377-c445-4f6c-8802-0b2d13ae21bd")
+	)
+	(label "GPIO36"
+		(at 133.35 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36473756-4bca-49c3-824b-9621b0e89cae")
+	)
 	(label "GPIO0"
 		(at 198.12 48.26 180)
 		(effects
@@ -2742,6 +2802,16 @@
 			(justify right bottom)
 		)
 		(uuid "3971c5f4-afde-44b1-8075-232219383c1f")
+	)
+	(label "GPIO48"
+		(at 133.35 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47fc5c6e-c26b-4463-9635-9465087f18b0")
 	)
 	(label "SPI_DATA"
 		(at 172.72 113.03 180)
@@ -2753,6 +2823,96 @@
 		)
 		(uuid "4eddee23-6697-40ab-815a-38cd9f6cbf95")
 	)
+	(label "GPIO34."
+		(at 133.35 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f14ebc4-8b44-4b52-b76b-fb794da2f4a4")
+	)
+	(label "GPIO3"
+		(at 102.87 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e185b2e-41d8-4d2f-bf0b-27fe4e11c887")
+	)
+	(label "GPIO11"
+		(at 102.87 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "606735dd-1ae9-44b5-8df8-6c20b806a273")
+	)
+	(label "GPIO45"
+		(at 133.35 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b47371-37c3-4c74-9ccf-d8ddfbc33ddb")
+	)
+	(label "GPIO38"
+		(at 133.35 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c1706e9-057b-4de8-9911-f050fc14cb81")
+	)
+	(label "GPIO5"
+		(at 102.87 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c36fb8d-d4bb-494e-aaeb-bcd3b39c1d8f")
+	)
+	(label "GPIO16"
+		(at 102.87 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7457d26b-e0af-4ce3-b44f-e4dfb8fbe812")
+	)
+	(label "GPIO26"
+		(at 133.35 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76903bb8-094f-4163-9ac9-13bdd4b950c3")
+	)
+	(label "GPIO4"
+		(at 102.87 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77ff7b2b-6710-419d-8df3-b4a187017634")
+	)
 	(label "ESP_USB+"
 		(at 142.24 62.23 0)
 		(effects
@@ -2763,6 +2923,16 @@
 		)
 		(uuid "783555f2-649b-4a63-ba43-2e0c2de01137")
 	)
+	(label "GPIO2"
+		(at 102.87 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dcdf3cd-30d5-45a4-9238-6daf7f81adaa")
+	)
 	(label "VBUS"
 		(at 275.59 49.53 0)
 		(effects
@@ -2772,6 +2942,26 @@
 			(justify left bottom)
 		)
 		(uuid "89c13b34-9c63-428e-85e8-e061518a4744")
+	)
+	(label "GPIO10"
+		(at 102.87 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89d572b7-adb6-4dcb-b73d-d0ff4f9a4fb1")
+	)
+	(label "GPIO8"
+		(at 102.87 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ad73a90-e24e-4db0-bf87-8b57dd62146e")
 	)
 	(label "VCC_3V3"
 		(at 166.37 115.57 180)
@@ -2793,6 +2983,46 @@
 		)
 		(uuid "8f26bba0-ad0a-46b8-a959-ee42c50f4f05")
 	)
+	(label "GPIO12"
+		(at 102.87 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93095ca4-d9b0-4da8-8b65-462af60f5dfd")
+	)
+	(label "GPIO42"
+		(at 133.35 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93e2d2a2-82c5-47f6-b117-2f106a9a6630")
+	)
+	(label "GPIO21"
+		(at 133.35 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "968a881a-e6b8-463d-a8e5-d08ab654f9b5")
+	)
+	(label "GPIO33"
+		(at 133.35 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9929b491-5fa9-42e8-b926-7a9a0cbf6872")
+	)
 	(label "VCC_5V"
 		(at 275.59 46.99 0)
 		(effects
@@ -2813,6 +3043,16 @@
 		)
 		(uuid "a12838b5-b142-4365-aeb9-d6c60b73a4bb")
 	)
+	(label "GPIO7"
+		(at 102.87 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1894de5-f57c-4b11-a602-ff5522295a54")
+	)
 	(label "SPI_CLK"
 		(at 170.18 110.49 180)
 		(effects
@@ -2822,6 +3062,26 @@
 			(justify right bottom)
 		)
 		(uuid "aaee06d0-0d3a-4427-97b5-177188fe35e2")
+	)
+	(label "GPIO9"
+		(at 102.87 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4ac89da-298a-4655-ab93-58b996e39eb0")
+	)
+	(label "GPIO18"
+		(at 102.87 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5e50dcf-72e9-4254-aaa2-a9e83e801173")
 	)
 	(label "GPIO0"
 		(at 100.33 57.15 180)
@@ -2833,6 +3093,26 @@
 		)
 		(uuid "bbc1902e-a590-422d-81d8-5afea5a94e55")
 	)
+	(label "GPIO47"
+		(at 133.35 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3b4805-e0d5-4244-8cfc-089c845a8ba6")
+	)
+	(label "GPIO41"
+		(at 133.35 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfc41475-a323-41ea-acd5-5e9cdf501fe2")
+	)
 	(label "ESP_USB-"
 		(at 63.5 49.53 90)
 		(effects
@@ -2843,6 +3123,26 @@
 		)
 		(uuid "c7de0a16-1617-466f-b445-3f90da71dee3")
 	)
+	(label "GPIO15"
+		(at 102.87 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd76e12f-6db1-4c2a-a42d-688040344110")
+	)
+	(label "GPIO35"
+		(at 133.35 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d050e3ec-b203-4a31-9c81-7a4f6bb9b559")
+	)
 	(label "VCC_5V"
 		(at 20.32 52.07 180)
 		(effects
@@ -2852,6 +3152,16 @@
 			(justify right bottom)
 		)
 		(uuid "d8251ee8-e0a8-4948-bb9d-98effd4d2f1b")
+	)
+	(label "GPIO39"
+		(at 133.35 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1eca39-cb03-4515-b7ae-b79551649237")
 	)
 	(label "VCC_3V3"
 		(at 73.66 26.67 90)
@@ -2873,6 +3183,26 @@
 		)
 		(uuid "e241819c-2a8b-4874-9aac-654513e7010a")
 	)
+	(label "GPIO6"
+		(at 102.87 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5673d4e-b38c-40c8-94ad-fae0c5bee5e4")
+	)
+	(label "GPIO40"
+		(at 133.35 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d9850e-9687-4835-b140-465aebd90c3f")
+	)
 	(label "ESP_USB-"
 		(at 140.97 58.42 0)
 		(effects
@@ -2882,6 +3212,16 @@
 			(justify left bottom)
 		)
 		(uuid "eb6c579e-d9f7-414a-9a33-a616a159797e")
+	)
+	(label "GPIO17"
+		(at 102.87 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2ae35e9-5786-4057-9896-e79474792e87")
 	)
 	(label "VCC_5V"
 		(at 20.32 76.2 180)
