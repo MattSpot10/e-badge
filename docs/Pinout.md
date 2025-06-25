@@ -5,7 +5,7 @@
 | IO0      | 4               | I/O/T |     Y  |   Strapping | RTC_GPIO0, GPIO0                                                                   |
 | IO1      | 5               | I/O/T |        |             | RTC_GPIO1, GPIO1,TOUCH1,ADC1_CH0                                                   |
 | IO2      | 6               | I/O/T |        |             | RTC_GPIO2, GPIO2,TOUCH2,ADC1_CH1                                                   |
-| IO3      | 7               | I/O/T |        |             | RTC_GPIO3, GPIO3,TOUCH3,ADC1_CH2                                                   |
+| IO3      | 7               | I/O/T |     Y  |   JTAG      | RTC_GPIO3, GPIO3,TOUCH3,ADC1_CH2                                                   |
 | IO4      | 8               | I/O/T |        |             | RTC_GPIO4, GPIO4,TOUCH4,ADC1_CH3                                                   |
 | IO5      | 9               | I/O/T |        |             | RTC_GPIO5, GPIO5,TOUCH5,ADC1_CH4                                                   |
 | IO6      | 10              | I/O/T |        |             | RTC_GPIO6, GPIO6,TOUCH6,ADC1_CH5                                                   |
@@ -39,7 +39,7 @@
 | IO42     | 38              | I/O/T |        |             | MTMS,GPIO42                                                                        |
 | TXD0     | 39              | I/O/T |        |             | U0TXD,GPIO43,CLK_OUT1                                                              |
 | RXD0     | 40              | I/O/T |        |             | U0RXD,GPIO44,CLK_OUT2                                                              |
-| IO45     | 41              | I/O/T |  Y     |             | GPIO45                                                                             |
+| IO45     | 41              | I/O/T |  Y     |  Strapping  | GPIO45                                                                             |
 | IO46     | 44              | I/O/T |  Y     |  Strapping  | GPIO46                                                                             |
 | EN       | 45              | I     |        |             | High:on,enablesthechip. <br> Low:off,thechippowersoff. <br> Note:DonotleavetheENpinfloating. |
 
