@@ -4770,6 +4770,48 @@
 		)
 	)
 	(sheet
+		(at 120.65 127)
+		(size 13.335 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18b0dd1f-1411-4aae-8334-5d13e6c2c6f9")
+		(property "Sheetname" "minibadge"
+			(at 120.65 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "minibadge.kicad_sch"
+			(at 120.65 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 255.27 99.06)
 		(size 12.7 15.24)
 		(exclude_from_sim no)

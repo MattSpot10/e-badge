@@ -2479,6 +2479,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:SK-12F04-G050"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK-12F04-G050"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:SW-TH_G-SWITCH_SK-12F04-G050"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2848876"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK-12F04-G050_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -0.25) (xy -2.54 -1.02) (xy -2.79 -0.51) (xy -2.29 -0.51) (xy -2.54 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.02) (xy -2.54 2.54) (xy 0 2.54) (xy 0 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.57) (xy 0 5.08) (xy 1.02 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.56) (xy 0 4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.25) (xy 0 -1.02) (xy -0.25 -0.51) (xy 0.25 -0.51) (xy 0 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 5.08) (xy 2.29 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.56) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.03) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.76) (xy 2.54 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.25) (xy 2.54 -1.02) (xy 2.29 -0.51) (xy 2.79 -0.51) (xy 2.54 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2612,6 +2870,12 @@
 		(uuid "8008fbdc-50bc-4c9c-a784-5b684919c204")
 	)
 	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaece145-2c78-47c8-ac99-adec1705a6ca")
+	)
+	(junction
 		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2628,12 +2892,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf0f6bab-6949-4e57-9c35-38ee4b8100c7")
-	)
-	(junction
-		(at 120.65 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d24a51b4-9be0-4a84-9cb1-78cf2b1f5e4a")
 	)
 	(junction
 		(at 106.68 58.42)
@@ -2819,13 +3077,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 120.65 63.5)
+			(xy 133.35 67.31) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "758bacd2-267e-4aec-ace2-13ff9d099d59")
+		(uuid "6a7989b6-430e-4248-8686-71616eb95baf")
 	)
 	(wire
 		(pts
@@ -2849,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 120.65 67.31)
+			(xy 120.65 63.5) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3019,13 +3277,53 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 120.65 67.31)
+			(xy 143.51 67.31) (xy 135.89 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc79a354-0057-4206-8435-90445383815a")
+		(uuid "c20c091f-d3c5-4e15-9b02-96e5b1c33b79")
+	)
+	(wire
+		(pts
+			(xy 133.35 63.5) (xy 133.35 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31c174a-9890-4f7d-9993-08859e0f55c5")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8abf12-5eae-4ce0-b172-6815b51c7ee9")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1de17e-42b0-49d0-babe-d6774959f71d")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44a23df-75ee-4813-b9a2-dda61913c5a8")
 	)
 	(wire
 		(pts
@@ -4196,6 +4494,73 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9298c12e-2a68-4a87-8b8c-706e71b081ab")
+		(property "Reference" "#PWR046"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "563f9d3b-480d-45c3-9226-42ccd7361a99")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5396,6 +5761,88 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:SK-12F04-G050")
+		(at 135.89 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4ffb41-9cb4-48fe-a483-dd8ed8123758")
+		(property "Reference" "SW9"
+			(at 139.7 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK-12F04-G050"
+			(at 139.7 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:SW-TH_G-SWITCH_SK-12F04-G050"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2848876"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15b8286a-70a4-41b2-8cae-ff55c9020651")
+		)
+		(pin "1"
+			(uuid "52d15a4e-9cd0-4658-84cd-f41a6b5b2967")
+		)
+		(pin "3"
+			(uuid "0c47a146-abe3-4b2f-a773-0aebe5f5c6b1")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
