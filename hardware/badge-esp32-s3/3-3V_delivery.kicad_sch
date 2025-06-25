@@ -1314,12 +1314,6 @@
 		(uuid "0e771f53-d01d-4896-8f15-985e2cadbfb6")
 	)
 	(junction
-		(at 127 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d96678e-ecd2-46e7-bf3d-e6c54387e533")
-	)
-	(junction
 		(at 107.95 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1331,6 +1325,12 @@
 		(color 0 0 0 0)
 		(uuid "791658d6-9f9c-44a2-a300-d00fa3129555")
 	)
+	(junction
+		(at 130.81 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b86553-1816-496f-aab7-74b393cf593a")
+	)
 	(wire
 		(pts
 			(xy 203.2 63.5) (xy 203.2 66.04)
@@ -1340,16 +1340,6 @@
 			(type default)
 		)
 		(uuid "0b331808-7dcf-45c6-821f-e32dbe448698")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d181bcf-eadb-42ee-bb3a-cd85994f3257")
 	)
 	(wire
 		(pts
@@ -1383,17 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 127 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361f119b-b990-45de-b253-65f16c447e31")
-	)
-	(wire
-		(pts
-			(xy 82.55 63.5) (xy 93.98 63.5)
+			(xy 82.55 63.5) (xy 107.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1413,13 +1393,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 127 63.5)
+			(xy 128.27 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48e4307a-f4c1-425d-9960-bff700d7eb81")
+		(uuid "61504a17-9d35-4ff2-8813-77d12f74f1b0")
 	)
 	(wire
 		(pts
@@ -1453,16 +1433,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2008ef-173f-411f-9aaf-37079bc0bd02")
-	)
-	(wire
-		(pts
 			(xy 151.13 73.66) (xy 151.13 77.47)
 		)
 		(stroke
@@ -1483,6 +1453,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 77.47) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ba52d3-7458-4c93-9da7-f589fe794a60")
+	)
+	(wire
+		(pts
 			(xy 184.15 76.2) (xy 184.15 81.28)
 		)
 		(stroke
@@ -1490,6 +1470,16 @@
 			(type default)
 		)
 		(uuid "918a06d5-22b7-45f2-b946-39c40d51f2b6")
+	)
+	(wire
+		(pts
+			(xy 130.81 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed1d928-5ad5-4f08-8218-bc885ab6c260")
 	)
 	(wire
 		(pts
@@ -1503,13 +1493,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 138.43 63.5)
+			(xy 133.35 66.04) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3683053-5639-470e-89d5-23c4732e6975")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3ddd1a7-98c2-4406-b4ab-385da5ca8dfe")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 133.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25a4f10-8fcd-4b8d-8a37-cce1a97a236c")
 	)
 	(wire
 		(pts
@@ -1533,23 +1543,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 127 66.04)
+			(xy 128.27 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dacba320-d246-457c-a30b-1c79cc8af7af")
-	)
-	(wire
-		(pts
-			(xy 96.52 63.5) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33d050e-6f91-4174-b71c-e9e631b6b64b")
+		(uuid "e171e314-5658-44cd-ab0c-f9bfca4d1cb3")
 	)
 	(hierarchical_label "VCC_3V3"
 		(shape bidirectional)
@@ -2699,7 +2699,7 @@
 	)
 	(symbol
 		(lib_id "lcsc-lib:SK-12F04-G050")
-		(at 96.52 54.61 0)
+		(at 123.19 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2708,25 +2708,23 @@
 		(fields_autoplaced yes)
 		(uuid "f93f98ee-8c49-4c18-ad84-68885d724c09")
 		(property "Reference" "SW7"
-			(at 100.33 52.0699 0)
+			(at 121.92 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SK-12F04-G050"
-			(at 100.33 54.6099 0)
+			(at 121.92 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "lcsc-lib:SW-TH_G-SWITCH_SK-12F04-G050"
-			(at 96.52 67.31 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 54.61 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 54.61 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2751,7 @@
 			)
 		)
 		(property "LCSC Part" "C2848876"
-			(at 96.52 69.85 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
