@@ -3096,10 +3096,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "db2520c9-7c72-490e-bb9e-53b14430b6b1")
+			(uuid "db2520c9-7c72-490e-bb9e-53b14430b6b2")
 		)
 		(pin "1"
-			(uuid "9b297bb2-2482-4cab-9da2-44b83df72b59")
+			(uuid "9b297bb2-2482-4cab-9da2-44b83df72b5a")
 		)
 		(instances
 			(project ""
