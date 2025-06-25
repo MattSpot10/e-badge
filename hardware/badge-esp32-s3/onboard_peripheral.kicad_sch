@@ -745,48 +745,6 @@
 		)
 	)
 	(sheet
-		(at 53.34 153.67)
-		(size 24.13 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ed10a1a3-8649-458b-a567-b8a974afd909")
-		(property "Sheetname" "Accelormeter"
-			(at 53.34 152.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Accelormeter.kicad_sch"
-			(at 53.34 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "badge-esp32-s3"
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 100.33 71.12)
 		(size 13.97 12.7)
 		(exclude_from_sim no)
