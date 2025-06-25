@@ -5,4 +5,110 @@
 	(uuid "8cb7278d-5c77-420b-bc6f-9f1bb2cda287")
 	(paper "A4")
 	(lib_symbols)
+	(text "Refrence Pics for both Grove, Stemma, Stemma QT\n "
+		(exclude_from_sim no)
+		(at 71.374 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.cable-tester.com/category/pin-out/")
+		)
+		(uuid "b3dcc391-931b-425a-93d7-4fe2014afd2b")
+	)
+	(text "Grove Link\n\n"
+		(exclude_from_sim no)
+		(at 57.912 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://wiki.seeedstudio.com/Grove_System/")
+		)
+		(uuid "bf4e4797-e5f2-43ce-afb5-96b46426f227")
+	)
+	(sheet
+		(at 80.01 40.64)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fdc3e0d-2a8a-4604-944f-c963587d9c95")
+		(property "Sheetname" "JST-SH"
+			(at 80.01 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JST-SH.kicad_sch"
+			(at 80.01 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 40.64)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "413ba65d-5ca0-463a-95b0-db82da84a9a4")
+		(property "Sheetname" "JST PH"
+			(at 44.45 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JST-PH.kicad_sch"
+			(at 44.45 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
+					(page "15")
+				)
+			)
+		)
+	)
 )
