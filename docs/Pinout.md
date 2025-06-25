@@ -2,7 +2,7 @@
 |----------|-----------------|-------|--------|-------------|------------------------------------------------------------------------------------|
 | GND      | 1,2,42,43,46-65 | P     |        |             | GND                                                                                |
 | 3V3      | 3               | P     |        |             | Powersupply                                                                        |
-| IO0      | 4               | I/O/T |        |             | RTC_GPIO0, GPIO0                                                                   |
+| IO0      | 4               | I/O/T |     Y  |   Strapping | RTC_GPIO0, GPIO0                                                                   |
 | IO1      | 5               | I/O/T |        |             | RTC_GPIO1, GPIO1,TOUCH1,ADC1_CH0                                                   |
 | IO2      | 6               | I/O/T |        |             | RTC_GPIO2, GPIO2,TOUCH2,ADC1_CH1                                                   |
 | IO3      | 7               | I/O/T |        |             | RTC_GPIO3, GPIO3,TOUCH3,ADC1_CH2                                                   |
@@ -21,8 +21,8 @@
 | IO16     | 20              | I/O/T |        |             | RTC_GPIO16, GPIO16,U0CTS,ADC2_CH5,XTAL_32K_N                                       |
 | IO17     | 21              | I/O/T |        |             | RTC_GPIO17, GPIO17,U1TXD,ADC2_CH6                                                  |
 | IO18     | 22              | I/O/T |        |             | RTC_GPIO18, GPIO18,U1RXD,ADC2_CH7,CLK_OUT3                                         |
-| IO19     | 23              | I/O/T |        |             | RTC_GPIO19,GPIO19,U1RTS,ADC2_CH8,CLK_OUT2, USB_D-                                  |
-| IO20     | 24              | I/O/T |        |             | RTC_GPIO20,GPIO20,U1CTS,ADC2_CH9,CLK_OUT1, USB_D+                                  |
+| IO19     | 23              | I/O/T |  Y     |  USB-       | RTC_GPIO19,GPIO19,U1RTS,ADC2_CH8,CLK_OUT2, USB_D-                                  |
+| IO20     | 24              | I/O/T |  Y     |  USB+       | RTC_GPIO20,GPIO20,U1CTS,ADC2_CH9,CLK_OUT1, USB_D+                                  |
 | IO21     | 25              | I/O/T |        |             | RTC_GPIO21, GPIO21                                                                 |
 | IO26^{b} | 26              | I/O/T |        |             | SPICS1, GPIO26                                                                     |
 | IO47     | 27              | I/O/T |        |             | SPICLK_P_DIFF, GPIO47,SUBSPICLK_P_DIFF                                             |
@@ -39,8 +39,8 @@
 | IO42     | 38              | I/O/T |        |             | MTMS,GPIO42                                                                        |
 | TXD0     | 39              | I/O/T |        |             | U0TXD,GPIO43,CLK_OUT1                                                              |
 | RXD0     | 40              | I/O/T |        |             | U0RXD,GPIO44,CLK_OUT2                                                              |
-| IO45     | 41              | I/O/T |        |             | GPIO45                                                                             |
-| IO46     | 44              | I/O/T |        |             | GPIO46                                                                             |
+| IO45     | 41              | I/O/T |  Y     |             | GPIO45                                                                             |
+| IO46     | 44              | I/O/T |  Y     |  Strapping  | GPIO46                                                                             |
 | EN       | 45              | I     |        |             | High:on,enablesthechip. <br> Low:off,thechippowersoff. <br> Note:DonotleavetheENpinfloating. |
 
 b For modules with ordering codes ending with -N4R2, IO26 connects to the embedded PSRAM and is not
