@@ -4770,6 +4770,108 @@
 		)
 	)
 	(sheet
+		(at 120.65 127)
+		(size 13.335 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18b0dd1f-1411-4aae-8334-5d13e6c2c6f9")
+		(property "Sheetname" "minibadge"
+			(at 120.65 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "minibadge.kicad_sch"
+			(at 120.65 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 120.65 130.81 180)
+			(uuid "31a83f31-8f7c-4560-847c-a39ebce9f627")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 120.65 133.35 180)
+			(uuid "e38ecf55-f066-4334-85b0-e3f7fff61e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 120.65 135.89 180)
+			(uuid "a6801f13-b51a-4a4a-9274-74eec99cf844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 120.65 138.43 180)
+			(uuid "3ac9d913-4df6-4f49-a7d6-1d3a9f88fed6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 120.65 140.97 180)
+			(uuid "b20d18dc-b9fa-42c3-83f4-8acfb19bfe94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT" input
+			(at 133.985 132.08 0)
+			(uuid "a72954c3-218a-4d5c-88fa-5928e33c0854")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 255.27 99.06)
 		(size 12.7 15.24)
 		(exclude_from_sim no)
