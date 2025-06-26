@@ -17653,7 +17653,7 @@
 			)
 		)
 		(embedded_fonts no)
-	)
+
 )
 
   (symbol "TFPUSH"
