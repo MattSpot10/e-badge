@@ -2523,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 119.38) (xy 208.28 119.38)
+			(xy 36.83 153.67) (xy 43.18 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 111.76) (xy 208.28 111.76)
+			(xy 36.83 146.05) (xy 43.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2863,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 208.28 106.68)
+			(xy 36.83 140.97) (xy 43.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 116.84) (xy 208.28 116.84)
+			(xy 36.83 151.13) (xy 43.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3203,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 109.22) (xy 208.28 109.22)
+			(xy 36.83 143.51) (xy 43.18 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3552,7 +3552,7 @@
 		(uuid "018170db-378e-4abf-9fb7-fa5774510910")
 	)
 	(label "GPIO21"
-		(at 201.93 116.84 180)
+		(at 36.83 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 		(uuid "90c52b63-8a5d-4471-9294-32a48a3424e0")
 	)
 	(label "GPIO12"
-		(at 201.93 111.76 180)
+		(at 36.83 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,7 +4322,7 @@
 		(uuid "c7de0a16-1617-466f-b445-3f90da71dee3")
 	)
 	(label "VCC_3V3"
-		(at 201.93 109.22 180)
+		(at 36.83 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 		(uuid "ce1c3d6b-9ea2-4c70-89ef-59c33525e5fa")
 	)
 	(label "PWR_RAW"
-		(at 201.93 106.68 180)
+		(at 36.83 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4602,7 +4602,7 @@
 		(uuid "fb44e591-f093-4321-ba47-576ae400d4ea")
 	)
 	(label "GPIO47"
-		(at 201.93 119.38 180)
+		(at 36.83 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6086,7 +6086,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 105.41)
+		(at 43.18 139.7)
 		(size 13.335 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6102,7 +6102,7 @@
 		)
 		(uuid "18b0dd1f-1411-4aae-8334-5d13e6c2c6f9")
 		(property "Sheetname" "minibadge"
-			(at 208.28 104.6984 0)
+			(at 43.18 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6111,7 @@
 			)
 		)
 		(property "Sheetfile" "minibadge.kicad_sch"
-			(at 208.28 123.7746 0)
+			(at 43.18 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6120,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 208.28 109.22 180)
+			(at 43.18 143.51 180)
 			(uuid "31a83f31-8f7c-4560-847c-a39ebce9f627")
 			(effects
 				(font
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(pin "CLK" input
-			(at 208.28 111.76 180)
+			(at 43.18 146.05 180)
 			(uuid "e38ecf55-f066-4334-85b0-e3f7fff61e8f")
 			(effects
 				(font
@@ -6140,7 +6140,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 208.28 116.84 180)
+			(at 43.18 151.13 180)
 			(uuid "3ac9d913-4df6-4f49-a7d6-1d3a9f88fed6")
 			(effects
 				(font
@@ -6150,7 +6150,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 208.28 119.38 180)
+			(at 43.18 153.67 180)
 			(uuid "b20d18dc-b9fa-42c3-83f4-8acfb19bfe94")
 			(effects
 				(font
@@ -6160,7 +6160,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 208.28 106.68 180)
+			(at 43.18 140.97 180)
 			(uuid "a72954c3-218a-4d5c-88fa-5928e33c0854")
 			(effects
 				(font
