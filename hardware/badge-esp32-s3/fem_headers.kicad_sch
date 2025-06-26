@@ -1,0 +1,679 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d2c1d51a-59a6-44e3-ac33-95c2fdd1faec")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc-lib:FH2.54-09-04PZD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FH2.54-09-04PZD"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:HDR-TH_4P-P2.54-V-F"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7500773"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FH2.54-09-04PZD_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "h2-2"
+		(shape input)
+		(at 63.5 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0791f9a0-abf8-4da3-8877-32bf51441209")
+	)
+	(hierarchical_label "h2-1"
+		(shape input)
+		(at 63.5 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a48f5d8-2a0e-4364-9e14-cd5c866af5f5")
+	)
+	(hierarchical_label "h2-3"
+		(shape input)
+		(at 63.5 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2646dd1b-5445-419b-8830-6fd64e5a27d6")
+	)
+	(hierarchical_label "h3-4"
+		(shape input)
+		(at 99.06 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4061c53e-cb11-4b31-8c18-58d22a3e6abc")
+	)
+	(hierarchical_label "h4-3"
+		(shape input)
+		(at 134.62 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4119922f-b8fe-41fc-9336-1c9ba7048811")
+	)
+	(hierarchical_label "h1-3"
+		(shape input)
+		(at 27.94 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42649648-227b-428a-8e9a-2be878024de5")
+	)
+	(hierarchical_label "h3-2"
+		(shape input)
+		(at 99.06 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50b40cea-9b30-4929-b029-a10e0eeff473")
+	)
+	(hierarchical_label "h3-3"
+		(shape input)
+		(at 99.06 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55b61bb7-041f-4d06-946b-fd9f6a06f39c")
+	)
+	(hierarchical_label "h3-1"
+		(shape input)
+		(at 99.06 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65a17299-ad49-46d4-8636-aac368be1b1b")
+	)
+	(hierarchical_label "h1-4"
+		(shape input)
+		(at 27.94 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70d1adcc-f82d-4542-872f-f8007082ce6e")
+	)
+	(hierarchical_label "h1-2"
+		(shape input)
+		(at 27.94 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71a77728-b864-463d-b290-a85d9f957194")
+	)
+	(hierarchical_label "h4-4"
+		(shape input)
+		(at 134.62 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77238d93-dae3-4c0a-9ca2-3d162fc4106a")
+	)
+	(hierarchical_label "h4-1"
+		(shape input)
+		(at 134.62 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c4d2e6a-5b6e-4d8d-a2ab-d16bf27c6dda")
+	)
+	(hierarchical_label "h1-1"
+		(shape input)
+		(at 27.94 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e74201d3-61a8-4d89-89f7-a2f13a834241")
+	)
+	(hierarchical_label "h4-2"
+		(shape input)
+		(at 134.62 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2011721-c4ed-4c09-80bd-e13cceb41fdd")
+	)
+	(hierarchical_label "h2-4"
+		(shape input)
+		(at 63.5 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7bcb12d-52e3-490c-8ef1-f83c95a95346")
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-04PZD")
+		(at 104.14 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b318b7c-3ff9-4213-b5c3-0a4ef8715b7b")
+		(property "Reference" "U7"
+			(at 107.95 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-04PZD"
+			(at 107.95 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_4P-P2.54-V-F"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500773"
+			(at 104.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "51fd59b7-c912-4d4e-96d6-f33d4d442f06")
+		)
+		(pin "2"
+			(uuid "dd82885e-eae0-4439-bff5-58b8c9650a44")
+		)
+		(pin "3"
+			(uuid "789a13cf-cd0b-4ae1-826c-edc131ed28ca")
+		)
+		(pin "1"
+			(uuid "654e0fbc-b57d-44dc-bd16-a2bdf30e34b7")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959/da1a9256-9832-4139-ad46-a2ce22e4e8bf"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-04PZD")
+		(at 139.7 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a2fa9b-c7bb-43db-b6b1-df0313b80e08")
+		(property "Reference" "U8"
+			(at 143.51 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-04PZD"
+			(at 143.51 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_4P-P2.54-V-F"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500773"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "866b1131-99df-4cb9-affa-56a5ed79b986")
+		)
+		(pin "1"
+			(uuid "3038b6c7-931d-43d0-b309-eb2ba6a2474c")
+		)
+		(pin "2"
+			(uuid "6ca7a5fd-2645-4769-9576-e91337c1c7a1")
+		)
+		(pin "4"
+			(uuid "e5f296f8-a5d3-4ae6-91a6-9cc875120e48")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959/da1a9256-9832-4139-ad46-a2ce22e4e8bf"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-04PZD")
+		(at 33.02 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df39ee95-a2be-498b-8e7b-d04130989122")
+		(property "Reference" "U6"
+			(at 36.83 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-04PZD"
+			(at 36.83 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_4P-P2.54-V-F"
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500773"
+			(at 33.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2d1299-b919-4c4d-af94-22004e363470")
+		)
+		(pin "2"
+			(uuid "6bde299d-a56d-4142-a3db-fca0123a263d")
+		)
+		(pin "3"
+			(uuid "4b2de218-555f-490f-a52a-f0db5439141f")
+		)
+		(pin "4"
+			(uuid "15ae1464-e01f-44b5-9ab4-0c80b83574f7")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959/da1a9256-9832-4139-ad46-a2ce22e4e8bf"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-04PZD")
+		(at 68.58 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8e12242-07e9-4152-8502-b17c060df63a")
+		(property "Reference" "U5"
+			(at 72.39 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-04PZD"
+			(at 72.39 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_4P-P2.54-V-F"
+			(at 68.58 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500773"
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7187076e-58c2-484a-99af-9820e495f101")
+		)
+		(pin "3"
+			(uuid "27ff074e-c1ec-430e-a941-6de548bd1539")
+		)
+		(pin "1"
+			(uuid "30d95d10-bb54-4446-81e7-16d8eb2f6a2f")
+		)
+		(pin "4"
+			(uuid "e6a06e5a-0adb-4678-a4f1-2f077be12644")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959/da1a9256-9832-4139-ad46-a2ce22e4e8bf"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
