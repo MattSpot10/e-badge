@@ -14,7 +14,7 @@
 | IO9      | 13              | I/O/T |        |             | RTC_GPIO9, GPIO9,TOUCH9,ADC1_CH8,FSPIHD,SUBSPIHD                                   |
 | IO10     | 14              | I/O/T |        |             | RTC_GPIO10, GPIO10,TOUCH10,ADC1_CH9,FSPICS0,FSPIIO4, SUBSPICS0                     |
 | IO11     | 15              | I/O/T |        |             | RTC_GPIO11, GPIO11,TOUCH11,ADC2_CH0,FSPID,FSPIIO5,SUBSPID                          |
-| IO12     | 16              | I/O/T |        |             | RTC_GPIO12, GPIO12,TOUCH12,ADC2_CH1,FSPICLK,FSPIIO6, SUBSPICLK                     |
+| IO12     | 16              | I/O/T |  X     | Mini-badge Clk | RTC_GPIO12, GPIO12,TOUCH12,ADC2_CH1,FSPICLK,FSPIIO6, SUBSPICLK                     |
 | IO13     | 17              | I/O/T |  Y     | R           | RTC_GPIO13, GPIO13,TOUCH13,ADC2_CH2,FSPIQ,FSPIIO7,SUBSPIQ                          |
 | IO14     | 18              | I/O/T |  Y     | L           | RTC_GPIO14, GPIO14,TOUCH14,ADC2_CH3,FSPIWP,FSPIDQS, SUBSPIWP                       |
 | IO15     | 19              | I/O/T |  Y     | D           | RTC_GPIO15, GPIO15,U0RTS,ADC2_CH4,XTAL_32K_P                                       |
