@@ -2775,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 130.81) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b366a524-cfe9-4bd1-af30-55bafefb8ae3")
+	)
+	(wire
+		(pts
 			(xy 73.66 26.67) (xy 73.66 35.56)
 		)
 		(stroke
@@ -3522,6 +3532,16 @@
 			(justify left bottom)
 		)
 		(uuid "c7de0a16-1617-466f-b445-3f90da71dee3")
+	)
+	(label "VCC_3V3"
+		(at 115.57 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd454bf8-3d05-454a-b6d5-d2b4a77a3eaf")
 	)
 	(label "GPIO15"
 		(at 102.87 95.25 180)
