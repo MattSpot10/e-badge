@@ -708,7 +708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2037b15-17c6-4901-8998-aa01346153f8")
-		(property "Reference" "U6"
+		(property "Reference" "U17"
 			(at 26.67 146.05 0)
 			(effects
 				(font
@@ -769,7 +769,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
-					(reference "U6")
+					(reference "U17")
 					(unit 1)
 				)
 			)

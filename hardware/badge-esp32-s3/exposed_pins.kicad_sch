@@ -2047,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1879af2c-1fa8-44e2-8480-f114e26dc51b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR049"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -2097,7 +2097,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR052")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2113,7 +2113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a05ce91-9b4b-4fb6-94b8-c9aa55509fb5")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 229.87 110.4899 0)
 			(effects
 				(font
@@ -2182,7 +2182,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U13")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eac9e88-cf05-46be-b92c-01b1e16dd6ba")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR044"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -2248,7 +2248,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR049")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2264,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4223b873-e6f3-476d-81bc-344f4b0fab42")
-		(property "Reference" "U15"
+		(property "Reference" "U13"
 			(at 201.93 34.2899 0)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U15")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2343,7 +2343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4560ea1a-5cfb-4f9c-97f6-a41e55bf39d0")
-		(property "Reference" "U12"
+		(property "Reference" "U15"
 			(at 229.87 97.7899 0)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U12")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb2fd63-842e-4fa6-bd2d-5dad1a6b1f67")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 148.59 31.7499 0)
 			(effects
 				(font
@@ -2582,7 +2582,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U14")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2598,7 +2598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f5f510-af34-4e78-bb07-113d6bedea39")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 170.18 96.5199 0)
 			(effects
 				(font
@@ -2664,7 +2664,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60eb3d2a-e2dc-4208-90b9-f67403f94887")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2746,7 +2746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64a28375-141f-4ccc-ab01-50ebf7fb0fe5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR048"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -2796,7 +2796,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR054")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aabcdd6-4034-46e0-bd56-cf0d4e450180")
-		(property "Reference" "C26"
+		(property "Reference" "C15"
 			(at 71.12 34.2899 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "C26")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0571d3-97be-4e8f-8b39-34d899c9ce1e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 161.29 106.68 0)
 			(effects
 				(font
@@ -3058,7 +3058,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81775b46-ace5-41bd-b451-5b3381d0c6dc")
-		(property "Reference" "U16"
+		(property "Reference" "U7"
 			(at 88.9 30.4799 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U16")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8637b92f-a4b9-44f0-8f9f-4f3941a2ffb5")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 66.04 124.4599 0)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db1aace-6084-4b50-8ed4-f323e0be84b1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR043"
 			(at 80.01 55.88 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR056")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3310,7 +3310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb6bbe1-0fcf-4248-a08d-31ed0158267a")
-		(property "Reference" "C24"
+		(property "Reference" "C16"
 			(at 130.81 35.5599 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "C24")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99483bef-f10d-42f3-b88c-417129dcdb69")
-		(property "Reference" "U11"
+		(property "Reference" "U14"
 			(at 229.87 85.0899 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U11")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c68a30e-79d9-40bd-9ee8-d282fad6272b")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 153.67 111.7599 0)
 			(effects
 				(font
@@ -3660,7 +3660,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3676,7 +3676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baeeb6fb-45ff-4249-8dd8-cf5df5096a6b")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 130.81 81.2799 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3758,7 +3758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf5e4b5-ff31-46ae-9713-8c5f124068b4")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 85.09 90.17 0)
 			(effects
 				(font
@@ -3808,7 +3808,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3824,7 +3824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfdb9428-c47f-496d-8b57-2f3b3f7aeadb")
-		(property "Reference" "C25"
+		(property "Reference" "C17"
 			(at 184.15 38.0999 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "C25")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4020,7 +4020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2cc136a-85e8-4738-ac56-ed81df9f5db8")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR051"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR055")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed31a9e0-1130-4edd-a3c8-5d43e889eb85")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR047"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "#PWR051")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd3dbee-7814-400c-9511-46e8968c4ae0")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 133.35 96.5199 0)
 			(effects
 				(font
@@ -4218,7 +4218,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)

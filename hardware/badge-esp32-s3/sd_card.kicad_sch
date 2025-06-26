@@ -1021,7 +1021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04dc39b6-2a03-45b2-8b78-24c68f9ab6c9")
-		(property "Reference" "Card2"
+		(property "Reference" "Card1"
 			(at 196.85 55.8799 0)
 			(effects
 				(font
@@ -1117,7 +1117,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/61971e93-08b4-4717-9ec8-ac07d8e404d2"
-					(reference "Card2")
+					(reference "Card1")
 					(unit 1)
 				)
 			)
@@ -1133,7 +1133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa52bd2-81c9-4cf4-8903-25d1ef92bdd7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR042"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -1183,7 +1183,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/61971e93-08b4-4717-9ec8-ac07d8e404d2"
-					(reference "#PWR031")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55cc27a-7ffd-4f8e-9b43-edfc6ccc34ac")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/61971e93-08b4-4717-9ec8-ac07d8e404d2"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

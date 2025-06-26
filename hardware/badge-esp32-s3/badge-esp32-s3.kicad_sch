@@ -4495,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21fa29d3-847f-4f22-b08b-c66939a0f4e6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR02"
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
-					(reference "#PWR031")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "330ceb5c-5868-448a-b06e-73ccf5c7f1fe")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 120.2533 44.45 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb9c64e-b145-40dc-b5e9-03c4d318479a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR03"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
-					(reference "#PWR047")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0578612-f63b-409f-b708-e97211b56880")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -5141,7 +5141,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
