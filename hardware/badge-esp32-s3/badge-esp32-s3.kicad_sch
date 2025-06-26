@@ -2881,6 +2881,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 168.91) (xy 93.98 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8095cb5-9263-48f3-8002-c8ed39d52c6b")
+	)
+	(wire
+		(pts
 			(xy 270.51 49.53) (xy 276.86 49.53)
 		)
 		(stroke
@@ -3078,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "ce33e73e-06f6-4315-af3a-596689631e6d")
+	)
+	(wire
+		(pts
+			(xy 90.17 171.45) (xy 93.98 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee4967b-e45e-4fce-8afc-2b31f1cc8688")
 	)
 	(wire
 		(pts
@@ -3979,6 +3999,16 @@
 		)
 		(uuid "bfc41475-a323-41ea-acd5-5e9cdf501fe2")
 	)
+	(label "GPIO45"
+		(at 90.17 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c27fdbe0-818b-47db-810d-491d9c8e7618")
+	)
 	(label "VCC_3V3"
 		(at 251.46 87.63 180)
 		(effects
@@ -4138,6 +4168,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5673d4e-b38c-40c8-94ad-fae0c5bee5e4")
+	)
+	(label "GPIO46"
+		(at 90.17 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e61b597c-9b7c-4bc3-b4f5-a91a81712429")
 	)
 	(label "GPIO37"
 		(at 251.46 125.73 180)
@@ -5596,6 +5636,26 @@
 		(pin "IO12" bidirectional
 			(at 93.98 165.1 180)
 			(uuid "0142a5ab-7286-4229-93b6-7ae4bd4fb8b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO45" bidirectional
+			(at 93.98 168.91 180)
+			(uuid "07c46bdf-46a8-4646-822c-a2533d3c121c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO46" bidirectional
+			(at 93.98 171.45 180)
+			(uuid "1fe28a3f-60a2-4d81-a9ed-858ccc814a16")
 			(effects
 				(font
 					(size 1.27 1.27)

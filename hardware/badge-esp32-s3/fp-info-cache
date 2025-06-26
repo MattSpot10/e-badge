@@ -1,4 +1,4 @@
-25816306353033597
+25875006697113115
 AdafruitJoystick
 SW_2765
 
@@ -72296,6 +72296,13 @@ LQFP QFP
 48
 48
 PCM_JLCPCB
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+PCM_JLCPCB
 L_0402
 Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
@@ -72365,6 +72372,13 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
+PCM_JLCPCB
+OSC-SMD_L5.0-W3.2
+OSC-SMD_L5.0-W3.2 footprint
+OSC-SMD_L5.0-W3.2 footprint C112574
+0
+2
+2
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -72533,6 +72547,20 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
+PCM_JLCPCB
+SOP-4_3.8x4.1mm_P2.54mm
+SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+PCM_JLCPCB
+SOP-4_4.4x2.6mm_P1.27mm
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -72708,6 +72736,13 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
+PCM_JLCPCB
+SW_TS-1088-AR02016
+
+
+0
+2
+2
 PCM_JLCPCB
 Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
 Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -103452,6 +103487,48 @@ Varistor VF
 0
 2
 2
+jlc_extended
+FPC-SMD_AFC01-S12FCA-00
+
+
+0
+14
+14
+jlc_extended
+LED-ARRAY-SMD_4P-L1.6-W1.6-BL-CW
+
+
+0
+4
+4
+lcsc-lib
+BUZ-SMD_L5.0-W5.5-P4.60
+
+
+0
+3
+3
+lcsc-lib
+CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT
+
+
+0
+6
+6
+lcsc-lib
+CONN-SMD_B4B-PH-SM4-TB-LF-SN
+
+
+0
+6
+6
+lcsc-lib
+CONN-TH_2P-P2.00_PH-2A_C2319
+
+
+0
+2
+2
 lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
@@ -103467,12 +103544,68 @@ FPC-SMD_AFC01-S12FCA-00
 14
 14
 lcsc-lib
+HDR-TH_2P-P2.54-V-M-5
+
+
+0
+2
+2
+lcsc-lib
+HDR-TH_3P-P2.54-V-F
+
+
+0
+3
+3
+lcsc-lib
+HDR-TH_4P-P2.54-V-F
+
+
+0
+4
+4
+lcsc-lib
+LED-ARRAY-SMD_L3.7-W3.5-P1.10-TL
+
+
+0
+6
+6
+lcsc-lib
+LED-SMD_4P-L2.0-W1.3-BR
+
+
+0
+4
+4
+lcsc-lib
+QFN-16_L3.0-W3.0-P0.50-TL_MMA8452QR1
+
+
+0
+16
+16
+lcsc-lib
 QFN-28_L5.0-W5.0-P0.50-TL-EP3.3
 
 
 0
 29
 29
+lcsc-lib
+RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L
+
+
+0
+3
+3
+lcsc-lib
+SC-70-6_L2.0-W1.3-P0.65-LS2.1-BL
+
+
+0
+6
+6
 lcsc-lib
 SOD-123_L2.7-W1.6-LS3.7-RD
 
@@ -103488,6 +103621,13 @@ SOD-523_L1.2-W0.8-LS1.6-BI
 2
 2
 lcsc-lib
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+lcsc-lib
 SW-SMD_L3.9-W3.0-P4.45
 
 
@@ -103495,12 +103635,33 @@ SW-SMD_L3.9-W3.0-P4.45
 2
 2
 lcsc-lib
+SW-SMD_MST22D18G2
+
+
+0
+6
+6
+lcsc-lib
 SW-TH_4P-L6.0-W6.0-P4.50-LS6.5
 
 
 0
 4
 4
+lcsc-lib
+SW-TH_G-SWITCH_SK-12F04-G050
+
+
+0
+3
+3
+lcsc-lib
+TF-SMD_TF-PUSH
+
+
+0
+15
+13
 lcsc-lib
 VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
 

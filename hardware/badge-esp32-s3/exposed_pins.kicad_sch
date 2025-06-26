@@ -1226,6 +1226,18 @@
 		(uuid ca7788f8-9502-452d-a271-34df97c0ff28)
 	)
 	(rectangle
+		(start 119.38 140.97)
+		(end 163.83 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cac192cc-50b2-4df4-a014-582b9b8b9587)
+	)
+	(rectangle
 		(start 38.1 76.2)
 		(end 101.6 137.16)
 		(stroke
@@ -1270,6 +1282,16 @@
 			)
 		)
 		(uuid "46587d2d-07bf-44b4-b397-4ff29aeb393f")
+	)
+	(text "Strapping pins (not for ordinary use)"
+		(exclude_from_sim no)
+		(at 141.986 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "830f599b-d15d-42ab-ad96-e254bc783722")
 	)
 	(text "Reexposed Buses"
 		(exclude_from_sim no)
@@ -1375,6 +1397,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c63f9e7d-82de-4135-8855-d704188bfbba")
+	)
+	(no_connect
+		(at 69.85 116.84)
+		(uuid "33f04620-c808-4d90-8c95-4bee51410132")
+	)
+	(no_connect
+		(at 68.58 91.44)
+		(uuid "507eda5c-2f1a-4f0d-8a10-00a09244d166")
+	)
+	(no_connect
+		(at 69.85 134.62)
+		(uuid "7baf25e6-3504-4760-ab5c-b581982cf857")
+	)
+	(no_connect
+		(at 68.58 109.22)
+		(uuid "8237fc36-ebd0-445f-bbef-0a64c5a9c7fd")
 	)
 	(wire
 		(pts
@@ -1761,6 +1799,17 @@
 		)
 		(uuid "35f1c667-28a8-4edc-b474-14fa59a4f45a")
 	)
+	(hierarchical_label "IO45"
+		(shape bidirectional)
+		(at 130.81 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "365a9dd9-c7f5-43ea-917e-1a0db4d2ab38")
+	)
 	(hierarchical_label "IO11"
 		(shape bidirectional)
 		(at 220.98 113.03 180)
@@ -1826,6 +1875,17 @@
 			(justify right)
 		)
 		(uuid "635bea71-8325-47d0-8a24-9032fa9fe7b4")
+	)
+	(hierarchical_label "IO46"
+		(shape bidirectional)
+		(at 130.81 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76cda553-4d42-42e7-9425-48b0e3026c4b")
 	)
 	(hierarchical_label "IO5"
 		(shape bidirectional)
@@ -2797,6 +2857,85 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-02PZD")
+		(at 135.89 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71b72d3c-7ce1-4726-969a-d348828d5d63")
+		(property "Reference" "U19"
+			(at 139.7 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-02PZD"
+			(at 139.7 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500771"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b692cee-221f-4b7c-a108-00bbdb400b3a")
+		)
+		(pin "1"
+			(uuid "b84ea794-810c-4d44-aa69-d94d56a246ca")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
+					(reference "U19")
 					(unit 1)
 				)
 			)
