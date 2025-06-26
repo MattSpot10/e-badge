@@ -4,7 +4,132 @@
 	(generator_version "9.0")
 	(uuid "ae5d1b00-b9ab-4b40-a4af-20fcfcbe0c42")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "lcsc-lib:FH2.54-09-02PZD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FH2.54-09-02PZD"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7500771"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FH2.54-09-02PZD_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 45.72 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "055c732d-03c6-40a6-9664-dc2bc02f6b0e")
+	)
 	(junction
 		(at 158.75 41.91)
 		(diameter 0)
@@ -63,6 +188,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 153.67) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7c2795-0f45-42a6-927a-0d37ae22ee8a")
+	)
+	(wire
+		(pts
 			(xy 107.95 41.91) (xy 107.95 71.12)
 		)
 		(stroke
@@ -70,6 +205,16 @@
 			(type default)
 		)
 		(uuid "1d03789b-5fb5-4ede-8bce-dc7de1fd0404")
+	)
+	(wire
+		(pts
+			(xy 39.37 153.67) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fed109a-0bfb-4294-bf19-8873f807e655")
 	)
 	(wire
 		(pts
@@ -173,6 +318,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 173.99) (xy 31.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da2f754-a5ab-487e-ae1e-af771a5426a2")
+	)
+	(wire
+		(pts
 			(xy 158.75 63.5) (xy 158.75 41.91)
 		)
 		(stroke
@@ -253,6 +408,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 160.02) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddd49c8-5a2e-44ad-b419-079d8a7a25a9")
+	)
+	(wire
+		(pts
 			(xy 45.72 114.3) (xy 45.72 41.91)
 		)
 		(stroke
@@ -270,6 +435,36 @@
 			(type default)
 		)
 		(uuid "8f65b41b-24c6-4063-89a0-bfbc30c7414e")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924cdeca-6c23-4f28-bd65-213fdc7489a4")
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d550bd-f6b4-4280-8c7f-e0ce39e34809")
+	)
+	(wire
+		(pts
+			(xy 31.75 156.21) (xy 31.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c198f5-bbd3-4dec-9e26-01436c36db16")
 	)
 	(wire
 		(pts
@@ -333,6 +528,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 171.45) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd46702f-9963-4de1-9b2f-cf53dbf40175")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ac2055-211b-42d3-9670-59043491d3e9")
+	)
+	(wire
+		(pts
 			(xy 120.65 38.1) (xy 120.65 41.91)
 		)
 		(stroke
@@ -371,6 +586,17 @@
 			(justify left)
 		)
 		(uuid "0b9cd378-31b6-4d44-a11f-307ffebeb121")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape bidirectional)
+		(at 100.33 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22d0e8d7-c303-44ff-b184-bfee5c1a59b0")
 	)
 	(hierarchical_label "RightbuttonGPIO"
 		(shape input)
@@ -427,6 +653,17 @@
 		)
 		(uuid "97a7f9ac-e92c-4d42-9331-a7eccecd1d95")
 	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 100.33 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9be3912a-aa40-4017-b2c4-ced2742ef386")
+	)
 	(hierarchical_label "JoystickXout"
 		(shape input)
 		(at 87.63 116.84 0)
@@ -459,6 +696,84 @@
 			(justify left)
 		)
 		(uuid "fbb4438c-5324-4faf-b0ab-13fa53d3ebeb")
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-02PZD")
+		(at 26.67 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2037b15-17c6-4901-8998-aa01346153f8")
+		(property "Reference" "U6"
+			(at 26.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH2.54-09-02PZD"
+			(at 26.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+			(at 26.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500771"
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c6b8ae7-3329-4689-aa14-bff28f30bd44")
+		)
+		(pin "1"
+			(uuid "ec7a50d2-6107-4a84-8168-df277f88801a")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 138.43 80.01)
@@ -782,7 +1097,7 @@
 	)
 	(sheet
 		(at 53.34 153.67)
-		(size 24.13 11.43)
+		(size 36.83 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -806,12 +1121,62 @@
 			)
 		)
 		(property "Sheetfile" "Accelormeter.kicad_sch"
-			(at 53.34 165.6846 0)
+			(at 53.34 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "INT 1 (output to MCU, NN) " input
+			(at 53.34 171.45 180)
+			(uuid "3bed2e15-c6b6-4f81-a57a-daa59035a726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 90.17 160.02 0)
+			(uuid "0eccf66c-7980-4933-924a-7ea579be149e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 90.17 157.48 0)
+			(uuid "8b9a9c9e-4ce3-4354-9012-06dc7a3f8ac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT 2 (output to MCU, NN) " input
+			(at 53.34 173.99 180)
+			(uuid "1ce97c60-e14d-4610-b52f-54ce8636e9e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v in" input
+			(at 53.34 156.21 180)
+			(uuid "3badd819-b5a5-47a6-941e-d1d913c92465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -5,18 +5,18 @@
 	(uuid "ff813c01-6195-4e35-9a70-1991e1eec1e4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "PCM_JLCPCB-Capacitors:0603,100nF"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 2.032 1.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,17 +24,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "100nF"
+				(at 2.032 -0.3782 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "PCM_JLCPCB:C_0603"
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +60,124 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "LCSC" "C14663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "83501114"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.006USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,13 +195,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "0603,100nF_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.27 0.635) (xy 1.27 0.635)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -93,10 +210,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -104,10 +221,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "0603,100nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 2.794)
+					(length 3.175)
 					(name "~"
 						(effects
 							(font
@@ -125,7 +242,7 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 2.794)
+					(length 3.175)
 					(name "~"
 						(effects
 							(font
@@ -1073,7 +1190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
 		(at 99.06 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1083,7 +1200,7 @@
 		(fields_autoplaced yes)
 		(uuid "54686971-aa84-4d17-a889-f43bed75f6e7")
 		(property "Reference" "C14"
-			(at 102.87 46.9899 0)
+			(at 101.6 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,8 +1208,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 102.87 49.5299 0)
+		(property "Value" "100nF"
+			(at 101.6 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,8 +1217,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.0252 52.07 0)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 97.282 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -1118,7 +1235,133 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "83501114"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
 			(at 99.06 48.26 0)
 			(effects
 				(font
