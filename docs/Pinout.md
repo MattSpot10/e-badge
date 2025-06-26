@@ -45,8 +45,8 @@
 
 b For modules with ordering codes ending with -N4R2, IO26 connects to the embedded PSRAM and is not
 available for other uses
-Y = taken
-X = Taken, but exposed
+<br>Y = taken
+<br>X = Taken, but exposed
 
 ![image](https://github.com/user-attachments/assets/749fc0e4-0d8b-4fba-8f06-0fa211cc2fcb)
 
