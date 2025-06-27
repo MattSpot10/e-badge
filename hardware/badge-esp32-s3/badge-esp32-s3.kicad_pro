@@ -72,6 +72,26 @@
         [
           "clearance|203539099|91720901|32fcd901-e524-4ed5-bc8d-16c99acee6e2|20c93469-be4e-4406-b9ec-9f1fb9c0d7df",
           ""
+        ],
+        [
+          "padstack|148550000|142337500|01b7592d-cab7-4221-b39b-5be341de11e7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|156550000|142337500|f7066780-37e6-4dd1-ba96-2f0b87127fe0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215000000|96500000|94436022-b554-49df-9f12-1250ba0505de|f62b21d1-c756-4fd5-ae31-520b0be3515b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|215000000|99500000|94436022-b554-49df-9f12-1250ba0505de|d1e0dfb8-57bb-4b8a-81b2-ff8bf2a7ea45",
+          ""
+        ],
+        [
+          "silk_over_copper|117322500|103500000|6c671713-fd04-498b-b80f-f9b03e6573ff|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -117,7 +137,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
