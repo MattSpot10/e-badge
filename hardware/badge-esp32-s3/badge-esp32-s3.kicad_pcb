@@ -42682,12 +42682,12 @@
 	(footprint "misc-lib:QRCodeFootPrint"
 		(layer "B.Cu")
 		(uuid "a83c6fd0-3189-4c36-a4f8-5a8d9c153f17")
-		(at 201.5 78.5 180)
+		(at 198.5 103 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "89775180-755b-4f65-96bd-8ac8cba11f6f")
+			(uuid "3c74d31e-97dd-4bde-9cf8-8b9566aa80b7")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -42700,7 +42700,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "0402e564-b275-4aa6-bebd-1f895f76491c")
+			(uuid "ab0a9703-5d4e-42c1-bd99-1a482bc2ebff")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -42713,7 +42713,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23392d02-7dd9-4822-b3e6-d7f8bde68f40")
+			(uuid "a549960d-0968-4513-befa-04d5c9a43a3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42726,7 +42726,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "afe87880-e19c-4431-9ecd-21c137157a15")
+			(uuid "4f4d5b99-5424-4f55-8929-e32daa99820d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43844,7 +43844,7 @@
 		)
 	)
 	(gr_text "Protocols"
-		(at 129 82 0)
+		(at 128.5 85.5 0)
 		(layer "B.SilkS")
 		(uuid "0d199848-4b90-41c5-84e1-206f75d02c95")
 		(effects
@@ -43858,31 +43858,31 @@
 		)
 	)
 	(gr_text "Display\n	Reset: 48\n	Data/Command: 37\n	(See SPI pins)\n\nMinibadge\n	CLK: 12\n	(See I2C)\n\nJoystick (Optional)\n	X axis: 1\n	Y axis: 2"
-		(at 166.5 126.5 0)
+		(at 164.5 124.5 0)
 		(layer "B.SilkS")
 		(uuid "1bfdbd64-6fd0-49c3-8540-2e537f1b76d7")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.7 1.7)
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
 	)
 	(gr_text "UART\n	TX: 43\n	RX: 44\n\nSPI\n	CLK: 32\n	MOSI: 31\n	MISO: 29\n	SD CS: 26\n	Display CS: 33\n\nI2C\n	SCL: 21\n	SDA: 47"
-		(at 131 133.5 0)
+		(at 126.5 127.5 0)
 		(layer "B.SilkS")
 		(uuid "3dffa57f-95ca-4ee4-ae4b-6029c3c8731e")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.7 1.7)
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Peripherals"
-		(at 185 82 0)
+		(at 179 86 0)
 		(layer "B.SilkS")
 		(uuid "9050d60f-e09a-4b0c-bb3e-aa6ec987c9ae")
 		(effects
@@ -43896,12 +43896,12 @@
 		)
 	)
 	(gr_text "LED: 41\nBuzzer: 42\n\nRGB LED\n	Red: 38\n	Green: 39\n	Blue: 40\n\nButtons\n	Right: 13\n	Left: 14\n	Down: 15\n	Up: 16\n	B: 17\n	A: 18"
-		(at 192.5 130.5 0)
+		(at 185.5 130 0)
 		(layer "B.SilkS")
 		(uuid "967759ae-cdfb-41b8-a7cd-22ed91c7afc1")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.7 1.7)
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
