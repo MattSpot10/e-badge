@@ -16,15 +16,13 @@
 * Open slot of analog stick from Adafruit
 
 ### Interfaces
-* 4pin JST/Grove Connectors 
+* 4pin JST SH/Grove/Stemma Connector 
+* 4pin JST PH/mini-grove/Stemma QT connector
 * 2X Minibadge Connectors
-* Lots of generic female headers!
+* 9X genereic Female Headers
+* 10X exposed multipurpose pins
 
 ### Additional Features
-# Detailed Silk Screen
-# Battery hook in + charging circuitry
-
-### Unconfirmed Features
-# Accelerometer
-# Gyroscope
-# RFID/NFC
+* Detailed Silk Screen
+* Battery hook in + charging circuitry
+* Accelerometer
