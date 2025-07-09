@@ -1,4 +1,4 @@
-25816306353033597
+25957083164705760
 AdafruitJoystick
 SW_2765
 
@@ -71973,6 +71973,328 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM_Espressif
+ESP32-C3-DevKitC-02
+
+
+0
+30
+30
+PCM_Espressif
+ESP32-C3-DevKitM-1
+
+
+0
+30
+30
+PCM_Espressif
+ESP32-C3-MINI-1
+ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+53
+PCM_Espressif
+ESP32-C3-MINI-1U
+ESP32-C3-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+53
+PCM_Espressif
+ESP32-C3-MINI-1_HandSoldering
+ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+53
+PCM_Espressif
+ESP32-C3-WROOM-02
+ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
+ESP32-C3
+0
+27
+19
+PCM_Espressif
+ESP32-C3-WROOM-02U
+ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
+ESP32-C3
+0
+27
+19
+PCM_Espressif
+ESP32-C5-DevKitC-1
+
+
+0
+32
+32
+PCM_Espressif
+ESP32-C6-DevKitC-1
+ESP32-C6 general-purpose development board, based on ESP32-2-WROOM-1,It has all the ESP32-C6 pins exposed and is easy to connect and use.
+ESP32-C6
+0
+32
+32
+PCM_Espressif
+ESP32-C6-DevKitM-1
+ESP32-C6 general-purpose development board, based on ESP32-2-WROOM-1,It has all the ESP32-C6 pins exposed and is easy to connect and use.
+ESP32-C6
+0
+30
+30
+PCM_Espressif
+ESP32-C6-MINI-1
+ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+ESP32-C6
+0
+61
+53
+PCM_Espressif
+ESP32-C6-MINI-1U
+ESP32-C6-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+ESP32-C6
+0
+61
+53
+PCM_Espressif
+ESP32-C6-WROOM-1
+ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
+esp32-c6
+0
+37
+29
+PCM_Espressif
+ESP32-C6-WROOM-1U
+ESP32-C6-WROOM-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf
+esp32-c6
+0
+37
+29
+PCM_Espressif
+ESP32-DevKitC
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+38
+38
+PCM_Espressif
+ESP32-DevKitM-1
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+34
+34
+PCM_Espressif
+ESP32-H2-MINI-1
+ESP32-H2-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-h2-mini-1_mini-1u_datasheet_en.pdf
+ESP32-H2
+0
+61
+53
+PCM_Espressif
+ESP32-MINI-1
+ESP32-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
+ESP32-MINI-1
+0
+63
+55
+PCM_Espressif
+ESP32-MINI-1U
+ESP32-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
+ESP32-MINI-1U
+0
+63
+55
+PCM_Espressif
+ESP32-P4
+
+
+0
+113
+105
+PCM_Espressif
+ESP32-PICO-MINI-02
+ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
+ESP32-PICO-MINI-02
+0
+61
+53
+PCM_Espressif
+ESP32-PICO-MINI-02U
+ESP32-PICO-MINI-02U: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
+ESP32-PICO-MINI-02U
+0
+61
+53
+PCM_Espressif
+ESP32-PICO-MINI-02_HandSoldering
+ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
+ESP32-PICO-MINI-02
+0
+61
+53
+PCM_Espressif
+ESP32-S2-DevKitC-1
+ESP32-S2 general-purpose development board, based on ESP32-S2-SOLO or ESP32-S2-SOLO-U,It has all the ESP32-S2 pins exposed and is easy to connect and use.
+ESP32-S2
+0
+44
+44
+PCM_Espressif
+ESP32-S2-DevKitM
+ESP32-S2 general-purpose development board
+ESP32-S2
+0
+42
+42
+PCM_Espressif
+ESP32-S2-MINI-1
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2
+0
+73
+65
+PCM_Espressif
+ESP32-S2-MINI-1U
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2
+0
+73
+65
+PCM_Espressif
+ESP32-S2-MINI-1_HandSoldering
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2 Hand Soldering
+0
+73
+65
+PCM_Espressif
+ESP32-S2-SOLO
+ESP32-S2-SOLO https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
+esp32-s2 module
+0
+49
+41
+PCM_Espressif
+ESP32-S2-SOLO-2U
+ESP32-S2-SOLO-2U https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf
+esp32-s2 module
+0
+49
+41
+PCM_Espressif
+ESP32-S2-Saola-1
+Espressif ESP32-S2-Saola-1 Development Kit: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html
+esp32-s2 devkit
+0
+42
+42
+PCM_Espressif
+ESP32-S2-WROOM
+ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+ESP32-S2
+0
+51
+43
+PCM_Espressif
+ESP32-S2-WROVER
+ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
+ESP32-S2
+0
+55
+43
+PCM_Espressif
+ESP32-S3-DevKitC
+ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.
+ESP32-S3
+0
+44
+44
+PCM_Espressif
+ESP32-S3-MINI-1
+ESP32-S3-MINI-1
+esp32-s3
+0
+73
+65
+PCM_Espressif
+ESP32-S3-MINI-1U
+ESP32-S3-MINI-1 and ESP32-S3-MINI-1U
+esp32-s3
+0
+73
+65
+PCM_Espressif
+ESP32-S3-WROOM-1
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+51
+41
+PCM_Espressif
+ESP32-S3-WROOM-1U
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+49
+41
+PCM_Espressif
+ESP32-S3-WROOM-2
+ESP32-S3-WROOM-2 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+51
+41
+PCM_Espressif
+ESP32-WROOM-32E
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+50
+39
+PCM_Espressif
+ESP32-WROOM-32UE
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+47
+39
+PCM_Espressif
+ESP32-WROOM-DA
+ESP32-WROOM-DA: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf
+ESP32 Dual Antenna DA
+0
+49
+41
+PCM_Espressif
+ESP32-WROVER-E
+ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+esp32 module
+0
+47
+39
+PCM_Espressif
+ESP32-WROVER-E_ThermalVias
+ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+esp32 module thermal vias
+0
+59
+39
+PCM_Espressif
+ESP8685-WROOM-06
+ESP32-WROOM-06: https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-06_datasheet_en.pdf
+esp32 module
+0
+31
+22
+PCM_Espressif
+QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
 PCM_JLCPCB
 ANT-TH_L25.0-W25.0
 ANT-TH_L25.0-W25.0 footprint
@@ -72296,6 +72618,13 @@ LQFP QFP
 48
 48
 PCM_JLCPCB
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+PCM_JLCPCB
 L_0402
 Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
@@ -72365,6 +72694,13 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
+PCM_JLCPCB
+OSC-SMD_L5.0-W3.2
+OSC-SMD_L5.0-W3.2 footprint
+OSC-SMD_L5.0-W3.2 footprint C112574
+0
+2
+2
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -72533,6 +72869,20 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
+PCM_JLCPCB
+SOP-4_3.8x4.1mm_P2.54mm
+SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+PCM_JLCPCB
+SOP-4_4.4x2.6mm_P1.27mm
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -72708,6 +73058,13 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
+PCM_JLCPCB
+SW_TS-1088-AR02016
+
+
+0
+2
+2
 PCM_JLCPCB
 Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
 Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -103453,6 +103810,34 @@ Varistor VF
 2
 2
 lcsc-lib
+BUZ-SMD_L5.0-W5.5-P4.60
+
+
+0
+3
+3
+lcsc-lib
+CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT
+
+
+0
+6
+6
+lcsc-lib
+CONN-SMD_B4B-PH-SM4-TB-LF-SN
+
+
+0
+6
+6
+lcsc-lib
+CONN-TH_2P-P2.00_PH-2A_C2319
+
+
+0
+2
+2
+lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
@@ -103467,12 +103852,75 @@ FPC-SMD_AFC01-S12FCA-00
 14
 14
 lcsc-lib
+HDR-TH_2P-P2.54-V-M-5
+
+
+0
+2
+2
+lcsc-lib
+HDR-TH_3P-P2.54-V-F
+
+
+0
+3
+3
+lcsc-lib
+HDR-TH_4P-P2.54-V-F
+
+
+0
+4
+4
+lcsc-lib
+LED-ARRAY-SMD_L3.7-W3.5-P1.10-TL
+
+
+0
+6
+6
+lcsc-lib
+LED-SMD_4P-L2.0-W1.3-BR
+
+
+0
+4
+4
+lcsc-lib
+OLED-SMD_HS20HS072RX
+
+
+0
+12
+12
+lcsc-lib
+QFN-16_L3.0-W3.0-P0.50-TL_MMA8452QR1
+
+
+0
+16
+16
+lcsc-lib
 QFN-28_L5.0-W5.0-P0.50-TL-EP3.3
 
 
 0
 29
 29
+lcsc-lib
+RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L
+
+
+0
+3
+3
+lcsc-lib
+SC-70-6_L2.0-W1.3-P0.65-LS2.1-BL
+
+
+0
+6
+6
 lcsc-lib
 SOD-123_L2.7-W1.6-LS3.7-RD
 
@@ -103488,6 +103936,13 @@ SOD-523_L1.2-W0.8-LS1.6-BI
 2
 2
 lcsc-lib
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+lcsc-lib
 SW-SMD_L3.9-W3.0-P4.45
 
 
@@ -103495,12 +103950,33 @@ SW-SMD_L3.9-W3.0-P4.45
 2
 2
 lcsc-lib
+SW-SMD_MST22D18G2
+
+
+0
+6
+6
+lcsc-lib
 SW-TH_4P-L6.0-W6.0-P4.50-LS6.5
 
 
 0
 4
 4
+lcsc-lib
+SW-TH_G-SWITCH_SK-12F04-G050
+
+
+0
+3
+3
+lcsc-lib
+TF-SMD_TF-PUSH
+
+
+0
+15
+13
 lcsc-lib
 VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8
 
@@ -103522,3 +103998,17 @@ XDFN-4_L1.0-W1.0-P0.65-BL-EP
 0
 5
 5
+minibadge
+MiniBadge_Full_NoEdges
+
+
+0
+10
+10
+misc-lib
+QRCodeFootPrint
+
+
+0
+0
+0

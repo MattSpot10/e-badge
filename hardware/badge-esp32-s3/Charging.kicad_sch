@@ -5,148 +5,6 @@
 	(uuid "bdbe6de8-8374-438c-9500-ca51ada47568")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0603,10uF,(2)"
 			(pin_numbers
 				(hide yes)
@@ -2479,6 +2337,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:FH2.54-09-02PZD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FH2.54-09-02PZD"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7500771"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FH2.54-09-02PZD_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc-lib:PH-2A_C2319"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PH-2A_C2319"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:CONN-TH_2P-P2.00_PH-2A_C2319"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_PH-2A_C2319.html"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2319"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PH-2A_C2319_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc-lib:SK-12F04-G050"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2858,12 +2941,6 @@
 		(uuid "4051a33a-ea98-40be-8c8f-9b17e6b4cbf1")
 	)
 	(junction
-		(at 106.68 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d6809d3-88cb-4b9d-b33b-2e936ddc81b2")
-	)
-	(junction
 		(at 171.45 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2888,6 +2965,12 @@
 		(uuid "bd032ebe-3b58-4a88-a842-bd24e27fbef8")
 	)
 	(junction
+		(at 185.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c117bc34-b4d7-4397-b50a-0deff573dc7f")
+	)
+	(junction
 		(at 106.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2904,6 +2987,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f1b06e-80c1-4709-ba83-743d5f765c0a")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035d3861-a22f-4e97-80a0-b0e98616e8a8")
 	)
 	(wire
 		(pts
@@ -2937,7 +3030,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 87.63) (xy 185.42 87.63)
+			(xy 204.47 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9ce35a-5a77-4451-927f-222ab2748b4e")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 201.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3027,6 +3130,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e1c207-974f-4713-b251-b3569f702f6a")
+	)
+	(wire
+		(pts
 			(xy 162.56 106.68) (xy 171.45 106.68)
 		)
 		(stroke
@@ -3034,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "4d36b051-af8e-4d10-97f5-a95080caaf60")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 177.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d492450-ec3c-48e3-8e84-8e14bf824762")
 	)
 	(wire
 		(pts
@@ -3047,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 189.23 85.09)
+			(xy 177.8 85.09) (xy 201.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3147,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 106.68 78.74)
+			(xy 106.68 73.66) (xy 106.68 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3164,16 +3287,6 @@
 			(type default)
 		)
 		(uuid "ae4d46e7-efc2-4b87-ac5a-691271515a5d")
-	)
-	(wire
-		(pts
-			(xy 106.68 78.74) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9fbe14-6f2d-47bb-88a3-58f55ae48e8b")
 	)
 	(wire
 		(pts
@@ -3327,16 +3440,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 106.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c89481-50f9-45aa-9088-abbb36acb1a9")
-	)
-	(wire
-		(pts
 			(xy 162.56 99.06) (xy 162.56 106.68)
 		)
 		(stroke
@@ -3377,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 87.63) (xy 185.42 106.68)
+			(xy 185.42 90.17) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3548,7 @@
 		)
 		(uuid "b36fc058-c364-4a4c-b771-906ab5c82572")
 	)
-	(hierarchical_label "USB_2"
+	(hierarchical_label "USB_5V"
 		(shape input)
 		(at 77.47 82.55 180)
 		(effects
@@ -3455,17 +3558,6 @@
 			(justify right)
 		)
 		(uuid "4e54820b-60d0-46ef-8379-578cfcd3305d")
-	)
-	(hierarchical_label "USB_1"
-		(shape input)
-		(at 77.47 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ca19291-c948-49e0-9ee0-efa5372581f2")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
@@ -3488,7 +3580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d9d8961-460f-409f-8746-0ccc0060ac04")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -3538,7 +3630,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f7274c-ae43-439d-aa12-95070ba59cb3")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 119.38 96.5199 0)
 			(effects
 				(font
@@ -3761,7 +3853,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3777,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3424dbe0-4215-4f17-82aa-5d7a2b0116e7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR040"
 			(at 177.8 118.11 0)
 			(effects
 				(font
@@ -3827,7 +3919,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "#PWR031")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3721de7f-97d4-4d4b-87da-6bfd2b210e36")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 180.34 86.3599 0)
 			(effects
 				(font
@@ -4023,7 +4115,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4286,7 +4378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70fa3992-5047-49a5-8f6b-54b68c36dba6")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 165.1 95.2499 0)
 			(effects
 				(font
@@ -4493,7 +4585,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9298c12e-2a68-4a87-8b8c-706e71b081ab")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR039"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -4560,7 +4652,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "#PWR046")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4576,7 +4668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0778c79-dd5c-420d-a3ab-4b3784702e52")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 109.22 85.0899 0)
 			(effects
 				(font
@@ -4756,7 +4848,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4772,7 +4864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22a5bdd-baa5-481f-a376-fd470314b8b6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -4822,77 +4914,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 194.31 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc5a9e43-aea7-4db1-a236-ab2700534975")
-		(property "Reference" "J4"
-			(at 196.85 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LiPo"
-			(at 196.85 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 194.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "937e9901-51b9-4644-a11c-76361da3e40a")
-		)
-		(pin "2"
-			(uuid "7f51d69f-15b1-4496-8137-9863a059589b")
-		)
-		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "J4")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4908,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7d22703-5850-4a1a-8c1d-dd83794d57e2")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 114.6175 67.31 90)
 			(effects
 				(font
@@ -5050,7 +5072,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28d97b3-aaeb-4467-b4fd-9e0f448a1022")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 99.06 54.61 90)
 			(effects
 				(font
@@ -5525,7 +5547,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5541,7 +5563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f391ad8f-222d-4668-985a-8d2eea1daf1b")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 119.38 86.2646 0)
 			(effects
 				(font
@@ -5694,7 +5716,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5710,7 +5732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f542627b-c853-4571-b4a4-b17f55fe2ccf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -5760,7 +5782,7 @@
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5776,7 +5798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4ffb41-9cb4-48fe-a483-dd8ed8123758")
-		(property "Reference" "SW9"
+		(property "Reference" "SW3"
 			(at 139.7 55.8799 0)
 			(effects
 				(font
@@ -5842,7 +5864,166 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "SW9")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:PH-2A_C2319")
+		(at 209.55 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe5e4df-6e17-40ba-862a-550b1e843a17")
+		(property "Reference" "P1"
+			(at 215.9 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH-2A_C2319"
+			(at 215.9 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:CONN-TH_2P-P2.00_PH-2A_C2319"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PH-Connectors_PH-2A_C2319.html"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2319"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73589be7-33eb-445a-b039-57b24d935b93")
+		)
+		(pin "2"
+			(uuid "f6059f9c-73f6-4494-9ac0-f7bb2f5c4fc8")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:FH2.54-09-02PZD")
+		(at 209.55 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc0e8a2a-4013-4381-aae5-34fd80c56993")
+		(property "Reference" "U5"
+			(at 213.36 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH2.54-09-02PZD"
+			(at 213.36 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7500771"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb6f5af7-6c74-4192-b267-1f9e4655b8c8")
+		)
+		(pin "1"
+			(uuid "30a78fa3-55a7-48bc-a245-c1dcd986d88f")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
