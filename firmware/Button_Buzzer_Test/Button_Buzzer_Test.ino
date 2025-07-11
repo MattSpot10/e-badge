@@ -137,6 +137,6 @@ void loop() {
   }
 
   // A small delay to allow the ESP32 to perform other tasks and for stable readings
-  delay(250);
+  delay(100);
 }
 
