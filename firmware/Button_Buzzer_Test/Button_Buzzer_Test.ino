@@ -1,7 +1,6 @@
 // Define the pin connected to the passive piezo buzzer.
 // You can change this to any available GPIO pin on your ESP32-S3.
-const int buzzerPin = 42; // Example: Using GPIO 2
-const int buzzer = 1;
+const int buzzerPin = 42; // Example: Using GPIO 42
 
 // Define the pins for the 6 buttons.
 // Connect each button between the specified GPIO pin and GND.
@@ -35,7 +34,7 @@ void setup() {
 
   // Set the buzzer pin as an output.
   pinMode(buzzerPin, OUTPUT);
-  pinMode(buzzer, OUTPUT);
+
 
   // Set button pins as inputs with internal pull-up resistors.
   // This means the pin will read HIGH when the button is not pressed,
@@ -65,7 +64,6 @@ void loop() {
     if (millis() - lastDebounceTime[0] > debounceDelay) {
       Serial.println("Button 1 pressed - Playing C4");
       tone(buzzerPin, NOTE_C4);
-      tone(buzzer, NOTE_C4);
       anyButtonPressed = true;
       lastDebounceTime[0] = millis(); // Update debounce time
     }
@@ -78,7 +76,6 @@ void loop() {
     if (millis() - lastDebounceTime[1] > debounceDelay) {
       Serial.println("Button 2 pressed - Playing D4");
       tone(buzzerPin, NOTE_D4);
-      tone(buzzer, NOTE_D4);
       anyButtonPressed = true;
       lastDebounceTime[1] = millis();
     }
@@ -91,7 +88,6 @@ void loop() {
     if (millis() - lastDebounceTime[2] > debounceDelay) {
       Serial.println("Button 3 pressed - Playing E4");
       tone(buzzerPin, NOTE_E4);
-      tone(buzzer, NOTE_E4);
       anyButtonPressed = true;
       lastDebounceTime[2] = millis();
     }
@@ -104,7 +100,6 @@ void loop() {
     if (millis() - lastDebounceTime[3] > debounceDelay) {
       Serial.println("Button 4 pressed - Playing F4");
       tone(buzzerPin, NOTE_F4);
-      tone(buzzer, NOTE_F4);
       anyButtonPressed = true;
       lastDebounceTime[3] = millis();
     }
@@ -117,7 +112,6 @@ void loop() {
     if (millis() - lastDebounceTime[4] > debounceDelay) {
       Serial.println("Button 5 pressed - Playing G4");
       tone(buzzerPin, NOTE_G4);
-      tone(buzzer, NOTE_G4);
       anyButtonPressed = true;
       lastDebounceTime[4] = millis();
     }
@@ -130,7 +124,6 @@ void loop() {
     if (millis() - lastDebounceTime[5] > debounceDelay) {
       Serial.println("Button 6 pressed - Playing A4");
       tone(buzzerPin, NOTE_A4);
-      tone(buzzer, NOTE_A4);
       anyButtonPressed = true;
       lastDebounceTime[5] = millis();
     }
@@ -141,10 +134,9 @@ void loop() {
   // If no button is currently pressed, stop the tone
   if (!anyButtonPressed) {
     noTone(buzzerPin);
-    noTone(buzzer);
   }
 
   // A small delay to allow the ESP32 to perform other tasks and for stable readings
-  delay(10);
+  delay(250);
 }
 
