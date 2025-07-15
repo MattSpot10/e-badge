@@ -4,7 +4,7 @@
 | Buttons           |   Yes  | [Test](..\firmware\Button_+_LED_Test\analogbuttonLed\analogbuttonLed.ino) |   Yes   | Some  |          |                |
 | Screen            |        |                             |         |       |          |                |
 | Buzzer            |   Yes  |[Test](..\firmware\Buzzer_Test\buzzerTest\buzzerTest.ino)       |   Yes   |  Some |          |                |
-| RGB Led           |   Yes  | [Test](..\firmware\LED_Test\RGB_\RGB.ino)            |   Yes   | Some  |          |                |
+| RGB Led           |   Yes  | [Test](..\firmware\LED_Test\RGB\RGB.ino)            |   Yes   | Some  |          |                |
 | LED               |        |                             |         |       |          |                |
 | Charger           |        |                             |         |       |          |                |
 | Voltage Regulator |        |                             |         |       |          |                |

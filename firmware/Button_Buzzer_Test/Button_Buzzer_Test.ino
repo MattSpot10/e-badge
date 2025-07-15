@@ -39,22 +39,22 @@ void setup() {
   // Set button pins as inputs with internal pull-up resistors.
   // This means the pin will read HIGH when the button is not pressed,
   // and LOW when the button is pressed (connected to GND).
-  pinMode(buttonPin1, INPUT);
-  pinMode(buttonPin2, INPUT);
-  pinMode(buttonPin3, INPUT);
-  pinMode(button4Pin, INPUT);
-  pinMode(button5Pin, INPUT);
-  pinMode(button6Pin, INPUT);
+  pinMode(buttonPin1, INPUT_PULLUP);
+  pinMode(buttonPin2, INPUT_PULLUP);
+  pinMode(buttonPin3, INPUT_PULLUP);
+  pinMode(button4Pin, INPUT_PULLUP);
+  pinMode(button5Pin, INPUT_PULLUP);
+  pinMode(button6Pin, INPUT_PULLUP);
 }
 
 void loop() {
   // Read the state of each button
-  int buttonState1 = analogRead(buttonPin1);
-  int buttonState2 = analogRead(buttonPin2);
-  int buttonState3 = analogRead(buttonPin3);
-  int buttonState4 = analogRead(button4Pin);
-  int buttonState5 = analogRead(button5Pin);
-  int buttonState6 = analogRead(button6Pin);
+  int buttonState1 = digitalRead(buttonPin1);
+  int buttonState2 = digitalRead(buttonPin2);
+  int buttonState3 = digitalRead(buttonPin3);
+  int buttonState4 = digitalRead(button4Pin);
+  int buttonState5 = digitalRead(button5Pin);
+  int buttonState6 = digitalRead(button6Pin);
 
   // Variable to keep track if any button is currently pressed
   bool anyButtonPressed = false;
@@ -137,6 +137,6 @@ void loop() {
   }
 
   // A small delay to allow the ESP32 to perform other tasks and for stable readings
-  delay(100);
+  delay(250);
 }
 

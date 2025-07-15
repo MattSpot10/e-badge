@@ -22,8 +22,8 @@ void setup() {
   pinMode(rled, OUTPUT);
   pinMode(gled, OUTPUT);
   pinMode(bled, OUTPUT);
-  pinMode(15, INPUT);
-  pinMode(16, INPUT);
+  pinMode(15, INPUT_PULLUP);
+  pinMode(16, INPUT_PULLUP);
   digitalWrite(ledPin,LOW);
   digitalWrite(rled,LOW);
   digitalWrite(gled,LOW);
@@ -36,11 +36,11 @@ void loop() {
   // Turn the LED on (HIGH voltage).
 
   // Wait for another 1000 milliseconds (1 second).
-  int readingB = analogRead(15);
+  int readingDown = digitalRead(15);
   int readingUp = digitalRead(16);
-  delay(1000);
-  Serial.println(readingB);
-  if (readingB != 0){
+  Serial.println(readingDown);
+  Serial.println(readingUp);
+  if (readingDown != 0){
     digitalWrite(bled,HIGH);
   }
   else {
@@ -52,5 +52,6 @@ void loop() {
   else{
     digitalWrite(gled,LOW);
   }
+  delay(500);
 }
 

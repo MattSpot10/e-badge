@@ -83,3 +83,5 @@ fabrication/
 # === Documentation ===
 !docs/**/*.pdf
 hardware/badge-esp32-s3/~badge-esp32-s3.kicad_sch.lck
+test/Testing Code/Screen-Test/Screen-Test.ino
+test/Testing Code/Screen-Test/Screen-Test.ino
