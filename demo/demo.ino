@@ -26,6 +26,20 @@ const int rx = 44;
 const int sda = 47;
 const int display_rst = 48;
 
+
+
+// Define the notes and their frequencies (in Hz)
+// These are common musical notes, you can add more or change them.
+#define NOTE_C4  262
+#define NOTE_D4  294
+#define NOTE_E4  330
+#define NOTE_F4  349
+#define NOTE_G4  392
+#define NOTE_A4  440
+#define NOTE_B4  494
+#define NOTE_C5  523
+#define NOTE_REST 0 // Represents a pause
+
 // PWM resolution. ESP32's analogWrite can be set to 10-bit resolution.
 // For common cathode, 0 is off, 1023 is full brightness.
 const int PWM_RESOLUTION_BITS = 10;
@@ -93,12 +107,12 @@ void loop() {
   
   setRgbColor(x,0,y);
 
-  int buttonState1 = digitalRead(buttonPin1);
-  int buttonState2 = digitalRead(buttonPin2);
-  int buttonState3 = digitalRead(buttonPin3);
-  int buttonState4 = digitalRead(button4Pin);
-  int buttonState5 = digitalRead(button5Pin);
-  int buttonState6 = digitalRead(button6Pin);
+  int buttonState1 = digitalRead(right);
+  int buttonState2 = digitalRead(left);
+  int buttonState3 = digitalRead(down);
+  int buttonState4 = digitalRead(up);
+  int buttonState5 = digitalRead(b);
+  int buttonState6 = digitalRead(a);
 
   // Variable to keep track if any button is currently pressed
   bool anyButtonPressed = false;
@@ -153,5 +167,5 @@ void loop() {
   }
 
   // A small delay to allow the ESP32 to perform other tasks and for stable readings
-  delay(500);
+  delay(250);
 }
