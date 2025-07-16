@@ -1,9 +1,7 @@
 const int x = 2;
 const int y = 1;
 const int led = 41;
-const int gled = 39;
-const int bled = 40;
-const int rled = 38;
+const int buzzerPin = 42;
 // --- Configuration ---
 // Define the GPIO pins connected to the Red, Green, and Blue channels of the RGB LED.
 const int RED_PIN = 38;
@@ -64,6 +62,7 @@ void setup() {
   pinMode(RED_PIN, OUTPUT);
   pinMode(GREEN_PIN, OUTPUT);
   pinMode(BLUE_PIN, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
 
   // Set the PWM resolution for analogWrite.
   // ESP32 supports setting resolution up to 16 bits, but 10 bits is common for LEDs.
@@ -81,14 +80,12 @@ void loop() {
   // put your main code here, to run repeatedly:
   int readingX = 4200 - analogRead(x);
   int readingY = analogRead(y);
-  int x = readingX / 30;
-  int y = readingY / 30;
-  Serial.println("X: ");
-  Serial.println(readingX);
-  Serial.println("Y: ");
-  Serial.println(readingY);
+  int x = readingX / 25;
+  int y = readingY / 25;
+
+  // tone(buzzerPin,((x*2)+50)-y); if you want to use the joystick to control the buzzer
   
   setRgbColor(x,0,y);
   
-  delay(2000);
+  delay(100);
 }

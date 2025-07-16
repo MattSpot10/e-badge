@@ -25,7 +25,7 @@ const int button6Pin = 18;
 #define NOTE_REST 0 // Represents a pause
 
 unsigned long lastDebounceTime[6] = {0, 0, 0, 0, 0, 0}; // Last time the output pin was toggled
-unsigned long debounceDelay = 50; // Debounce time in milliseconds
+unsigned long debounceDelay = 10; // Debounce time in milliseconds
 
 void setup() {
   // Initialize the serial communication for debugging.
@@ -137,6 +137,6 @@ void loop() {
   }
 
   // A small delay to allow the ESP32 to perform other tasks and for stable readings
-  delay(250);
+  delay(500);
 }
 
