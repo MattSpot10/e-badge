@@ -10,12 +10,6 @@ const int up = 16;
 const int b = 17;
 const int a = 18;
 const int scl = 21;
-const int sd_cs = 26;
-const int miso = 29;
-const int mosi = 31;
-const int spi_clk = 32;
-const int display_cs = 33;
-const int display_dc = 37;
 const int RED_PIN = 38;
 const int GREEN_PIN = 39;
 const int BLUE_PIN = 40;
@@ -24,7 +18,39 @@ const int buzzerPin = 42;
 const int tx = 43;
 const int rx = 44;
 const int sda = 47;
-const int display_rst = 48;
+
+#include <Adafruit_GFX.h>    // Core graphics library
+#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
+#include <SPI.h>
+#include <SdFat_Adafruit_Fork.h>  // SD card & FAT filesystem library
+#include <Adafruit_ImageReader.h> // Image-reading functions
+
+#define TFT_CS   33
+#define TFT_RST  48 // Or set to -1 and connect to Arduino RESET pin
+#define TFT_DC   37
+
+#define TFT_MOSI 35  // Data out
+#define TFT_SCLK 36  // Clock out
+
+#define SD_CS 26
+#define TFT_MISO 34
+
+#define USE_SD_CARD
+
+//SPIClass hspi = SPIClass(HSPI);
+//#define SD_CONFIG SdioConfig(TFT_SCLK, TFT_MOSI, TFT_MISO, HSPI)
+Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
+
+SdFat                SD;         // SD card filesystem
+Adafruit_ImageReader reader(SD); // Image-reader object, pass in SD filesys
+Adafruit_Image       img;        // An image loaded into RAM
+int32_t              width  = 0, // BMP image dimensions
+                     height = 0;
+//ImageReturnCode      stat;
+//SPIClass SDSPI = SPIClass();
+float p = 3.1415926;
+int i = 0;
+
 
 
 
@@ -74,6 +100,31 @@ void setup() {
   Serial.begin(9600); // Initialize serial communication for debugging
   Serial.println("Starting RGB LED demonstration...");
 
+  pinMode(SD_CS, OUTPUT);
+  SPI.begin(TFT_SCLK, TFT_MISO, TFT_MOSI);
+  //hspi.begin(TFT_SCLK, TFT_MISO, TFT_MOSI);
+  // OR use this initializer (uncomment) if using a 2.0" 320x240 TFT:
+  tft.init(240, 320);           // Init ST7789 320x240
+  tft.setRotation(3);
+  Serial.println(F("Initialized"));
+
+  uint16_t time = millis();
+  tft.fillScreen(ST77XX_BLACK);
+
+
+  time = millis() - time;
+  Serial.println(time, DEC);
+  
+  if(!SD.begin(SD_CS)) { // Breakouts require 10 MHz limit due to longer wires
+    Serial.println(F("SD begin() failed"));
+    for(;;); // Fatal error, do not continue
+  }
+  Serial.print(F("Loading BYUILogo.bmp to screen..."));
+  reader.drawBMP("/BYUILogo.bmp", tft, 0, 0);
+
+  Serial.println("done");
+  delay(1000);
+
   // Set pin modes for the LED pins
   pinMode(RED_PIN, OUTPUT);
   pinMode(GREEN_PIN, OUTPUT);
@@ -95,9 +146,11 @@ void setup() {
   pinMode(x,INPUT);
   pinMode(y,INPUT);
   pinMode(led,OUTPUT);
-
-
+  
 }
+
+
+
 
 void loop() {
   int readingX = 4200 - analogRead(x);
