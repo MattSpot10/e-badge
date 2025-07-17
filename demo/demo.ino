@@ -120,7 +120,7 @@ void setup() {
     for(;;); // Fatal error, do not continue
   }
   Serial.print(F("Loading BYUILogo.bmp to screen..."));
-  reader.drawBMP("/BYUILogo.bmp", tft, 0, 0);
+  reader.drawBMP("/BYUILogo.bmp", tft, 0, 20);
 
   Serial.println("done");
   delay(1000);
