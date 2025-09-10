@@ -62,15 +62,15 @@
           ""
         ],
         [
-          "clearance|203395901|91725901|20c93469-be4e-4406-b9ec-9f1fb9c0d7df|3dff1a26-a49e-45ae-a16f-b79628c38485",
+          "clearance|203395901|91725901|3dff1a26-a49e-45ae-a16f-b79628c38485|20c93469-be4e-4406-b9ec-9f1fb9c0d7df",
           ""
         ],
         [
-          "clearance|203395901|92214099|20c93469-be4e-4406-b9ec-9f1fb9c0d7df|d3c58425-2c19-4073-acb0-1ab2225296a6",
+          "clearance|203395901|92214099|d3c58425-2c19-4073-acb0-1ab2225296a6|20c93469-be4e-4406-b9ec-9f1fb9c0d7df",
           ""
         ],
         [
-          "clearance|203539099|91720901|20c93469-be4e-4406-b9ec-9f1fb9c0d7df|32fcd901-e524-4ed5-bc8d-16c99acee6e2",
+          "clearance|203539099|91720901|32fcd901-e524-4ed5-bc8d-16c99acee6e2|20c93469-be4e-4406-b9ec-9f1fb9c0d7df",
           ""
         ],
         [
@@ -90,7 +90,7 @@
           ""
         ],
         [
-          "silk_over_copper|117322500|103500000|6c671713-fd04-498b-b80f-f9b03e6573ff|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|104704819|107973167|0172f0f5-2bef-4080-8c96-6b4f0f4dbd7e|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -481,6 +481,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
