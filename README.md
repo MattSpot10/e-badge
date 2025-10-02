@@ -42,3 +42,7 @@ e-badge/
 - Craig Lindstrom (lindstromc@byui.edu)
 - Gary Godderidge (godderidgeg@byui.edu)
 - Matt Manley (manleym@byui.edu)
+
+# TODO (Senior project, delete when done)
+- Fix screen connector
+	- Use LCSC part C11086
