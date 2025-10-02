@@ -921,7 +921,18 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/BULETM-SMD_ESP32-S3-MINI-1-N8.step"
+	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S2-MINI-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/BULETM-SMD_ESP32-S3-MINI-1-N8.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
