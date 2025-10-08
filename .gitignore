@@ -39,6 +39,9 @@ __pycache__/
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *.autosave
+*autosave*
+*#*
+
 *-backup.kicad_pcb
 *-cache.lib
 *-rescue.*
@@ -72,6 +75,7 @@ fabrication/
 
 # === OS & Editor Junk ===
 *.~lock.*#
+**/*.lck
 *.bak
 *.tmp
 *.orig
