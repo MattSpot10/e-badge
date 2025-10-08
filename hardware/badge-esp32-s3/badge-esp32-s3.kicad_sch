@@ -3641,7 +3641,7 @@
 		)
 		(uuid "0d1dc182-d554-48a7-ac1d-93525c4c495b")
 	)
-	(label "GPIO3"
+	(label "GPIO42"
 		(at 90.17 142.24 180)
 		(effects
 			(font
@@ -3671,7 +3671,7 @@
 		)
 		(uuid "179f2020-6b08-4ca5-8d0c-cdb349601683")
 	)
-	(label "GPIO38"
+	(label "GPIO4"
 		(at 251.46 77.47 180)
 		(effects
 			(font
@@ -3831,7 +3831,7 @@
 		)
 		(uuid "47fc5c6e-c26b-4463-9635-9465087f18b0")
 	)
-	(label "GPIO4"
+	(label "GPIO38"
 		(at 90.17 144.78 180)
 		(effects
 			(font
@@ -4131,7 +4131,7 @@
 		)
 		(uuid "968a881a-e6b8-463d-a8e5-d08ab654f9b5")
 	)
-	(label "GPIO40"
+	(label "GPIO6"
 		(at 251.46 72.39 180)
 		(effects
 			(font
@@ -4171,7 +4171,7 @@
 		)
 		(uuid "9deaa95e-6088-49cb-8f1a-8ef9988553af")
 	)
-	(label "GPIO42"
+	(label "GPIO3"
 		(at 251.46 90.17 180)
 		(effects
 			(font
@@ -4251,7 +4251,7 @@
 		)
 		(uuid "b5e50dcf-72e9-4254-aaa2-a9e83e801173")
 	)
-	(label "GPIO5"
+	(label "GPIO39"
 		(at 90.17 147.32 180)
 		(effects
 			(font
@@ -4391,7 +4391,7 @@
 		)
 		(uuid "d8251ee8-e0a8-4948-bb9d-98effd4d2f1b")
 	)
-	(label "GPIO39"
+	(label "GPIO5"
 		(at 251.46 74.93 180)
 		(effects
 			(font
@@ -4401,7 +4401,7 @@
 		)
 		(uuid "d948383f-923d-4a9e-96fd-1fbf5498bd70")
 	)
-	(label "GPIO34."
+	(label "GPIO34"
 		(at 134.62 153.67 0)
 		(effects
 			(font
@@ -4511,7 +4511,7 @@
 		)
 		(uuid "eb6c579e-d9f7-414a-9a33-a616a159797e")
 	)
-	(label "GPIO6"
+	(label "GPIO40"
 		(at 90.17 149.86 180)
 		(effects
 			(font
