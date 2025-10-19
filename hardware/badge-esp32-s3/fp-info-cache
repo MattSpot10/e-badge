@@ -1,4 +1,4 @@
-26690924314340393
+26692685604916508
 AdafruitJoystick
 SW_2765
 
@@ -106455,6 +106455,13 @@ XDFN-4_L1.0-W1.0-P0.65-BL-EP
 0
 5
 5
+minibadge
+MiniBadge_Changed
+
+
+0
+10
+10
 minibadge
 MiniBadge_Full_NoEdges
 
