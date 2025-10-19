@@ -876,6 +876,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1021,6 +1045,10 @@
     [
       "ed10a1a3-8649-458b-a567-b8a974afd909",
       "Accelormeter"
+    ],
+    [
+      "959f77f2-91ca-4227-8718-f4511dce7e9a",
+      "GPIO Header Block"
     ],
     [
       "18b0dd1f-1411-4aae-8334-5d13e6c2c6f9",
