@@ -43494,7 +43494,7 @@
 			)
 		)
 	)
-	(gr_text "3.3V\nIO1\nGND"
+	(gr_text "3.3V\nIO2\nGND"
 		(at 102 110.5 0)
 		(layer "F.SilkS")
 		(uuid "39291474-ed44-41a4-9271-4bd8327b4734")
@@ -43857,7 +43857,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3.3V\nIO2\nGND"
+	(gr_text "3.3V\nIO1\nGND"
 		(at 94.75 117.5 90)
 		(layer "F.SilkS")
 		(uuid "fcf68331-1136-4ab2-8aa3-cbbec385cd00")
