@@ -1,4 +1,4 @@
-26697968752191379
+26690924762787415
 AdafruitJoystick
 SW_2765
 
@@ -106260,13 +106260,6 @@ Varistor VF
 2
 2
 lcsc-lib
-2.54-2_8
-
-
-0
-14
-14
-lcsc-lib
 BUZ-SMD_L5.0-W5.5-P4.60
 
 
@@ -106336,20 +106329,6 @@ HDR-TH_4P-P2.54-V-F
 0
 4
 4
-lcsc-lib
-HDR-TH_14P-P2.54-V-F-R2-C7-S2.54-1
-
-
-0
-14
-14
-lcsc-lib
-HDR-TH_28P-P2.54-V-F-R2-C14-S2.54
-
-
-0
-28
-28
 lcsc-lib
 LED-ARRAY-SMD_L3.7-W3.5-P1.10-TL
 
@@ -106476,13 +106455,6 @@ XDFN-4_L1.0-W1.0-P0.65-BL-EP
 0
 5
 5
-minibadge
-MiniBadge_Changed
-
-
-0
-10
-10
 minibadge
 MiniBadge_Full_NoEdges
 
