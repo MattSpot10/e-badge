@@ -10502,7 +10502,7 @@
 		(uuid "453be3cb-6751-4014-bdcd-ff7655a06057")
 		(at 176 88 -90)
 		(property "Reference" "Q5"
-			(at 0 -2 180)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "64fc03e7-69ba-4f35-9ad1-2e6ba6c186b9")
 			(effects
@@ -10512,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Value" "DTC114E"
+		(property "Value" "DTC114EE"
 			(at 0 1.65225 90)
 			(layer "F.Fab")
 			(uuid "18bbffd6-fe2b-4c47-9a3d-14adec3e742d")
@@ -10551,6 +10551,7 @@
 		(path "/df7bf792-82c5-4feb-b2e3-af668da9099d/e575d9d3-36a4-483b-9c93-e7b296fc7a1a")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -0.381 0.876)
 			(end 0.028 0.876)
@@ -24427,7 +24428,7 @@
 			)
 		)
 		(property "Value" "TF PUSH"
-			(at 0 9.3 0)
+			(at -0.25 8.3625 0)
 			(layer "F.Fab")
 			(uuid "03da73d6-4bcb-4160-8d34-83a770d0189d")
 			(effects
@@ -24486,7 +24487,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "02192d87-9ac8-4d47-99bc-2724b2b43d7d")
+			(uuid "acf03d9b-7219-4b78-bd73-2d5302b8d847")
 		)
 		(fp_line
 			(start -7.24 9.7)
@@ -24496,7 +24497,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1dc41cb4-591c-4c31-bc73-faa832138a54")
+			(uuid "f1677484-66d8-41c2-aba1-8d3a0a8c3b62")
 		)
 		(fp_line
 			(start -7.24 9.7)
@@ -24506,7 +24507,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bfda41b3-792b-4290-9b5a-803293bb6547")
+			(uuid "d9717a58-6e47-4870-b48d-97d12f7c5e82")
 		)
 		(fp_line
 			(start 4.7 -5.3)
@@ -24516,7 +24517,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a64fead7-696c-4b42-872a-2583704783da")
+			(uuid "6becfa5c-b295-4e35-92e9-53ea5288ab0c")
 		)
 		(fp_line
 			(start 4.7 -5.3)
@@ -24526,7 +24527,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "93d85ab9-addc-4865-9a06-623be7250556")
+			(uuid "d3506566-d379-4925-aaae-737b1e9fb8ec")
 		)
 		(fp_line
 			(start 5.49 -5.3)
@@ -24536,7 +24537,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "25adf99c-54f7-4ca9-ae7a-b178a0872673")
+			(uuid "c494c129-bf45-4122-bb21-f519301672e5")
 		)
 		(fp_line
 			(start 5.49 -3.2)
@@ -24546,7 +24547,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8f691b75-c4a4-4e38-8f4d-ec521d125668")
+			(uuid "cef494d8-6917-42ea-b87d-ad3ea6ad6b39")
 		)
 		(fp_line
 			(start 7.98 -3.2)
@@ -24556,7 +24557,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4feb91af-417e-4519-89ab-ba95b4eeffc0")
+			(uuid "cc7444a3-d492-4470-a1cf-0b9dc0eaeb12")
 		)
 		(fp_line
 			(start 7.98 3.97)
@@ -24566,7 +24567,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "630bf8e7-63b1-426f-8e44-8e7669c8cc2b")
+			(uuid "385b9795-e908-4334-98b9-fadfa53e7f11")
 		)
 		(fp_line
 			(start 8 9.7)
@@ -24576,7 +24577,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d7c335b-2dcb-4599-adeb-f7c67ae1f48e")
+			(uuid "4171bc2c-0a6c-46b3-b899-1b124f206307")
 		)
 		(fp_circle
 			(center 3.09 -4.55)
@@ -24587,7 +24588,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "cbe6b262-1c9a-4122-bdd6-f301e500fb79")
+			(uuid "68eed4bb-14db-4ce9-a64c-7b614f0d34fc")
 		)
 		(fp_circle
 			(center -4.95 5.7)
@@ -24598,7 +24599,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "6be7d03f-27e0-429c-942b-03c8bee4f3b8")
+			(uuid "7a5dfd88-c392-4a6c-8c70-2b99ba9fb717")
 		)
 		(fp_circle
 			(center 2.81 -5.63)
@@ -24609,7 +24610,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "eafb0f95-237e-416c-828c-629fe056d31d")
+			(uuid "e12e5b6d-ee10-49f2-aca8-7892b0f61ffd")
 		)
 		(fp_circle
 			(center 3.05 5.7)
@@ -24620,7 +24621,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "efc19fce-7b17-44f9-8186-70ce1ad2c08a")
+			(uuid "4adc88d3-318c-4576-bfda-e44de85bcc25")
 		)
 		(fp_circle
 			(center 8.07 -5.51)
@@ -24631,7 +24632,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b81d7e36-6b83-441f-8260-0067867dd0b9")
+			(uuid "ad3e4790-7628-4e08-a55f-9e0417bbf2a6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -24650,7 +24651,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "fe89577e-6461-4801-bdfa-7468f50f0bad")
+			(uuid "ab54995c-e4d1-43c4-847d-17134c20d4e2")
 		)
 		(pad "" thru_hole circle
 			(at 3.05 5.7)
@@ -24658,7 +24659,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "78f79153-f074-464c-aea9-6e67d05a46e1")
+			(uuid "7f0b7ba7-3895-4b8f-a54d-9abd79553475")
 		)
 		(pad "1" smd rect
 			(at 2.25 -5.3)
@@ -30808,7 +30809,7 @@
 		(uuid "be03ab02-378d-41cb-92e9-0e9483395820")
 		(at 114.88 107.43 90)
 		(property "Reference" "P2"
-			(at 0.43 -4.88 90)
+			(at 0.93 -5.13 90)
 			(layer "F.SilkS")
 			(uuid "bb7156e6-46b4-45ee-8c17-94edd90a0a8d")
 			(effects
@@ -45225,7 +45226,7 @@
 		)
 	)
 	(gr_text "Peripherals"
-		(at 179 86 0)
+		(at 179.25 89.25 0)
 		(layer "B.SilkS")
 		(uuid "9050d60f-e09a-4b0c-bb3e-aa6ec987c9ae")
 		(effects
