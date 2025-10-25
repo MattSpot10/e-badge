@@ -185,18 +185,18 @@
 		(uuid "150608eb-c013-4ea6-94d7-7e107a782526")
 	)
 	(fp_line
-		(start 11 14.5)
-		(end 14.5 14.5)
+		(start 11 13.5)
+		(end 14.5 13.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6936960d-3ff3-417d-8e3f-d7d1495e00f0")
 	)
 	(fp_line
-		(start 11 15)
-		(end 11 14.5)
+		(start 11 14)
+		(end 11 13.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -205,8 +205,8 @@
 		(uuid "f104ef72-56d6-4c15-8d22-77fb2f716f35")
 	)
 	(fp_line
-		(start 14.5 14.5)
-		(end 14.5 15)
+		(start 14.5 13.5)
+		(end 14.5 14)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -1719,40 +1719,40 @@
 		(uuid "44375080-66cc-4d65-90a0-8eeab022ea10")
 	)
 	(fp_text user "VBATT"
-		(at 1.26 2.5 90)
+		(at 1.2165 3.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "09e9616c-0d9d-4937-87ad-7d3a9bf2cc34")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right)
 		)
 	)
 	(fp_text user "SDA"
-		(at 13.96 17.74 90)
+		(at 13.96 17 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "148cee40-0545-4f3c-8921-e66e05d562a7")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "GND"
-		(at 19.04 17.74 90)
+		(at 19.035612 17 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2bb8bbfb-5afe-49e5-b9f8-2c281e1eece1")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
@@ -1765,111 +1765,111 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "SCL"
-		(at 11.42 17.74 90)
+		(at 11.42 17 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "379c8da2-04df-4deb-a4ff-4901e9c4e16c")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "GND"
-		(at 19.04 2.5 90)
+		(at 19.04 3.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5bb766ff-5a35-4d74-9de2-cd0a981d66af")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right)
 		)
 	)
 	(fp_text user "X"
-		(at 3.8 17.74 90)
+		(at 3.807424 16.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "787bba68-c244-427f-b7fa-9ddffdc27c74")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "GND"
-		(at 3.8 2.5 90)
+		(at 4 3.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8295fac1-08c8-4925-bd6d-7746c56701ee")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right)
 		)
 	)
 	(fp_text user "+3V3"
-		(at 16.5 2.5 90)
+		(at 16.448934 3.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "853ba896-210b-4408-b2a3-cd4f93ad04b6")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right)
 		)
 	)
 	(fp_text user "I2C"
-		(at 12.5 14 0)
+		(at 12.5 13 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9f061b37-a4ab-4188-b6a9-34da68bdbf79")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify bottom)
 		)
 	)
 	(fp_text user "3V3+"
-		(at 16.5 17.74 90)
+		(at 16.5 16.830318 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a35d489b-3635-43a7-af16-37f6347748ff")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(fp_text user "CLK"
-		(at 1.26 17.74 90)
+		(at 1.212424 16.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e73bb5e1-0aef-4427-8c37-46ebd3683552")
 		(effects
 			(font
-				(size 0.85 0.85)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
@@ -1953,6 +1953,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "02e9ef7a-c55e-46f3-90f7-a0f2339189d4")
+	)
+	(group ""
+		(uuid "89b7f09a-39ab-4304-a58a-fc9b32dd0bf0")
+		(members "15b9894f-ea95-4b96-aee0-167296068dee" "6936960d-3ff3-417d-8e3f-d7d1495e00f0"
+			"f104ef72-56d6-4c15-8d22-77fb2f716f35"
+		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
