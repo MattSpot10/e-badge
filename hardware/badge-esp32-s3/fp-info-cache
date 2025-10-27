@@ -1,4 +1,4 @@
-26696179858622223
+26706747686843111
 AdafruitJoystick
 SW_2765
 
@@ -106295,6 +106295,13 @@ CONN-TH_2P-P2.00_PH-2A_C2319
 2
 2
 lcsc-lib
+CONN-TH_HX-PM2.54-2X3P-ZC
+
+
+0
+6
+6
+lcsc-lib
 ESP32-S3-MINI-1
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
@@ -106315,6 +106322,13 @@ FPC-SMD_AFC01-S12FCA-00
 0
 14
 14
+lcsc-lib
+HDR-TH_2P-P2.54-V-F
+
+
+0
+2
+2
 lcsc-lib
 HDR-TH_2P-P2.54-V-M-5
 
@@ -106337,12 +106351,33 @@ HDR-TH_4P-P2.54-V-F
 4
 4
 lcsc-lib
+HDR-TH_8P-P2.54-V-F-R2-C4-S2.54
+
+
+0
+8
+8
+lcsc-lib
 HDR-TH_14P-P2.54-V-F-R2-C7-S2.54-1
 
 
 0
 14
 14
+lcsc-lib
+HDR-TH_18P-P2.54-V-F-R2-C9-S2.54-1
+
+
+0
+18
+18
+lcsc-lib
+HDR-TH_20P-P2.54-V-F-R2-C10-S2.54
+
+
+0
+20
+20
 lcsc-lib
 HDR-TH_28P-P2.54-V-F-R2-C14-S2.54
 
@@ -106364,6 +106399,13 @@ LED-SMD_4P-L2.0-W1.3-BR
 0
 4
 4
+lcsc-lib
+LED-SMD_6P-L2.2-W2.2-TL-1
+
+
+0
+6
+6
 lcsc-lib
 OLED-SMD_HS20HS072RX
 
