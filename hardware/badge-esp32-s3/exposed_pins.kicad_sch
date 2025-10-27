@@ -2424,7 +2424,7 @@
 		)
 		(uuid "85d37250-cf4d-44f3-b9e5-dc23aefe473b")
 	)
-	(hierarchical_label "IO7"
+	(hierarchical_label "IO42"
 		(shape bidirectional)
 		(at 237.49 93.98 0)
 		(effects

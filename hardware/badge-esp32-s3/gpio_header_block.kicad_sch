@@ -749,7 +749,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1046")
 	)
-	(hierarchical_label "IO42"
+	(hierarchical_label "IO7"
 		(shape bidirectional)
 		(at 137.16 107.95 0)
 		(effects

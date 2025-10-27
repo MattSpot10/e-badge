@@ -4561,7 +4561,7 @@
 		)
 		(uuid "9deaa95e-6088-49cb-8f1a-8ef9988553af")
 	)
-	(label "GPIO42"
+	(label "GPIO7"
 		(at 195.58 138.43 180)
 		(effects
 			(font
@@ -5051,7 +5051,7 @@
 		)
 		(uuid "f39bc7dd-bf5f-45a6-a586-f24f2d17aa07")
 	)
-	(label "GPIO7"
+	(label "GPIO42"
 		(at 88.9 144.78 180)
 		(effects
 			(font
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO7" bidirectional
+		(pin "IO42" bidirectional
 			(at 93.98 144.78 180)
 			(uuid "01e63e6c-a7b1-44a3-9af2-46d4cffc2de9")
 			(effects
@@ -7209,7 +7209,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO42" bidirectional
+		(pin "IO7" bidirectional
 			(at 196.85 138.43 180)
 			(uuid "17d621f5-6a73-4911-8ad3-a8fcaadd862d")
 			(effects
