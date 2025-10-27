@@ -3971,7 +3971,7 @@
 		)
 		(uuid "1b97562c-3ae0-4bc0-85ff-dfb9038d661f")
 	)
-	(label "GPIO38"
+	(label "GPIO4"
 		(at 195.58 128.27 180)
 		(effects
 			(font
@@ -4181,7 +4181,7 @@
 		)
 		(uuid "47fc5c6e-c26b-4463-9635-9465087f18b0")
 	)
-	(label "GPIO4"
+	(label "GPIO38"
 		(at 88.9 137.16 180)
 		(effects
 			(font
@@ -4521,7 +4521,7 @@
 		)
 		(uuid "968a881a-e6b8-463d-a8e5-d08ab654f9b5")
 	)
-	(label "GPIO40"
+	(label "GPIO6"
 		(at 195.58 133.35 180)
 		(effects
 			(font
@@ -4641,7 +4641,7 @@
 		)
 		(uuid "b5e50dcf-72e9-4254-aaa2-a9e83e801173")
 	)
-	(label "GPIO5"
+	(label "GPIO39"
 		(at 88.9 139.7 180)
 		(effects
 			(font
@@ -4781,7 +4781,7 @@
 		)
 		(uuid "d8251ee8-e0a8-4948-bb9d-98effd4d2f1b")
 	)
-	(label "GPIO39"
+	(label "GPIO5"
 		(at 195.58 130.81 180)
 		(effects
 			(font
@@ -5001,7 +5001,7 @@
 		)
 		(uuid "eb6c579e-d9f7-414a-9a33-a616a159797e")
 	)
-	(label "GPIO6"
+	(label "GPIO40"
 		(at 88.9 142.24 180)
 		(effects
 			(font
@@ -6387,7 +6387,7 @@
 				(justify right)
 			)
 		)
-		(pin "IO4" bidirectional
+		(pin "IO38" bidirectional
 			(at 93.98 137.16 180)
 			(uuid "82a87c49-edb7-49d4-9885-5a1a6e19bf27")
 			(effects
@@ -6397,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO5" bidirectional
+		(pin "IO39" bidirectional
 			(at 93.98 139.7 180)
 			(uuid "cf80f863-f3ac-45b9-b5e7-5563108fd648")
 			(effects
@@ -6407,7 +6407,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO6" bidirectional
+		(pin "IO40" bidirectional
 			(at 93.98 142.24 180)
 			(uuid "c154fb2c-1f54-4395-af35-2cf8d7a7661f")
 			(effects
@@ -7169,7 +7169,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO38" bidirectional
+		(pin "IO4" bidirectional
 			(at 196.85 128.27 180)
 			(uuid "62d2aa55-c12a-48df-8b2c-05b385df7a65")
 			(effects
@@ -7179,7 +7179,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO39" bidirectional
+		(pin "IO5" bidirectional
 			(at 196.85 130.81 180)
 			(uuid "f9f98573-f541-4b67-8ede-91730180ace5")
 			(effects
@@ -7189,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(pin "IO40" bidirectional
+		(pin "IO6" bidirectional
 			(at 196.85 133.35 180)
 			(uuid "e37bf5d2-3404-4df5-9698-56e670e8a507")
 			(effects
