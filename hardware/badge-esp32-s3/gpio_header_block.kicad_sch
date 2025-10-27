@@ -639,7 +639,7 @@
 		)
 		(uuid "26fe57bb-8815-456f-b2bb-b458886816bb")
 	)
-	(hierarchical_label "IO39"
+	(hierarchical_label "IO5"
 		(shape bidirectional)
 		(at 137.16 100.33 0)
 		(effects
@@ -650,7 +650,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103d")
 	)
-	(hierarchical_label "IO38"
+	(hierarchical_label "IO6"
 		(shape bidirectional)
 		(at 137.16 97.79 0)
 		(effects
@@ -661,7 +661,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103e")
 	)
-	(hierarchical_label "IO40"
+	(hierarchical_label "IO4"
 		(shape bidirectional)
 		(at 137.16 102.87 0)
 		(effects
