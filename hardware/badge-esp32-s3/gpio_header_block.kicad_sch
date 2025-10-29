@@ -683,7 +683,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1040")
 	)
-	(hierarchical_label "IO18"
+	(hierarchical_label "IO38"
 		(shape bidirectional)
 		(at 137.16 95.25 0)
 		(effects
@@ -694,7 +694,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1041")
 	)
-	(hierarchical_label "IO14"
+	(hierarchical_label "IO15"
 		(shape bidirectional)
 		(at 137.16 85.09 0)
 		(effects
@@ -705,7 +705,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1042")
 	)
-	(hierarchical_label "IO17"
+	(hierarchical_label "IO18"
 		(shape bidirectional)
 		(at 137.16 92.71 0)
 		(effects
@@ -716,7 +716,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1043")
 	)
-	(hierarchical_label "IO15"
+	(hierarchical_label "IO16"
 		(shape bidirectional)
 		(at 137.16 87.63 0)
 		(effects
@@ -727,7 +727,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1044")
 	)
-	(hierarchical_label "IO16"
+	(hierarchical_label "IO17"
 		(shape bidirectional)
 		(at 137.16 90.17 0)
 		(effects
@@ -738,7 +738,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1045")
 	)
-	(hierarchical_label "IO13"
+	(hierarchical_label "IO14"
 		(shape bidirectional)
 		(at 137.16 82.55 0)
 		(effects
@@ -749,7 +749,7 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1046")
 	)
-	(hierarchical_label "IO7"
+	(hierarchical_label "IO42"
 		(shape bidirectional)
 		(at 137.16 107.95 0)
 		(effects
@@ -914,7 +914,7 @@
 		)
 		(uuid "7a18ed38-82ab-458b-8166-0f4fb0132904")
 	)
-	(hierarchical_label "IO3"
+	(hierarchical_label "IO7"
 		(shape bidirectional)
 		(at 137.16 80.01 0)
 		(effects
