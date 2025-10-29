@@ -21519,7 +21519,7 @@
 			)
 		)
 		(fp_text user "I2C"
-			(at 12.5 14 0)
+			(at 12.8 13.05 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "78924a61-3b73-4412-be72-50998c109e1f")
@@ -44293,7 +44293,7 @@
 			)
 		)
 		(fp_text user "I2C"
-			(at 12.5 14 0)
+			(at 12.81 13.27 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b6bb0c3c-3695-4ee1-bdad-d2343fa75bab")
