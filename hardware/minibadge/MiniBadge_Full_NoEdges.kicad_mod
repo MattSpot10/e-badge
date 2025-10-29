@@ -188,7 +188,7 @@
 		(start 11 13.5)
 		(end 14.5 13.5)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -198,8 +198,8 @@
 		(start 11 14)
 		(end 11 13.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "f104ef72-56d6-4c15-8d22-77fb2f716f35")
@@ -208,8 +208,8 @@
 		(start 14.5 13.5)
 		(end 14.5 14)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "15b9894f-ea95-4b96-aee0-167296068dee")
