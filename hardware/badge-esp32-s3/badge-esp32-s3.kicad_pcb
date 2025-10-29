@@ -36707,6 +36707,170 @@
 			)
 		)
 	)
+	(footprint "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
+		(layer "F.Cu")
+		(uuid "b08ea487-d271-459a-9589-97319e97b880")
+		(at 4.29 2.75)
+		(property "Reference" "U5"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "afa4af94-4bb2-42ef-83c6-45497b0850d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FH2.54-09-02PZD"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "59ff7028-0681-4dd4-bc65-59dc25d598df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "445059e3-38de-42b4-8a82-a7a06cc1edac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333cda50-73dd-47d7-bb35-3077d2c8eab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C7500771"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36de7e22-0b04-4e4a-b862-71b7010e28f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9131a646-b9dc-4004-a7df-1b58b7ca0b9a/fc0e8a2a-4013-4381-aae5-34fd80c56993")
+		(sheetname "/Charging/")
+		(sheetfile "Charging.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.79 -1.25)
+			(end -2.79 -1.25)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ee2d21a-ed85-419c-9b24-0bb0bf4ab49d")
+		)
+		(fp_line
+			(start -2.79 -1.25)
+			(end 2.79 -1.25)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4302a0b8-1ef7-46ed-8eca-e05e269fe6eb")
+		)
+		(fp_line
+			(start 2.79 -1.25)
+			(end 2.79 1.25)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e83dbece-dede-4560-b13d-227e735fb562")
+		)
+		(fp_line
+			(start 2.79 1.25)
+			(end -2.79 1.25)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1165e232-d1c5-460a-a600-72fd2f761e36")
+		)
+		(fp_circle
+			(center -2.79 1.25)
+			(end -2.76 1.25)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "883da104-d0b6-47e4-a0d3-58fa573435d0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b3bc1acc-d938-4f17-9ba1-05dcab9afad0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.27 0)
+			(size 2 2)
+			(drill 1.199998)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "/Charging/VBATT")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "2dccd22a-e7e2-4d67-ae1f-af255a79c591")
+		)
+		(pad "2" thru_hole circle
+			(at 1.27 0)
+			(size 2 2)
+			(drill 1.199998)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "2e988439-03da-4797-af22-ac88e299bc0e")
+		)
+		(embedded_fonts no)
+		(model "/home/carson/e-badge/hardware/lcsc-lib/lcsc-lib.3dshapes/HDR-TH_2P-P2.54-V-M-5.wrl"
+			(offset
+				(xyz 0 -0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "PCM_JLCPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "b2cab52b-153a-4f84-8f2e-1c999c54003f")
@@ -42027,7 +42191,7 @@
 			(drill 0.999998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "/Charging/VBATT")
+			(net 3 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(uuid "3a9a2153-9e70-482f-8cc4-afbcf7def8f4")
@@ -42038,7 +42202,7 @@
 			(drill 0.999998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND")
+			(net 9 "/Charging/VBATT")
 			(pinfunction "2")
 			(pintype "input")
 			(uuid "5d888e9b-eb5e-45de-a152-3cdbc259a15b")
