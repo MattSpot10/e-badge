@@ -451,257 +451,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc-lib:DS1023-2*4SF11"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2025-10-20:HDR-TH_8P-P2.54-V-F-R2-C4-S2.54"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/DS1023-2*4SF11/93464.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Holes Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Mounting Type:Through Hole Number of Rows:2 Number of Positions:8P Current Rating:3A Voltage Rating (Max):600V Holes Direction:Top Insulation Height:8.5mm Contact Material:- Contact Plating:Gold Operati"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "DS1023-2*4SF11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "CONNFLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C92271"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "黑色 2x4P 间距:2.54mm 直插"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DS1023-2*4SF11_1_0"
-				(rectangle
-					(start -5.08 -6.35)
-					(end 5.08 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -10.16 3.81 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 1.27 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -1.27 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -3.81 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 3.81 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 1.27 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -1.27 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -3.81 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc-lib:DS1023-2*9SF11"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1226,6 +975,160 @@
 				(circle
 					(center -1.27 2.54)
 					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc-lib:HX PM2.54-1X2P ZC-Y"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2025-10-24 (3):HDR-TH_2P-P2.54-V-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C22438152"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HX PM2.54-1X2P ZC-Y_1_0"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
 					(stroke
 						(width 0)
 						(type default)
@@ -2021,6 +1924,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e7cf67-7afb-4ce5-8dcc-6f895fe7a71e")
+	)
+	(wire
+		(pts
 			(xy 133.35 45.72) (xy 138.43 45.72)
 		)
 		(stroke
@@ -2028,6 +1941,16 @@
 			(type default)
 		)
 		(uuid "0ef8f371-6f83-4717-ae25-0a879608a88d")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcec786-37d8-48f1-a466-8000f6344500")
 	)
 	(wire
 		(pts
@@ -2314,17 +2237,6 @@
 		)
 		(uuid "365a9dd9-c7f5-43ea-917e-1a0db4d2ab38")
 	)
-	(hierarchical_label "IO11"
-		(shape bidirectional)
-		(at 237.49 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37ebcfc7-6d46-4c3b-a4ba-90fb5da3fd61")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 160.02 105.41 0)
@@ -2335,17 +2247,6 @@
 			(justify left)
 		)
 		(uuid "3c07a386-5985-4fc1-96a0-5cc9e62fa12a")
-	)
-	(hierarchical_label "IO9"
-		(shape bidirectional)
-		(at 237.49 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c3c06db-bebf-42b4-a128-84aed239cdfd")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -2393,12 +2294,12 @@
 	)
 	(hierarchical_label "IO39"
 		(shape bidirectional)
-		(at 237.49 91.44 0)
+		(at 219.71 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7b8e5921-53ec-49b6-9747-006122b74efd")
 	)
@@ -2424,17 +2325,6 @@
 		)
 		(uuid "85d37250-cf4d-44f3-b9e5-dc23aefe473b")
 	)
-	(hierarchical_label "IO42"
-		(shape bidirectional)
-		(at 237.49 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8dde84a3-ea90-43d7-ace3-012b30f602bd")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 160.02 97.79 0)
@@ -2445,39 +2335,6 @@
 			(justify left)
 		)
 		(uuid "939a1aa8-b9f5-415b-8383-6c76be40437d")
-	)
-	(hierarchical_label "IO10"
-		(shape bidirectional)
-		(at 217.17 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99c8811e-4eca-4cdf-87e8-9fc9a38e88e7")
-	)
-	(hierarchical_label "IO40"
-		(shape bidirectional)
-		(at 217.17 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3c12f91-1b46-4a82-badb-a74fcd1ccba2")
-	)
-	(hierarchical_label "IO8"
-		(shape bidirectional)
-		(at 217.17 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a472533c-07c6-4b43-8c78-f6d5ff2a55f9")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2578,9 +2435,9 @@
 		)
 		(uuid "e35c4c5b-c18d-4f4c-ac02-075885186804")
 	)
-	(hierarchical_label "IO38"
+	(hierarchical_label "IO40"
 		(shape bidirectional)
-		(at 217.17 91.44 180)
+		(at 219.71 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2667,6 +2524,121 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc-lib:HX PM2.54-1X2P ZC-Y")
+		(at 226.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ccd3776-3427-487a-946a-b6b09b73e88b")
+		(property "Reference" "CN3"
+			(at 229.87 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDR-TH_2P-P2.54-V-F"
+			(at 229.87 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-F"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C22438152"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3812cf99-3dca-4b53-8308-a5e9215bc7b9")
+		)
+		(pin "1"
+			(uuid "65b66e03-d6d1-4c27-ab76-102fe52e89a9")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 119.38 180)
 		(unit 1)
@@ -2743,21 +2715,19 @@
 		(fields_autoplaced yes)
 		(uuid "41084d15-1f44-4676-8e92-4e421af16385")
 		(property "Reference" "H2"
-			(at 148.5899 88.9 90)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 151.1299 88.9 90)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "lcsc-lib:HDR-TH_18P-P2.54-V-F-R2-C9-S2.54-1"
@@ -3803,137 +3773,6 @@
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc-lib:DS1023-2*4SF11")
-		(at 227.33 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab22170-26b4-4fff-8f66-efcfc79da1e2")
-		(property "Reference" "H1"
-			(at 227.33 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc-lib:HDR-TH_8P-P2.54-V-F-R2-C4-S2.54"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/DS1023-2*4SF11/93464.html"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Holes Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Mounting Type:Through Hole Number of Rows:2 Number of Positions:8P Current Rating:3A Voltage Rating (Max):600V Holes Direction:Top Insulation Height:8.5mm Contact Material:- Contact Plating:Gold Operati"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "DS1023-2*4SF11"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CONNFLY"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C92271"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "黑色 2x4P 间距:2.54mm 直插"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "931cf816-214d-48c3-ac44-7db217a98382")
-		)
-		(pin "8"
-			(uuid "f0e483ca-4710-448a-a0d4-35fb80be9c67")
-		)
-		(pin "4"
-			(uuid "060c7ced-ee87-4439-8eeb-3ff5512c4f3d")
-		)
-		(pin "1"
-			(uuid "6cac2b69-2ef7-44d0-a802-30aa14b247b7")
-		)
-		(pin "3"
-			(uuid "aac2d960-c934-4867-a1f5-17b0d6d3a4a7")
-		)
-		(pin "5"
-			(uuid "7cd357c5-4440-4eda-93d6-86378f09d8ae")
-		)
-		(pin "7"
-			(uuid "8be6ac3a-2c02-4441-a74b-f9c8c095888d")
-		)
-		(pin "2"
-			(uuid "ab9ca4ca-8f98-48b3-8290-79277e2642d8")
-		)
-		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
-					(reference "H1")
 					(unit 1)
 				)
 			)
