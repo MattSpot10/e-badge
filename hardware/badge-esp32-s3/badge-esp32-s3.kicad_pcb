@@ -6880,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27323,7 +27323,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29445,7 +29445,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38946,7 +38946,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47090,7 +47090,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51033,7 +51033,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51816,7 +51816,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC Part" "C22371528"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
