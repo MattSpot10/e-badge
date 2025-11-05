@@ -5,36 +5,27 @@
 	(uuid "ae5d1b00-b9ab-4b40-a4af-20fcfcbe0c42")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc-lib:FH2.54-09-02PZD"
+		(symbol "lcsc-lib:HX PM2.54-1X2P ZC-Y"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "CN"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "FH2.54-09-02PZD"
-				(at 0 -6.35 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "ProLib_pcs_2025-10-24 (3):HDR-TH_2P-P2.54-V-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C7500771"
-				(at 0 -11.43 0)
+			(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,21 +52,66 @@
 					(hide yes)
 				)
 			)
-			(symbol "FH2.54-09-02PZD_0_1"
+			(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C22438152"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HX PM2.54-1X2P ZC-Y_1_0"
 				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
+					(start -2.54 -3.81)
+					(end 2.54 3.81)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(circle
 					(center -1.27 2.54)
-					(radius 0.38)
+					(radius 0.381)
 					(stroke
 						(width 0)
 						(type default)
@@ -698,17 +734,16 @@
 		(uuid "fbb4438c-5324-4faf-b0ab-13fa53d3ebeb")
 	)
 	(symbol
-		(lib_id "lcsc-lib:FH2.54-09-02PZD")
-		(at 26.67 154.94 0)
-		(mirror y)
+		(lib_id "lcsc-lib:HX PM2.54-1X2P ZC-Y")
+		(at 26.67 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2037b15-17c6-4901-8998-aa01346153f8")
-		(property "Reference" "U17"
+		(uuid "09b74979-2229-4f42-9c2f-480657e6b786")
+		(property "Reference" "CN2"
 			(at 26.67 146.05 0)
 			(effects
 				(font
@@ -716,7 +751,7 @@
 				)
 			)
 		)
-		(property "Value" "FH2.54-09-02PZD"
+		(property "Value" "~"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -724,16 +759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-M-5"
-			(at 26.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-F"
 			(at 26.67 154.94 0)
 			(effects
 				(font
@@ -742,7 +768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
 			(at 26.67 154.94 0)
 			(effects
 				(font
@@ -751,8 +777,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7500771"
-			(at 26.67 166.37 0)
+		(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
+			(at 26.67 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,16 +786,61 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0c6b8ae7-3329-4689-aa14-bff28f30bd44")
+		(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C22438152"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ec7a50d2-6107-4a84-8168-df277f88801a")
+			(uuid "9c058860-092b-4d76-a4ba-290f0c04d28d")
+		)
+		(pin "2"
+			(uuid "c16538a0-bd15-4c8a-a7bb-f9b60f4938b9")
 		)
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
-					(reference "U17")
+					(reference "CN2")
 					(unit 1)
 				)
 			)

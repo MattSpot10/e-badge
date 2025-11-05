@@ -628,14 +628,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 137.16 107.95)
-		(uuid "3755f2dc-74aa-4973-97d3-9f9f04147b7e")
-	)
-	(no_connect
-		(at 121.92 107.95)
-		(uuid "b42d36e8-f615-4304-a00a-e38220dafd2b")
-	)
 	(hierarchical_label "IO1"
 		(shape bidirectional)
 		(at 137.16 74.93 0)
@@ -647,9 +639,9 @@
 		)
 		(uuid "26fe57bb-8815-456f-b2bb-b458886816bb")
 	)
-	(hierarchical_label "IO39"
+	(hierarchical_label "IO5"
 		(shape bidirectional)
-		(at 137.16 97.79 0)
+		(at 137.16 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -658,9 +650,9 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103d")
 	)
-	(hierarchical_label "IO38"
+	(hierarchical_label "IO6"
 		(shape bidirectional)
-		(at 137.16 95.25 0)
+		(at 137.16 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -669,9 +661,9 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b103e")
 	)
-	(hierarchical_label "IO40"
+	(hierarchical_label "IO4"
 		(shape bidirectional)
-		(at 137.16 100.33 0)
+		(at 137.16 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -682,7 +674,7 @@
 	)
 	(hierarchical_label "IO41"
 		(shape bidirectional)
-		(at 137.16 102.87 0)
+		(at 137.16 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -691,9 +683,9 @@
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1040")
 	)
-	(hierarchical_label "IO18"
+	(hierarchical_label "IO38"
 		(shape bidirectional)
-		(at 137.16 92.71 0)
+		(at 137.16 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -701,28 +693,6 @@
 			(justify left)
 		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1041")
-	)
-	(hierarchical_label "IO14"
-		(shape bidirectional)
-		(at 137.16 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1042")
-	)
-	(hierarchical_label "IO17"
-		(shape bidirectional)
-		(at 137.16 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1043")
 	)
 	(hierarchical_label "IO15"
 		(shape bidirectional)
@@ -733,7 +703,18 @@
 			)
 			(justify left)
 		)
-		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1044")
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1042")
+	)
+	(hierarchical_label "IO18"
+		(shape bidirectional)
+		(at 137.16 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1043")
 	)
 	(hierarchical_label "IO16"
 		(shape bidirectional)
@@ -744,11 +725,22 @@
 			)
 			(justify left)
 		)
+		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1044")
+	)
+	(hierarchical_label "IO17"
+		(shape bidirectional)
+		(at 137.16 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "29d8ca94-9c71-4b90-a7d7-b93cd04b1045")
 	)
-	(hierarchical_label "IO13"
+	(hierarchical_label "IO14"
 		(shape bidirectional)
-		(at 137.16 80.01 0)
+		(at 137.16 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -759,7 +751,7 @@
 	)
 	(hierarchical_label "IO42"
 		(shape bidirectional)
-		(at 137.16 105.41 0)
+		(at 137.16 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -781,7 +773,7 @@
 	)
 	(hierarchical_label "DownButtonMid"
 		(shape input)
-		(at 121.92 85.09 180)
+		(at 121.92 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,7 +784,7 @@
 	)
 	(hierarchical_label "RightButtonMid"
 		(shape input)
-		(at 121.92 80.01 180)
+		(at 121.92 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -803,7 +795,7 @@
 	)
 	(hierarchical_label "LeftButtonMid"
 		(shape input)
-		(at 121.92 82.55 180)
+		(at 121.92 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -814,7 +806,7 @@
 	)
 	(hierarchical_label "UpButtonMid"
 		(shape input)
-		(at 121.92 87.63 180)
+		(at 121.92 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -836,7 +828,7 @@
 	)
 	(hierarchical_label "RGBBlueMid"
 		(shape output)
-		(at 121.92 100.33 180)
+		(at 121.92 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -847,7 +839,7 @@
 	)
 	(hierarchical_label "LEDSingle"
 		(shape output)
-		(at 121.92 102.87 180)
+		(at 121.92 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -858,7 +850,7 @@
 	)
 	(hierarchical_label "RGBGreenMid"
 		(shape output)
-		(at 121.92 97.79 180)
+		(at 121.92 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,7 +861,7 @@
 	)
 	(hierarchical_label "Buzzer"
 		(shape output)
-		(at 121.92 105.41 180)
+		(at 121.92 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,7 +872,7 @@
 	)
 	(hierarchical_label "RGBRedMid"
 		(shape output)
-		(at 121.92 95.25 180)
+		(at 121.92 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,7 +883,7 @@
 	)
 	(hierarchical_label "BButtonMid"
 		(shape input)
-		(at 121.92 90.17 180)
+		(at 121.92 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,7 +894,7 @@
 	)
 	(hierarchical_label "AButtonMid"
 		(shape input)
-		(at 121.92 92.71 180)
+		(at 121.92 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -910,6 +902,28 @@
 			(justify right)
 		)
 		(uuid "6dde7f6b-b696-49a0-a28f-452c199da2ec")
+	)
+	(hierarchical_label "AddrLED"
+		(shape input)
+		(at 121.92 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a18ed38-82ab-458b-8166-0f4fb0132904")
+	)
+	(hierarchical_label "IO7"
+		(shape bidirectional)
+		(at 137.16 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c437e2ee-2f2b-4499-9035-42b8ce1bc2f3")
 	)
 	(hierarchical_label "JoystickXMid"
 		(shape input)
@@ -940,7 +954,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2x14_female"
 			(at 129.54 69.85 0)
 			(effects
 				(font
