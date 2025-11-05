@@ -2832,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 139.7) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df5a9cc-bcee-4e71-8eff-77906e08eee8")
+	)
+	(wire
+		(pts
 			(xy 195.58 138.43) (xy 196.85 138.43)
 		)
 		(stroke
@@ -4009,6 +4019,16 @@
 			(justify left bottom)
 		)
 		(uuid "08052629-db63-4650-9423-135fc4113439")
+	)
+	(label "+4V"
+		(at 134.62 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0831f214-1345-443f-be91-846309913e03")
 	)
 	(label "VCC_3V3"
 		(at 207.01 68.58 180)
@@ -6820,6 +6840,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 130.81 139.7 0)
+			(uuid "a8ddb356-2a48-4500-8a76-80334fb9153b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
