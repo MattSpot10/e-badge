@@ -3940,7 +3940,7 @@
 		)
 		(uuid "00c22c28-2303-4011-a031-23602ac71a4e")
 	)
-	(label "USB_5V"
+	(label "+4V"
 		(at 254 64.77 180)
 		(effects
 			(font
