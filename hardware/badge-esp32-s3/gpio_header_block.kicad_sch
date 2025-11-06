@@ -1007,15 +1007,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C42372538"
-			(at 129.54 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 129.54 91.44 0)
 			(effects
@@ -1026,6 +1017,33 @@
 			)
 		)
 		(property "LCSC Part Name" "间距:2.54mm 2x14P 直插"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "3b7fbf5db20b4c58b7d710ca6a34c9ed"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "36.06 5"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C42372538"
 			(at 129.54 91.44 0)
 			(effects
 				(font

@@ -5049,6 +5049,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 231.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 231.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a6c6f29-d0d4-4ffd-bcd0-e4432c26b2d0")
 		)
@@ -5147,15 +5165,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 208.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 208.28 59.69 0)
 			(effects
@@ -5166,6 +5175,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 208.28 59.69 0)
 			(effects
 				(font
@@ -5361,15 +5397,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 95.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 95.25 59.69 0)
 			(effects
@@ -5380,6 +5407,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -5513,6 +5567,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa24e67b-3f1e-4705-919b-49fa72895e62")
 		)
@@ -5629,6 +5701,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -5762,6 +5852,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba05974f-0c5d-4a53-bd95-bc3d4c968f3a")
 		)
@@ -5860,15 +5968,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 139.7 59.69 0)
 			(effects
@@ -5879,6 +5978,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 139.7 59.69 0)
 			(effects
 				(font
@@ -5985,15 +6111,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 162.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 162.56 59.69 0)
 			(effects
@@ -6004,6 +6121,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 162.56 59.69 0)
 			(effects
 				(font
@@ -6137,6 +6281,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1e59540-db71-4da4-9511-59d65094f6a4")
 		)
@@ -6254,6 +6416,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 212.09 82.55 0)
 			(effects
 				(font
@@ -6492,15 +6672,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 73.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 73.66 59.69 0)
 			(effects
@@ -6511,6 +6682,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -6866,6 +7064,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08f16da3-8e40-4bdc-8774-12097f2c56d7")
 		)
@@ -7213,6 +7429,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2d7b3a6-c9a9-4311-b1c4-448674fad949")
 		)
@@ -7377,15 +7611,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 116.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 116.84 59.69 0)
 			(effects
@@ -7396,6 +7621,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 116.84 59.69 0)
 			(effects
 				(font
@@ -7502,15 +7754,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 185.42 59.69 0)
 			(effects
@@ -7521,6 +7764,33 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371528"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -7645,6 +7915,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 189.23 82.55 0)
 			(effects
 				(font
@@ -8066,6 +8354,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d2b9b8f-0eb3-49ee-a856-00f8f7c9737c")
 		)
@@ -8183,6 +8489,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -8316,6 +8640,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c551f67-b4d3-46bb-9797-6f3cdf778e82")
 		)
@@ -8441,6 +8783,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23fbb2a9-2108-4e7a-932a-251af26a1d90")
 		)
@@ -8558,6 +8918,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 257.81 82.55 0)
 			(effects
 				(font
@@ -8913,6 +9291,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8fcf83d-0683-4057-9c5c-c369c336621c")
 		)
@@ -9030,6 +9426,24 @@
 			)
 		)
 		(property "LCSC Part Name" "SMD灯珠,RGB三色"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "c6c295f7aed14366abe0e80218141640"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "2.2 2.2"
 			(at 168.91 105.41 0)
 			(effects
 				(font

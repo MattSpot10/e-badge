@@ -2638,6 +2638,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "925d5dffa823422895d76d9dc6f5e8cd"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "5.48 2.5"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3812cf99-3dca-4b53-8308-a5e9215bc7b9")
 		)
@@ -2790,15 +2808,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C132125"
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 149.86 102.87 0)
 			(effects
@@ -2809,6 +2818,33 @@
 			)
 		)
 		(property "LCSC Part Name" "2x9P 间距:2.54mm 直插"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "412102dbb0884df38b5dec3a90c03673"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "23.26 5"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C132125"
 			(at 149.86 102.87 0)
 			(effects
 				(font
@@ -3559,6 +3595,24 @@
 			)
 		)
 		(property "LCSC Part Name" "2x3P 间距:2.54mm 直插"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "14c20a80002e418c9c9633718d8bc2dd"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "7.62 5.01"
 			(at 140.97 40.64 0)
 			(effects
 				(font

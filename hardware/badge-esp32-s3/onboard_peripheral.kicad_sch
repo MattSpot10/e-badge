@@ -831,6 +831,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "925d5dffa823422895d76d9dc6f5e8cd"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "5.48 2.5"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c058860-092b-4d76-a4ba-290f0c04d28d")
 		)
