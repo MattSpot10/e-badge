@@ -8252,7 +8252,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f36e3e2c-eb39-474f-a489-171fecc16703")
-		(property "Sheetname" "3.3V LDO"
+		(property "Sheetname" "Voltage Management"
 			(at 25.4 69.1384 0)
 			(effects
 				(font

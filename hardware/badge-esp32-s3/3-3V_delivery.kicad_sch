@@ -947,6 +947,322 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:TPS63061DSCR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "buck-boost-converter:WSON-10_L3.0-W3.0-P0.50-BL-EP-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/cn/lit/gpn/tps63060"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Function:Boost type Output Type:Adjustable and Fixed Input Voltage:2.5V~12V Input Voltage:2.5V~12V Output Voltage:5V Output Voltage:5V Output Current:1.3A Switching Frequency:2.4MHz Switching Frequency:2.4MHz Operating Temperature:-40°C~+85°C@(TA) Operating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "TPS63061DSCR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2876326"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "2A高输入电压降压-升压转换器"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS63061DSCR_1_0"
+				(rectangle
+					(start -11.43 -8.89)
+					(end 11.43 8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "PS/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -6.35 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 6.35 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 3.81 180)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "VAUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1062,6 +1378,12 @@
 		(uuid "3fec5800-1a95-431c-944e-9937fbc238ec")
 	)
 	(junction
+		(at 88.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "546e4501-de71-455c-ac7e-db387fec5035")
+	)
+	(junction
 		(at 184.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1072,6 +1394,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b86553-1816-496f-aab7-74b393cf593a")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0252072e-5f96-4f95-8506-9f70b567508c")
 	)
 	(wire
 		(pts
@@ -1105,6 +1437,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 95.25) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fa997f-f0f8-41ba-b4e6-009848b8aa39")
+	)
+	(wire
+		(pts
 			(xy 184.15 63.5) (xy 184.15 68.58)
 		)
 		(stroke
@@ -1115,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 107.95 63.5)
+			(xy 82.55 63.5) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1132,6 +1474,26 @@
 			(type default)
 		)
 		(uuid "3ad7cef9-b461-4c3d-81e7-0ec880b41535")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd8724b-3e16-4bff-9190-d18e4b88fb18")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 132.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdc52f1-65a6-4ef7-a3e2-f1931272455c")
 	)
 	(wire
 		(pts
@@ -1235,6 +1597,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6aa1989-585a-4b4b-8121-047c0e8c0204")
+	)
+	(wire
+		(pts
 			(xy 184.15 63.5) (xy 193.04 63.5)
 		)
 		(stroke
@@ -1255,6 +1627,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 63.5) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9347a3b-45b7-4e3b-b55d-91b250ec89ed")
+	)
+	(wire
+		(pts
 			(xy 130.81 66.04) (xy 138.43 66.04)
 		)
 		(stroke
@@ -1262,6 +1644,36 @@
 			(type default)
 		)
 		(uuid "e171e314-5658-44cd-ab0c-f9bfca4d1cb3")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6058577-a697-4466-98bf-3aeedb487ce6")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ac21ff-7db8-43b0-9d91-1ad933d3182c")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa82f936-4485-4012-876a-ff3d2fcc351e")
 	)
 	(hierarchical_label "VCC_3V3"
 		(shape bidirectional)
@@ -1506,6 +1918,146 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/f36e3e2c-eb39-474f-a489-171fecc16703"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc-lib:TPS63061DSCR")
+		(at 146.05 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5e8adc-df02-483d-8595-62aa1229057e")
+		(property "Reference" "U5"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63061DSCR"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc-lib:WSON-10_L3.0-W3.0-P0.50-BL-EP-A"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/tps63060"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Function:Boost type Output Type:Adjustable and Fixed Input Voltage:2.5V~12V Input Voltage:2.5V~12V Output Voltage:5V Output Voltage:5V Output Current:1.3A Switching Frequency:2.4MHz Switching Frequency:2.4MHz Operating Temperature:-40°C~+85°C@(TA) Operating"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TPS63061DSCR"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2876326"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2A高输入电压降压-升压转换器"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19132388-0e68-4f34-9363-e3e06f20d72e")
+		)
+		(pin "2"
+			(uuid "43ff3330-eaba-46bb-8ebb-0985f13b1c76")
+		)
+		(pin "3"
+			(uuid "b1d94d75-9bca-450d-8d0f-72fca34bb466")
+		)
+		(pin "6"
+			(uuid "c20921a0-9f94-4e19-9358-76db959fbf2f")
+		)
+		(pin "7"
+			(uuid "dc519b3a-3040-4531-b108-0254ad0c048d")
+		)
+		(pin "8"
+			(uuid "427a909a-082b-4cf4-93b9-b948e66b05f6")
+		)
+		(pin "4"
+			(uuid "df7d3051-5eb6-4c82-b1dc-d7b3ddb10cd2")
+		)
+		(pin "10"
+			(uuid "98c56607-d757-4ba8-99a2-4b8bb04b1239")
+		)
+		(pin "9"
+			(uuid "94a840fd-d260-492a-9b90-52dbe7233ae6")
+		)
+		(pin "11"
+			(uuid "3235582d-47b7-4417-af54-3daa3416282c")
+		)
+		(pin "5"
+			(uuid "b72ab6fe-7e4e-4589-a84d-b8ce0217e051")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/f36e3e2c-eb39-474f-a489-171fecc16703"
+					(reference "U5")
 					(unit 1)
 				)
 			)

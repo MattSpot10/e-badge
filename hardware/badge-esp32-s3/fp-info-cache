@@ -1,4 +1,4 @@
-26918197431832450
+26919960683368837
 AdafruitJoystick
 SW_2765
 
@@ -107352,6 +107352,13 @@ WIRELM-SMD_ESP32-S3-WROOM-1
 49
 41
 lcsc-lib
+WSON-10_L3.0-W3.0-P0.50-BL-EP-A
+
+
+0
+11
+11
+lcsc-lib
 XDFN-4_L1.0-W1.0-P0.65-BL-EP
 
 
@@ -107363,8 +107370,8 @@ MiniBadge_Full_NoEdges
 
 
 0
-10
-10
+0
+0
 misc-lib
 DTC114EE
 
