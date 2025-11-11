@@ -979,16 +979,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 154.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c4f3c3-8c02-472c-a87a-62613b0b5f2a")
-	)
-	(wire
-		(pts
 			(xy 144.78 102.87) (xy 116.84 102.87)
 		)
 		(stroke
@@ -1026,16 +1016,6 @@
 			(type default)
 		)
 		(uuid "14f119cd-1ec4-43b8-8d6f-097f98a6248f")
-	)
-	(wire
-		(pts
-			(xy 157.48 97.79) (xy 157.48 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15880eee-4484-4fe3-a566-4dfc0cb728fc")
 	)
 	(wire
 		(pts
@@ -1129,16 +1109,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3729034d-d0e7-415d-8ef4-b536632436cd")
-	)
-	(wire
-		(pts
 			(xy 113.03 105.41) (xy 113.03 96.52)
 		)
 		(stroke
@@ -1199,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 100.33) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42956986-96ac-435a-a8fd-98291c467243")
+	)
+	(wire
+		(pts
 			(xy 147.32 57.15) (xy 172.72 57.15)
 		)
 		(stroke
@@ -1216,6 +1196,16 @@
 			(type default)
 		)
 		(uuid "4cfe7bf2-0abc-4424-9b76-4b6b9038a731")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53529ccc-a1c0-4815-9b53-e995f88af65a")
 	)
 	(wire
 		(pts
@@ -1249,13 +1239,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 160.02 114.3)
+			(xy 162.56 93.98) (xy 162.56 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dab9334-9120-4d40-aaee-1946fbb38cbe")
+		(uuid "62639de5-02ec-40c8-a4ab-35ae3d65c185")
 	)
 	(wire
 		(pts
@@ -1346,6 +1336,16 @@
 			(type default)
 		)
 		(uuid "7cd6be7b-8bc8-43fd-a56d-b1144d2e2392")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e022ad2-8c2a-4b39-ad03-90b412ce6466")
 	)
 	(wire
 		(pts
@@ -1860,7 +1860,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 86.36 88.9 180)
+		(at 91.44 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1868,7 +1868,7 @@
 		(dnp no)
 		(uuid "2b570633-8396-4264-bbc4-791ee91b7f48")
 		(property "Reference" "J5"
-			(at 87.884 91.186 0)
+			(at 89.916 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1877,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 84.074 79.248 90)
+			(at 83.82 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,8 +1885,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 86.36 88.9 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 88.9 0)
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1904,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 86.36 88.9 0)
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1929,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 135.89 92.71 180)
+		(at 140.97 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1937,7 +1937,7 @@
 		(dnp no)
 		(uuid "331bf486-7607-45e8-8334-8c39f3e0e448")
 		(property "Reference" "J7"
-			(at 137.414 94.996 0)
+			(at 139.446 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1946,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 134.112 82.042 90)
+			(at 133.35 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +1954,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 135.89 92.71 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 92.71 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1973,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 135.89 92.71 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 86.36 62.23 180)
+		(at 91.44 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2006,7 +2006,7 @@
 		(dnp no)
 		(uuid "7819798a-0366-42b8-9da0-f6d4e79d21dc")
 		(property "Reference" "J3"
-			(at 87.884 64.516 0)
+			(at 89.916 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 84.328 51.308 90)
+			(at 83.82 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,8 +2023,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 86.36 62.23 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 62.23 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2042,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 86.36 62.23 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2057,7 @@
 			(uuid "470f174e-587a-4cee-aa4a-170a4773597e")
 		)
 		(instances
-			(project "badge-esp32-s3"
+			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/18b0dd1f-1411-4aae-8334-5d13e6c2c6f9"
 					(reference "J3")
 					(unit 1)
@@ -2067,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 151.13 60.96 180)
+		(at 156.21 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2075,7 +2075,7 @@
 		(dnp no)
 		(uuid "94d1c6c0-ae0e-41cc-835f-d534089a3e55")
 		(property "Reference" "J10"
-			(at 152.654 63.246 0)
+			(at 154.686 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2084,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 149.606 50.292 90)
+			(at 148.59 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,8 +2092,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 151.13 60.96 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 60.96 0)
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 151.13 60.96 0)
+			(at 156.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 110.49 110.49 270)
+		(at 107.95 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2145,7 +2145,7 @@
 		(fields_autoplaced yes)
 		(uuid "9854278e-ed1f-4f6f-90a8-894633922847")
 		(property "Reference" "J6"
-			(at 109.22 113.03 90)
+			(at 109.22 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,15 +2153,15 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 109.22 115.57 90)
+			(at 109.22 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 110.49 110.49 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 110.49 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2179,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 110.49 110.49 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 			(uuid "e79c4957-8190-4fc9-a7e1-2a8755701817")
 		)
 		(instances
-			(project "badge-esp32-s3"
+			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/18b0dd1f-1411-4aae-8334-5d13e6c2c6f9"
 					(reference "J6")
 					(unit 1)
@@ -2210,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 102.87 62.23 180)
+		(at 107.95 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2218,7 +2218,7 @@
 		(dnp no)
 		(uuid "9bd677dd-b58e-407d-bd90-8cf3cb1c48eb")
 		(property "Reference" "J4"
-			(at 104.394 64.516 0)
+			(at 106.426 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2227,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 101.346 51.562 90)
+			(at 100.33 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,8 +2235,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 102.87 62.23 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 62.23 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 102.87 62.23 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2374,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 135.89 60.96 180)
+		(at 140.97 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2382,7 +2382,7 @@
 		(dnp no)
 		(uuid "aa456806-f145-4d7f-aec4-a697c22fdf31")
 		(property "Reference" "J9"
-			(at 137.414 63.246 0)
+			(at 139.446 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 133.858 50.038 90)
+			(at 133.35 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,8 +2399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 135.89 60.96 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 60.96 0)
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 135.89 60.96 0)
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 160.02 119.38 270)
+		(at 157.48 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2518,7 +2518,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3dffb35-9e5b-4539-a5be-efc09cb5398f")
 		(property "Reference" "J8"
-			(at 158.75 121.92 90)
+			(at 158.75 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,15 +2526,15 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 158.75 124.46 90)
+			(at 158.75 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 160.02 119.38 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 119.38 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 160.02 119.38 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
