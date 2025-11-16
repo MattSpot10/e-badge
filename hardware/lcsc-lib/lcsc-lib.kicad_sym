@@ -25374,7 +25374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "1uH_inductor:IND-SMD_L4.0-W4.0_XFL4020-102MEB"
+		(property "Footprint" "lcsc-lib:IND-SMD_L4.0-W4.0_XFL4020-102MEB"
 			(at 0 0 0)
 			(effects
 				(font

@@ -3202,6 +3202,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 78.74) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753dd388-b1c7-481c-9f4f-63707c2bf3a1")
+	)
+	(wire
+		(pts
 			(xy 54.61 76.2) (xy 57.15 76.2)
 		)
 		(stroke
@@ -3940,7 +3950,7 @@
 		)
 		(uuid "00c22c28-2303-4011-a031-23602ac71a4e")
 	)
-	(label "+4V"
+	(label "5V_stable"
 		(at 254 64.77 180)
 		(effects
 			(font
@@ -4020,7 +4030,7 @@
 		)
 		(uuid "08052629-db63-4650-9423-135fc4113439")
 	)
-	(label "+4V"
+	(label "5V_stable"
 		(at 134.62 139.7 0)
 		(effects
 			(font
@@ -4709,6 +4719,16 @@
 			(justify right bottom)
 		)
 		(uuid "a39b05f7-674c-47b3-a663-f6fb6c2e23d5")
+	)
+	(label "5V_stable"
+		(at 54.61 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a40f642f-2057-4b38-97ba-c60007ed3d7d")
 	)
 	(label "PWR_RAW"
 		(at 22.86 109.22 180)
@@ -8288,6 +8308,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V_stable" output
+			(at 50.8 78.74 0)
+			(uuid "bb459318-5777-4039-94b4-ed674b45d578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
