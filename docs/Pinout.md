@@ -7,12 +7,12 @@
 | IO0      | 4               | I/O/T |  Y     | Strapping   | RTC_GPIO0, GPIO0                                                                   |
 | IO1      | 5               | I/O/T |  X     | Joystick X  | RTC_GPIO1, GPIO1,TOUCH1,ADC1_CH0                                                   |
 | IO2      | 6               | I/O/T |  X     | Joystick Y  | RTC_GPIO2, GPIO2,TOUCH2,ADC1_CH1                                                   |
-| IO3      | 7               | I/O/T |  X     | Strapping; SD CS | RTC_GPIO3, GPIO3,TOUCH3,ADC1_CH2                                                   |
-| IO6      | 10              | I/O/T |  Y     | B LED       | RTC_GPIO4, GPIO4,TOUCH4,ADC1_CH3                                                   |
+| IO3      | 7               | I/O/T |  X     | Strapping; SD CS | RTC_GPIO3, GPIO3,TOUCH3,ADC1_CH2                                              |
+| IO4      | 8               | I/O/T |  Y     | B LED       | RTC_GPIO4, GPIO4,TOUCH4,ADC1_CH3                                                   |
 | IO5      | 9               | I/O/T |  Y     | G LED       | RTC_GPIO5, GPIO5,TOUCH5,ADC1_CH4                                                   |
-| IO4      | 8               | I/O/T |  Y     | R LED       | RTC_GPIO6, GPIO6,TOUCH6,ADC1_CH5                                                   |
+| IO6      | 10              | I/O/T |  Y     | R LED       | RTC_GPIO6, GPIO6,TOUCH6,ADC1_CH5                                                   |
 | IO7      | 11              | I/O/T |  Y     | Addr LEDs   | RTC_GPIO7, GPIO7,TOUCH7,ADC1_CH6                                                   |
-| IO8      | 12              | I/O/T |  Y     | Minibadge CLK | RTC_GPIO8, GPIO8,TOUCH8,ADC1_CH7,SUBSPICS1                                         |
+| IO8      | 12              | I/O/T |  Y     | Minibadge CLK | RTC_GPIO8, GPIO8,TOUCH8,ADC1_CH7,SUBSPICS1                                       |
 | IO9      | 13              | I/O/T |  X     | Display CS  | RTC_GPIO9, GPIO9,TOUCH9,ADC1_CH8,FSPIHD,SUBSPIHD                                   |
 | IO10     | 14              | I/O/T |  X     | SPI2 MISO   | RTC_GPIO10, GPIO10,TOUCH10,ADC1_CH9,FSPICS0,FSPIIO4, SUBSPICS0                     |
 | IO11     | 15              | I/O/T |  X     | SPI2 MOSI   | RTC_GPIO11, GPIO11,TOUCH11,ADC2_CH0,FSPID,FSPIIO5,SUBSPID                          |
