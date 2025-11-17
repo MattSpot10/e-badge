@@ -859,7 +859,7 @@
 		)
 		(uuid "03266533-2b84-4ba5-881e-52e76f2e3c96")
 	)
-	(hierarchical_label "Xout(analoge)"
+	(hierarchical_label "Xout(analog)"
 		(shape input)
 		(at 101.6 104.14 270)
 		(effects
@@ -870,7 +870,7 @@
 		)
 		(uuid "4acb0b98-1666-4792-b5dc-d92ccdc118cc")
 	)
-	(hierarchical_label "Yout(analoge"
+	(hierarchical_label "Yout(analog)"
 		(shape input)
 		(at 128.27 104.14 270)
 		(effects
@@ -951,7 +951,7 @@
 		(lib_name "2765_1")
 		(lib_id "AdafruitJoystick:2765")
 		(at 128.27 91.44 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1144,7 +1144,7 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0e604a77-d00c-4663-aa0e-d86b906e110e"
 					(reference "S1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -1153,7 +1153,7 @@
 		(lib_name "2765_1")
 		(lib_id "AdafruitJoystick:2765")
 		(at 101.6 91.44 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1346,7 +1346,7 @@
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0e604a77-d00c-4663-aa0e-d86b906e110e"
 					(reference "S1")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
