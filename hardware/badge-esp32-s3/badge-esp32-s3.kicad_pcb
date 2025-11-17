@@ -5647,7 +5647,7 @@
 		(layer "F.Cu")
 		(uuid "1622269c-c029-4778-9c64-944579584fcb")
 		(at 95.51 127 180)
-		(property "Reference" "SW5"
+		(property "Reference" "BtnU"
 			(at 0.01 4 0)
 			(layer "F.SilkS")
 			(uuid "57ac06fb-f4fe-4753-aa9e-ad88c3a3f4a4")
@@ -17060,7 +17060,7 @@
 		(layer "F.Cu")
 		(uuid "50123a5f-c9e0-4453-a83a-8d5e69b9fc81")
 		(at 88.25 134.1025)
-		(property "Reference" "SW4"
+		(property "Reference" "BtnL"
 			(at 0 -4.1025 0)
 			(layer "F.SilkS")
 			(uuid "f6eabe8f-6d91-4076-8e38-6db368fdd424")
@@ -34629,7 +34629,7 @@
 		(layer "F.Cu")
 		(uuid "a49a5ea4-fa85-496d-8df8-72444347a08a")
 		(at 95.76 141.5)
-		(property "Reference" "SW9"
+		(property "Reference" "BtnD"
 			(at 0 -4 0)
 			(layer "F.SilkS")
 			(uuid "89a92b5d-21e6-4511-b5f6-30a73ea6302f")
@@ -54958,7 +54958,7 @@
 		(layer "F.Cu")
 		(uuid "e81a7d46-e3de-4649-83e7-aff6b6948c0d")
 		(at 103.76 134 180)
-		(property "Reference" "SW6"
+		(property "Reference" "BtnR"
 			(at 0.25 3.75 0)
 			(layer "F.SilkS")
 			(uuid "9244e868-ff26-462d-8452-2f9ffc33791b")
@@ -61348,7 +61348,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SW8"
+	(gr_text "BtnA"
 		(at 209.5 125.5 0)
 		(layer "F.SilkS")
 		(uuid "376d0650-3d0d-4df5-8985-209dfed43a30")
@@ -61517,7 +61517,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SW7"
+	(gr_text "BtnB"
 		(at 201 132.5 0)
 		(layer "F.SilkS")
 		(uuid "6ef12797-8306-4118-b25d-9af95c1003a2")
@@ -61852,7 +61852,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BtnR"
+	(gr_text "BtnL"
 		(at 140.5 145.25 90)
 		(layer "F.SilkS")
 		(uuid "d7d619ef-0c2d-4145-97a2-4ffc2f806aa7")
@@ -61926,8 +61926,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BtnL"
-		(at 143 145.04 90)
+	(gr_text "BtnR"
+		(at 142.991011 145.246269 90)
 		(layer "F.SilkS")
 		(uuid "e7fc476d-060e-481f-8d31-6c91d47872d6")
 		(effects
