@@ -5644,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4ffb41-9cb4-48fe-a483-dd8ed8123758")
-		(property "Reference" "Power"
+		(property "Reference" "Power1"
 			(at 139.7 55.8799 0)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9131a646-b9dc-4004-a7df-1b58b7ca0b9a"
-					(reference "Power")
+					(reference "Power1")
 					(unit 1)
 				)
 			)

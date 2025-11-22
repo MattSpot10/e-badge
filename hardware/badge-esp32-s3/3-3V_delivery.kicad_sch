@@ -1490,6 +1490,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc-lib:SMAJ7.0A_C2989694"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc-lib:SMA_L4.5-W2.6-LS5.1-RD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SMAJ7.0A/3449128.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarity:Unidirectional Reverse Stand-Off Voltage (Vrwm):7V Clamping Voltage:12V Peak Pulse Current (Ipp):33.3A Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:7.78V Reverse Leakage Current (Ir):200uA Operating Temperature:-55°C~+150°C Operating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SMAJ7.0A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Liown(里阳半导体)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2989694"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "单向TVS 7V截止 峰值脉冲电流：33.3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ7.0A_C2989694_1_0"
+				(polyline
+					(pts
+						(xy -2.032 2.032) (xy -1.27 1.524) (xy -1.27 1.524) (xy -1.27 -1.524) (xy -1.27 -1.524) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc-lib:TPS63061DSCR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2102,6 +2282,12 @@
 		(uuid "0e771f53-d01d-4896-8f15-985e2cadbfb6")
 	)
 	(junction
+		(at 193.04 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec3667a-f967-44f5-a41e-12f896007a8d")
+	)
+	(junction
 		(at 107.95 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2397,6 +2583,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 123.19) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515fc8b8-928b-4612-bbb7-d4748349b0d4")
+	)
+	(wire
+		(pts
 			(xy 130.81 107.95) (xy 132.08 107.95)
 		)
 		(stroke
@@ -2627,6 +2823,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 110.49) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ea22f5-35a9-4eba-a829-55fd00717649")
+	)
+	(wire
+		(pts
 			(xy 120.65 120.65) (xy 120.65 119.38)
 		)
 		(stroke
@@ -2747,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 110.49) (xy 187.96 110.49)
+			(xy 182.88 110.49) (xy 193.04 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2797,6 +3003,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec282d77-201c-4a5e-9f9b-7bb3adb5d98a")
+	)
+	(wire
+		(pts
 			(xy 88.9 110.49) (xy 113.03 110.49)
 		)
 		(stroke
@@ -2837,7 +3053,7 @@
 	)
 	(hierarchical_label "5V_stable"
 		(shape output)
-		(at 187.96 110.49 0)
+		(at 195.58 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3680,6 +3896,121 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc-lib:SMAJ7.0A_C2989694")
+		(at 193.04 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b8eaa94-9fff-4751-b7ff-f2ee60a8e9f9")
+		(property "Reference" "D13"
+			(at 196.85 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ7.0A"
+			(at 196.85 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc-lib:SMA_L4.5-W2.6-LS5.1-RD"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SMAJ7.0A/3449128.html"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarity:Unidirectional Reverse Stand-Off Voltage (Vrwm):7V Clamping Voltage:12V Peak Pulse Current (Ipp):33.3A Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:7.78V Reverse Leakage Current (Ir):200uA Operating Temperature:-55°C~+150°C Operating"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMAJ7.0A"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Liown(里阳半导体)"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2989694"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "单向TVS 7V截止 峰值脉冲电流：33.3A"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e736a843-5398-4ca3-8873-7ca33d3bfa27")
+		)
+		(pin "1"
+			(uuid "f92634c6-8ac1-411e-862e-613387573dd1")
+		)
+		(instances
+			(project ""
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/f36e3e2c-eb39-474f-a489-171fecc16703"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc-lib:TPS63061DSCR")
 		(at 146.05 111.76 0)
 		(unit 1)
@@ -4385,6 +4716,72 @@
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/f36e3e2c-eb39-474f-a489-171fecc16703"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b9ee12-f324-41b6-babf-e5677a09f638")
+		(property "Reference" "#PWR050"
+			(at 193.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de278b79-6b7f-4130-9527-1430d5dfc27c")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/f36e3e2c-eb39-474f-a489-171fecc16703"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
