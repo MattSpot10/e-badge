@@ -10548,7 +10548,7 @@
 		(layer "F.Cu")
 		(uuid "2cbfeffd-a2d8-443b-96c0-aa7f7033afdd")
 		(at 133.5 72)
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "96336516-aa57-4713-805d-de938bd4adfb")
@@ -50822,7 +50822,7 @@
 		(layer "F.Cu")
 		(uuid "e12e51ad-c3b5-40c9-9bd0-6968acb8fdb5")
 		(at 164.5 72 180)
-		(property "Reference" "SW2"
+		(property "Reference" "RESET"
 			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(uuid "c670c94a-555e-4b83-a9a1-2f98d772ce90")
