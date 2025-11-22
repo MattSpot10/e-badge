@@ -16656,6 +16656,221 @@
 			)
 		)
 	)
+	(footprint "lcsc-lib:OLED-SMD_HS20HS072RX"
+		(layer "F.Cu")
+		(uuid "4a523164-7fd8-455c-b935-b62d128875fc")
+		(at 115.25 108.925 -90)
+		(property "Reference" "LCD"
+			(at 0 -4 90)
+			(layer "F.SilkS")
+			(uuid "6ba2f7aa-eb50-41b0-9162-93174fa863a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED-SMD_HS20HS072RX"
+			(at 0 4 90)
+			(layer "F.Fab")
+			(uuid "23d47840-4b32-493a-916e-db38f0a958a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9cd0f7f-148b-44b7-aba9-b0bb126b54c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc1f29b2-df2c-49f9-aeef-598ce24ad511")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -3.75 2.5)
+			(end -3.13 2.5)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "caf3d17c-f7e7-46c5-8f95-833416c541d6")
+		)
+		(fp_line
+			(start -3.75 2.5)
+			(end -3.75 -5.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3832b0d3-1de2-406e-92e1-335a499013fb")
+		)
+		(fp_line
+			(start 3.25 2.5)
+			(end 3.25 -5.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3a7377fe-fd08-467f-9b44-b1e7d42564dd")
+		)
+		(fp_line
+			(start -3.5 -2.5)
+			(end 3 -2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3b2c2bec-e400-43cb-a72a-b5f0877fe3f4")
+		)
+		(fp_line
+			(start -11.69 -5.25)
+			(end -11.69 -18.2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ffdbc5e3-eae2-4756-b656-e4f6a335088f")
+		)
+		(fp_line
+			(start -3.75 -5.25)
+			(end -11.69 -5.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dbe29035-bb39-47f7-abe8-0675039e3fc6")
+		)
+		(fp_line
+			(start 3.25 -5.25)
+			(end 11.25 -5.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "53ab79af-733b-4424-93c5-91c456920cb6")
+		)
+		(fp_line
+			(start 11.25 -5.25)
+			(end 11.25 -15.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b517326-c339-4de6-bdd7-f1d232b12be3")
+		)
+		(fp_line
+			(start 8.3 -15.25)
+			(end 8.3 -18.2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c19f06d-41d9-44eb-98a9-5d06b6925049")
+		)
+		(fp_line
+			(start 11.25 -15.25)
+			(end 8.3 -15.25)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87699475-fc81-41ed-b7f6-ce5e54560052")
+		)
+		(fp_line
+			(start -18.02 -18.2)
+			(end 18.17 -18.2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4e8b698-7d5d-4939-8234-8fee8531e20d")
+		)
+		(fp_line
+			(start 18.17 -18.2)
+			(end 18.17 -70)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "385a630f-50de-47c7-a1f9-ee8719c44c51")
+		)
+		(fp_line
+			(start -18.02 -70)
+			(end -18.02 -18.2)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f63353d4-b0c8-49e8-95df-2dc7e8364968")
+		)
+		(fp_line
+			(start 18.17 -70)
+			(end -18.02 -70)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87e0a971-9cff-47ce-b7cd-8ab29eb9f678")
+		)
+		(fp_circle
+			(center -18.03 2.5)
+			(end -18 2.5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e8e4d9c6-e664-4200-9755-52fa9b34507d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "6aca799d-379d-4f50-960b-09b8468c397a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "PCM_JLCPCB:R_0603"
 		(layer "F.Cu")
 		(uuid "4c4b993c-94e6-42e2-8eba-7580e30976c4")
