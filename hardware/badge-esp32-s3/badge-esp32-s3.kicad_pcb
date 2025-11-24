@@ -51273,7 +51273,7 @@
 		(uuid "e3797c25-ba93-4aea-845b-0a23d7b9fb61")
 		(at 124.75 123.75 180)
 		(property "Reference" "D13"
-			(at 0 -2.227 0)
+			(at 0 2.35 0)
 			(layer "F.SilkS")
 			(uuid "bab99fed-b5cb-4c57-9afc-5bdbec3c212a")
 			(effects
