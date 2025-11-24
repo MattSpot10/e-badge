@@ -3897,7 +3897,7 @@
 	)
 	(symbol
 		(lib_id "lcsc-lib:SMAJ7.0A_C2989694")
-		(at 193.04 116.84 90)
+		(at 193.04 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3911,7 +3911,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ7.0A"
@@ -3920,7 +3920,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "lcsc-lib:SMA_L4.5-W2.6-LS5.1-RD"
