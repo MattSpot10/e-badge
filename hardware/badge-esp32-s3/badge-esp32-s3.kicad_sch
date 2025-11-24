@@ -5643,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-MINI-1-N8"
+		(property "Value" "ESP32-S3-MINI-1-N4R2"
 			(at 120.2533 46.99 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2913206"
+		(property "LCSC Part" "C3013941"
 			(at 118.11 77.47 0)
 			(effects
 				(font
