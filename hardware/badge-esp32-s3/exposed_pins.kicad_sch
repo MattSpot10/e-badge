@@ -1871,28 +1871,34 @@
 		(uuid "dcef2316-4d2d-465b-a38c-1bc34eb3efa6")
 	)
 	(junction
-		(at 148.59 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "045e63bb-cebb-43f2-9044-d32b4b54515a")
-	)
-	(junction
 		(at 138.43 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25eea652-ee24-4ac5-b587-52287f0d0835")
 	)
 	(junction
-		(at 143.51 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fb6698c-15fd-450c-bfea-cb9d3a9e9ab4")
-	)
-	(junction
 		(at 140.97 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93673f76-36f8-4570-a306-e6bfb6abbae6")
+		(uuid "2b9ff5ae-09f9-48cb-877e-c9d3061be669")
+	)
+	(junction
+		(at 149.86 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2b34ad-3148-4b2c-a004-e08e2608922c")
+	)
+	(junction
+		(at 149.86 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834ae73d-8368-4183-a6be-4c24b60c6a8a")
+	)
+	(junction
+		(at 147.32 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e44cf22-a4c0-4c11-8d4b-5409a0e277f2")
 	)
 	(junction
 		(at 138.43 55.88)
@@ -1901,10 +1907,10 @@
 		(uuid "b01edfa5-f969-4142-a1d8-ad196bbe4c79")
 	)
 	(junction
-		(at 143.51 48.26)
+		(at 140.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da0eabee-7684-4465-ac80-be3409a83ae9")
+		(uuid "fe8edbab-2c69-4c20-8c85-1ba72e33e4e0")
 	)
 	(no_connect
 		(at 69.85 116.84)
@@ -1944,6 +1950,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 34.29) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136b9bdd-858d-4d90-9859-c00e4e5875a2")
+	)
+	(wire
+		(pts
+			(xy 143.51 34.29) (xy 143.51 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1851cdf9-a01f-4249-a5ff-a22a82be789a")
+	)
+	(wire
+		(pts
 			(xy 219.71 91.44) (xy 220.98 91.44)
 		)
 		(stroke
@@ -1974,13 +2000,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 143.51 48.26)
+			(xy 140.97 48.26) (xy 147.32 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "268c1891-7fdd-44f9-ab2f-2ef5be2ed338")
+		(uuid "219a78fc-16d3-4633-b8ea-e86f57f7d5ee")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292606da-ab3a-4334-8c6d-38c3871fe866")
 	)
 	(wire
 		(pts
@@ -1994,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 46.99) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df315bf-7b17-4890-b9e9-480bbd98052f")
+	)
+	(wire
+		(pts
 			(xy 140.97 55.88) (xy 138.43 55.88)
 		)
 		(stroke
@@ -2004,33 +2050,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 31.75) (xy 148.59 31.75)
+			(xy 143.51 34.29) (xy 149.86 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47314857-5100-444e-b99d-97b17773d996")
+		(uuid "2f361913-5154-4443-aac4-ac6ad23d0171")
 	)
 	(wire
 		(pts
-			(xy 143.51 45.72) (xy 143.51 48.26)
+			(xy 147.32 31.75) (xy 153.67 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e04e706-de24-4138-8ded-d15f8969445c")
+		(uuid "32fb0ccd-c26e-46e8-889c-fe4f893433ce")
 	)
 	(wire
 		(pts
-			(xy 143.51 31.75) (xy 143.51 35.56)
+			(xy 140.97 55.88) (xy 149.86 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "507f5e70-13ca-48e7-93b0-efc241efd296")
+		(uuid "48c60df6-a49d-47be-a51a-cbdf1db42d00")
 	)
 	(wire
 		(pts
@@ -2041,6 +2087,16 @@
 			(type default)
 		)
 		(uuid "51343e40-148b-44fe-bb6a-945d63617664")
+	)
+	(wire
+		(pts
+			(xy 147.32 31.75) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cfb8b6-765d-4423-b292-0172a8274b91")
 	)
 	(wire
 		(pts
@@ -2094,16 +2150,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 31.75) (xy 148.59 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08762b6-9771-449d-a4ab-08b8869ddf95")
-	)
-	(wire
-		(pts
 			(xy 78.74 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -2124,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 31.75) (xy 140.97 31.75)
+			(xy 140.97 31.75) (xy 147.32 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2134,23 +2180,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 31.75) (xy 148.59 31.75)
+			(xy 143.51 46.99) (xy 149.86 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2e3f22c-1cf5-4162-a4ac-4c315fe013a0")
+		(uuid "bfcab7da-f789-4de0-9624-689567fd7a69")
 	)
 	(wire
 		(pts
-			(xy 143.51 48.26) (xy 140.97 48.26)
+			(xy 149.86 46.99) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8ce19bb-172c-4819-9a75-2ee5334e11a1")
+		(uuid "c1000e9c-fd9b-475c-82ef-1cfbb9a1698b")
 	)
 	(wire
 		(pts
@@ -2236,6 +2282,17 @@
 			(justify right)
 		)
 		(uuid "365a9dd9-c7f5-43ea-917e-1a0db4d2ab38")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 153.67 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "369cc63c-705f-49b2-b952-9abaa2a4ea12")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -2325,7 +2382,7 @@
 		)
 		(uuid "85d37250-cf4d-44f3-b9e5-dc23aefe473b")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 160.02 97.79 0)
 		(effects
@@ -2957,6 +3014,201 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
+		(at 149.86 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c84d0a3-bca0-4893-8b46-3ca283c564cc")
+		(property "Reference" "C15"
+			(at 152.4 50.5459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 152.4 53.086 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 148.082 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9606588"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "25V"
+			(at 152.4 54.8639 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1uF"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad590808-20e9-4c73-bd27-3fab4a56185c")
+		)
+		(pin "1"
+			(uuid "deaff0c8-5760-4852-985f-20072c57d8e4")
+		)
+		(instances
+			(project "badge-esp32-s3"
+				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/069334c8-a377-4249-b519-18db4f2b1959"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 102.87 90)
 		(unit 1)
@@ -3392,10 +3644,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8fb6bbe1-0fcf-4248-a08d-31ed0158267a")
 		(property "Reference" "C16"
-			(at 143.51 49.5299 0)
+			(at 143.51 50.5459 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3655,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 143.51 52.07 0)
+			(at 143.51 53.086 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3530,7 +3781,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 143.51 54.61 0)
+			(at 143.51 54.8639 0)
 			(effects
 				(font
 					(size 0.8 0.8)
