@@ -8,3 +8,4 @@
 | RGB LED          | RS-3535MWAM         | [Link](https://lcsc.com/datasheet/lcsc_datasheet_2410121728_Foshan-NationStar-Optoelectronics-RS-3535MWAM_C842778.pdf)                  |
 | SD Card          | TF PUSH             | [Link](https://lcsc.com/datasheet/lcsc_datasheet_2504101957_SHOU-HAN-TF-PUSH_C393941.pdf)                                               |
 | USB-Serial Chip  | CP2102N-A02-GQFN28R | [Link](https://lcsc.com/datasheet/lcsc_datasheet_2304140030_SKYWORKS-SILICON-LABS-CP2102N-A02-GQFN28R_C964632.pdf)                      |
+| Adressable LEDs  | C22371528           | [Link](https://item.szlcsc.com/datasheet/WS2813B-2121/23859548.html)                                                                    |
