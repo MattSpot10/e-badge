@@ -5,43 +5,28 @@
 	(uuid "6359055d-b4e5-4220-885d-05d8f86ee12c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2765_1"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "lcsc-lib:YF16-FL7.2-B5KA(45-10)-R-A28"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 5.08 0)
+			(property "Reference" "R"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "2765"
-				(at -5.08 2.54 0)
+			(property "Value" "YF16-FL7.2-B5KA(45-10)-R-A28"
+				(at -0.254 -23.368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AdafruitJoystick:SW_2765"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" "lcsc-lib:JOYTICK-TH_YF16-DFL7.2-B5KO-45-10-B5KO-55--RG-A22"
+				(at -0.254 -25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604412907237634048"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,133 +43,42 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Adafruit Industries"
+			(property "Description" "-10℃~+70℃ 12V 5kΩ Self-resetting Straight Plugin-10P,20.3x19.8mm Navigation Switches, Joystick ROHS"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "12.00 mm"
-				(at 0 0 0)
+			(property "LCSC Part" "C37323739"
+				(at -0.254 -28.448 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "YF16-FL7.2-B5KA(45-10)-R-A28_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(fill
+						(type background)
 					)
-					(justify bottom)
-					(hide yes)
 				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "2765"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Mini 2-Axis Analog Thumbstick"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Adafruit"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "2765_1_1_0"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -4.572 0)
+						(xy -2.29 2.54) (xy -1.78 3.56)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -193,10 +87,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -3.81 1.016)
+						(xy -2.29 -2.54) (xy -1.78 -3.56)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -205,10 +99,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 1.016) (xy -2.54 -1.27)
+						(xy -1.78 3.56) (xy -1.27 1.52)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -217,10 +111,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.016)
+						(xy -1.78 -3.56) (xy -1.27 -1.52)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -229,10 +123,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.016) (xy 0 -1.27)
+						(xy -1.27 1.52) (xy -0.51 3.56)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -241,10 +135,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy 0 -1.27)
+						(xy -1.27 -1.52) (xy -0.51 -3.56)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -253,10 +147,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 1.016)
+						(xy -0.51 3.56) (xy 0 1.52)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -265,10 +159,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
+						(xy -0.51 -3.56) (xy 0 -1.52)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -277,10 +171,34 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.016) (xy 2.54 -1.27)
+						(xy -0.504 5.08) (xy -0.004 4.06) (xy 0.506 5.08) (xy -0.504 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.504 -5.08) (xy -0.004 -4.06) (xy 0.506 -5.08) (xy -0.504 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.004 5.08) (xy -0.004 4.06)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -289,10 +207,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
+						(xy -0.004 -5.08) (xy -0.004 -4.06)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -301,10 +219,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 3.81 1.016)
+						(xy 0 10.16) (xy 0 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -313,10 +231,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.016) (xy 4.572 0)
+						(xy 0 1.52) (xy 0.51 3.56)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -325,278 +243,300 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 0) (xy 5.08 0)
+						(xy 0 -1.52) (xy 0.51 -3.56)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -7.62 0 0)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 3.56) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 -3.56) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy 1.78 3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy 1.78 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 3.56) (xy 2.54 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 -3.56) (xy 2.54 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.52) (xy 2.79 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.52) (xy 2.79 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 5.08 0)
+					(length 1.27)
+					(name "shell"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "X-"
+					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "X"
+					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
+				(pin unspecified line
+					(at -8.89 -5.08 0)
+					(length 1.27)
+					(name "shell"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "~"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "X+"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-			)
-			(symbol "2765_1_2_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.572 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 0) (xy -3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.016) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
+				(pin unspecified line
+					(at 0 -11.43 90)
 					(length 2.54)
-					(name "~"
+					(name "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Y-"
+					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Y"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 8.89 5.08 180)
+					(length 1.27)
+					(name "shell"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Y+"
+					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -5.08 180)
+					(length 1.27)
+					(name "shell"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -707,150 +647,120 @@
 		)
 	)
 	(junction
-		(at 147.32 85.09)
+		(at 123.19 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b691f24-bd8f-4c8d-96c2-211432e9e354")
+		(uuid "2c6af210-fa25-4525-8638-a05c8e1e0c5c")
 	)
 	(junction
-		(at 92.71 76.2)
+		(at 149.86 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cb59c78-89cb-48fb-8393-bbcd3f2aa76a")
+		(uuid "5b8079ab-5e68-4ab1-93a6-5713f3e2a1f4")
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 93.98 91.44)
+			(xy 149.86 97.79) (xy 149.86 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06101d4c-8916-43a7-a517-b6fcc41e4fb1")
+		(uuid "227ada1c-a4a0-41bd-b61a-2fe14e008608")
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 88.9)
+			(xy 127 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1878fa87-a5dd-45f5-84e9-e4b96d0b83d9")
+		(uuid "2a38986b-03eb-45ad-91d1-36abf79ed06d")
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 128.27 104.14)
+			(xy 135.89 83.82) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c269ae9-6257-4d22-8353-b65ddb062068")
+		(uuid "3f80c78d-b755-4aee-8040-b441adbca362")
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 147.32 85.09)
+			(xy 123.19 97.79) (xy 123.19 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67aed63d-01c6-4fab-b764-6593455130f9")
+		(uuid "4426f7bd-1cf1-40d7-ab47-bccaec42829b")
 	)
 	(wire
 		(pts
-			(xy 109.22 80.01) (xy 147.32 80.01)
+			(xy 121.92 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67ef3241-8cb3-4fc2-840d-4f71bf10d77c")
+		(uuid "646a48cf-4ae6-4868-bdc1-ec681f4d861f")
 	)
 	(wire
 		(pts
-			(xy 92.71 76.2) (xy 92.71 91.44)
+			(xy 146.05 102.87) (xy 149.86 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85ac38a3-31fe-4c06-8e52-fc5c388310e9")
+		(uuid "756036a7-fb5e-465b-86ea-348a9632dfb7")
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 92.71 76.2)
+			(xy 149.86 102.87) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f6b9ccc-6743-4c76-ae32-f9ed6ec1fabf")
+		(uuid "9b4447f7-97af-4a42-b7e8-7cd9d9dd9a90")
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 92.71 76.2)
+			(xy 135.89 111.76) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8a634da-9be6-449b-a32b-3404b106e422")
+		(uuid "abfe1521-524b-48d7-a6a3-5b5d25ab0cee")
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 135.89 85.09)
+			(xy 123.19 102.87) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af72137b-1f4d-472f-a96a-7c6c705c9630")
+		(uuid "fc0b8d44-5945-4a60-bda1-f646f30a59a3")
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 120.65 76.2)
+			(xy 146.05 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0e002ec-81ee-4e09-9a86-7d7570def20b")
-	)
-	(wire
-		(pts
-			(xy 135.89 85.09) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def8facd-d14c-4448-9e38-d344be06e598")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 109.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e059f387-5806-4f4e-8653-de6dd1710264")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 101.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f11d4a91-787a-48aa-ac36-5c0c064e8778")
+		(uuid "fd9f821b-8312-4071-808f-3f60af9ff214")
 	)
 	(hierarchical_label "3.3vin"
 		(shape input)
-		(at 87.63 76.2 180)
+		(at 121.92 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -861,7 +771,7 @@
 	)
 	(hierarchical_label "Xout(analog)"
 		(shape input)
-		(at 101.6 104.14 270)
+		(at 135.89 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -872,18 +782,18 @@
 	)
 	(hierarchical_label "Yout(analog)"
 		(shape input)
-		(at 128.27 104.14 270)
+		(at 135.89 83.82 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c813ce1a-cff3-4edf-9db4-4d0688524927")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 88.9 0)
+		(at 151.13 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -892,7 +802,7 @@
 		(fields_autoplaced yes)
 		(uuid "67ccff68-0da9-4dfb-b2e7-b699fcf98c67")
 		(property "Reference" "#PWR057"
-			(at 147.32 95.25 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,15 +811,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 93.98 0)
+			(at 154.94 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 88.9 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 88.9 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 88.9 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,44 +859,35 @@
 		)
 	)
 	(symbol
-		(lib_name "2765_1")
-		(lib_id "AdafruitJoystick:2765")
-		(at 128.27 91.44 0)
+		(lib_id "lcsc-lib:YF16-FL7.2-B5KA(45-10)-R-A28")
+		(at 135.89 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "998b6d2b-1fe4-43d2-96c0-1024341cbce3")
-		(property "Reference" "S1"
-			(at 128.27 85.09 0)
+		(uuid "76b059bc-ee5a-4a1b-842a-aa3fcff9b255")
+		(property "Reference" "R23"
+			(at 138.0333 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2765"
-			(at 128.27 87.63 0)
+		(property "Value" "YF16-FL7.2-B5KA(45-10)-R-A28"
+			(at 138.0333 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "AdafruitJoystick:SW_2765"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 91.44 0)
+		(property "Footprint" "lcsc-lib:JOYTICK-TH_YF16-DFL7.2-B5KO-45-10-B5KO-55--RG-A22"
+			(at 135.636 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,8 +895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 91.44 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604412907237634048"
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,351 +904,59 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Adafruit Industries"
-			(at 128.27 91.44 0)
+		(property "Description" "-10℃~+70℃ 12V 5kΩ Self-resetting Straight Plugin-10P,20.3x19.8mm Navigation Switches, Joystick ROHS"
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "12.00 mm"
-			(at 128.27 91.44 0)
+		(property "LCSC Part" "C37323739"
+			(at 135.636 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "28abea01-59bc-400a-be41-b36f53112792")
 		)
-		(property "Price" "None"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "33858f55-1b2e-4fb1-9e5a-733515e510c8")
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=eda"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "9d76d07e-4d7d-4ca3-aa8b-bb9d803c94f0")
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "5f24af21-6893-42e8-aea6-0ea5ce012618")
 		)
-		(property "PARTREV" "-"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "10"
+			(uuid "09f95b43-0393-4fee-a93d-70a3c7b51001")
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=snap"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "873d1a03-4c50-4bd7-9edc-98983d00495b")
 		)
-		(property "MP" "2765"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "9"
+			(uuid "a6c31337-243c-4f38-b6ca-ecae19b52192")
 		)
-		(property "Description_1" "Mini 2-Axis Analog Thumbstick"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "c770c489-b4e7-42bc-a8c0-fbecffb7148a")
 		)
-		(property "Availability" "In Stock"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "8"
+			(uuid "e92857e3-8d71-40b8-9132-a675a10cab25")
 		)
-		(property "MANUFACTURER" "Adafruit"
-			(at 128.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "Y-"
-			(uuid "05cf0b8b-9a2b-406d-b50f-576847106a1f")
-		)
-		(pin "X"
-			(uuid "310c6dea-51e3-4797-871e-22fe389652d2")
-		)
-		(pin "Y+"
-			(uuid "e2cf677e-7a25-4381-be4f-96ce342a7572")
-		)
-		(pin "X+"
-			(uuid "ef3cb9b5-3620-4bb5-ae3c-ad185abaf721")
-		)
-		(pin "Y"
-			(uuid "97c8d0a3-6cd2-430d-b468-aee5f24cb22f")
-		)
-		(pin "X-"
-			(uuid "fa5c8b16-dc18-4db7-98ff-3e04b050f46a")
+		(pin "7"
+			(uuid "9c5c7434-cb25-472b-87f7-bafa887ef35a")
 		)
 		(instances
 			(project ""
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0e604a77-d00c-4663-aa0e-d86b906e110e"
-					(reference "S1")
+					(reference "R23")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "2765_1")
-		(lib_id "AdafruitJoystick:2765")
-		(at 101.6 91.44 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0fc6d6d-73b4-4c33-984e-e379f6c136a3")
-		(property "Reference" "S1"
-			(at 101.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2765"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AdafruitJoystick:SW_2765"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Adafruit Industries"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "12.00 mm"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=eda"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "-"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2765/Adafruit+Industries/view-part/?ref=snap"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "2765"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Mini 2-Axis Analog Thumbstick"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Adafruit"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "Y-"
-			(uuid "05cf0b8b-9a2b-406d-b50f-576847106a20")
-		)
-		(pin "X"
-			(uuid "310c6dea-51e3-4797-871e-22fe389652d3")
-		)
-		(pin "Y+"
-			(uuid "e2cf677e-7a25-4381-be4f-96ce342a7573")
-		)
-		(pin "X+"
-			(uuid "ef3cb9b5-3620-4bb5-ae3c-ad185abaf722")
-		)
-		(pin "Y"
-			(uuid "97c8d0a3-6cd2-430d-b468-aee5f24cb230")
-		)
-		(pin "X-"
-			(uuid "fa5c8b16-dc18-4db7-98ff-3e04b050f46b")
-		)
-		(instances
-			(project ""
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/0e604a77-d00c-4663-aa0e-d86b906e110e"
-					(reference "S1")
-					(unit 2)
 				)
 			)
 		)

@@ -1,0 +1,4 @@
+Change SD Card from SPI port to dedicated SDIO controller.
+Fix mini-badge footprint to includes pins on it and not just a silkscreen. 
+	- Also add a full row of headers to the bottom of footprint connected to some GPIO
+Move Accelerometer closer to the ESP32
