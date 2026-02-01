@@ -952,9 +952,9 @@
 				(justify left)
 			)
 		)
-		(pin "Xout(analoge)" input
+		(pin "Xout(analog)" input
 			(at 77.47 116.84 0)
-			(uuid "1d4de08a-3479-4d30-8544-888a83ad43ad")
+			(uuid "fc31999e-a1a2-4115-9375-a57180e9b92f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,9 +962,9 @@
 				(justify right)
 			)
 		)
-		(pin "Yout(analoge" input
+		(pin "Yout(analog)" input
 			(at 77.47 119.38 0)
-			(uuid "5480fead-29d8-4711-8c1e-6be982e8311a")
+			(uuid "bb05555f-b510-4405-8687-7ff3d678214e")
 			(effects
 				(font
 					(size 1.27 1.27)

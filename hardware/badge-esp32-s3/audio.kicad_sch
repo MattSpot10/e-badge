@@ -1091,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a466bf1-f9cc-4fcd-96ad-c6b111caef20")
-		(property "Reference" "BUZZER3"
+		(property "Reference" "BUZZER1"
 			(at 175.26 92.7099 0)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 		(instances
 			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/df7bf792-82c5-4feb-b2e3-af668da9099d"
-					(reference "BUZZER3")
+					(reference "BUZZER1")
 					(unit 1)
 				)
 			)
