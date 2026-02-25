@@ -866,12 +866,12 @@
 		(uuid "f29a1691-6f25-40ef-8e85-c56a520b95ef")
 	)
 	(no_connect
-		(at 128.27 76.2)
-		(uuid "57b47354-37aa-4940-a73e-1456dffc0e57")
-	)
-	(no_connect
 		(at 113.03 81.28)
 		(uuid "99e66170-9f84-42bc-a23c-01772552e8ef")
+	)
+	(no_connect
+		(at 113.03 76.2)
+		(uuid "9fc38810-59c8-4e38-9364-63e6ca6e3771")
 	)
 	(wire
 		(pts
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 113.03 76.2)
+			(xy 128.27 71.12) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -965,12 +965,12 @@
 	)
 	(hierarchical_label "3.3v"
 		(shape input)
-		(at 107.95 76.2 180)
+		(at 128.27 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6081ee72-a334-4c30-a831-8ae0f18b11cb")
 	)
@@ -1087,10 +1087,6 @@
 					(reference "SW7")
 					(unit 1)
 				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/fb6d2a04-654d-4115-8ed9-b9891bab072c"
-					(reference "SW8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1177,10 +1173,6 @@
 				)
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/f11ff8f0-58bf-4f8c-9221-02eb2354874a"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/fb6d2a04-654d-4115-8ed9-b9891bab072c"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1395,10 +1387,6 @@
 				)
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/f11ff8f0-58bf-4f8c-9221-02eb2354874a"
 					(reference "C21")
-					(unit 1)
-				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/fb6d2a04-654d-4115-8ed9-b9891bab072c"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1645,10 +1633,6 @@
 					(reference "R34")
 					(unit 1)
 				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/fb6d2a04-654d-4115-8ed9-b9891bab072c"
-					(reference "R36")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1893,17 +1877,7 @@
 					(reference "R33")
 					(unit 1)
 				)
-				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168/fb6d2a04-654d-4115-8ed9-b9891bab072c"
-					(reference "R35")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

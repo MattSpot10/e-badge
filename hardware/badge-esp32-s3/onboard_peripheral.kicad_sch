@@ -847,13 +847,12 @@
 		)
 	)
 	(sheet
-		(at 138.43 80.01)
+		(at 167.64 82.55)
 		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -862,8 +861,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0c6f020c-1e0e-43cd-8a36-0a56f6d3220b")
-		(property "Sheetname" "Left"
-			(at 138.43 79.2984 0)
+		(property "Sheetname" "Right"
+			(at 167.64 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +871,7 @@
 			)
 		)
 		(property "Sheetfile" "PushButtonPD.kicad_sch"
-			(at 138.43 93.2946 0)
+			(at 159.512 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +880,7 @@
 			)
 		)
 		(pin "3.3v" input
-			(at 146.05 80.01 90)
+			(at 175.26 82.55 90)
 			(uuid "8e93acd0-5014-4ba6-ac87-4ea53b9ffebc")
 			(effects
 				(font
@@ -891,7 +890,7 @@
 			)
 		)
 		(pin "GPIO" input
-			(at 138.43 87.63 180)
+			(at 167.64 90.17 180)
 			(uuid "ad750cd4-bc18-4f55-8e4d-4f15399f6f97")
 			(effects
 				(font
@@ -1043,7 +1042,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 82.55)
+		(at 138.43 80.01)
 		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1058,8 +1057,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a24e4638-e764-42f8-9a03-a3574c3b6e5b")
-		(property "Sheetname" "Right"
-			(at 167.64 81.8384 0)
+		(property "Sheetname" "Left"
+			(at 138.43 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1067,7 @@
 			)
 		)
 		(property "Sheetfile" "PushButtonPD.kicad_sch"
-			(at 167.64 95.8346 0)
+			(at 138.43 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1076,7 @@
 			)
 		)
 		(pin "3.3v" input
-			(at 175.26 82.55 90)
+			(at 146.05 80.01 90)
 			(uuid "5c767c5e-3607-47a2-9b9c-1bc70a032422")
 			(effects
 				(font
@@ -1087,7 +1086,7 @@
 			)
 		)
 		(pin "GPIO" input
-			(at 167.64 90.17 180)
+			(at 138.43 87.63 180)
 			(uuid "66283c2b-cc16-4039-bbfe-f97c6e211c6e")
 			(effects
 				(font
@@ -1345,7 +1344,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PushButtonPD.kicad_sch"
+		(property "Sheetfile" "PushButtonPDA.kicad_sch"
 			(at 78.74 84.4046 0)
 			(effects
 				(font

@@ -1,4 +1,23 @@
-Change SD Card from SPI port to dedicated SDIO controller.
-Fix mini-badge footprint to includes pins on it and not just a silkscreen. 
-	- Also add a full row of headers to the bottom of footprint connected to some GPIO
-Move Accelerometer closer to the ESP32
+Matthew Spotten 2/2/2026
+
+DONE:
+_____________________________________________________________________________________________
+
+* Changed SD Card from SPI port to dedicated SDIO controller.
+	-Used GPIO 33 through GPIO 38 for this (Previously GPIO 33-37 were thought to not be safe to use).
+* Added 2x3 header breaking out GPIO 33-37 placed next to SD card.
+
+* Rerouted AButtonMid from GPIO38 to GPIO9
+* Rerouted CS from GPIO9 to GPIO3
+* Fixed mini-badge footprint to includes pins on it and not just a silkscreen. 
+* Added a full row of headers to the bottom of footprint connected to another header.
+* Added reverse polarity protection with N-channel Mosfet
+* Added SPI bus breakout next to LCD FPC connector instead of the configurable GPIO section (shorten stub traces on high speed SPI line).
+
+
+
+TO DO:
+_____________________________________________________________________________________________
+
+Move Accelerometer closer 
+Change 3V3 regulator to a more standard option maybe a sot-23.

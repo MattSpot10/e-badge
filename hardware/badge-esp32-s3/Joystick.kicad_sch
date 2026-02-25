@@ -653,46 +653,26 @@
 		(uuid "27acc41e-8391-461e-94de-c559f664fa9f")
 	)
 	(junction
-		(at 123.19 97.79)
+		(at 148.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c6af210-fa25-4525-8638-a05c8e1e0c5c")
+		(uuid "491169ac-06b1-4e29-9e70-71d712969227")
 	)
 	(junction
-		(at 149.86 102.87)
+		(at 124.46 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b8079ab-5e68-4ab1-93a6-5713f3e2a1f4")
+		(uuid "61e2eee6-aa53-4819-beb0-ca677ac32357")
 	)
 	(junction
-		(at 149.86 105.41)
+		(at 168.91 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fea8a384-00fe-42af-94a1-37fe582dd884")
+		(uuid "dca6651f-e49a-4866-b492-0a7fc30448bd")
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 127 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2157d213-a9bc-45ba-bb16-ee0ce916c1ed")
-	)
-	(wire
-		(pts
-			(xy 149.86 97.79) (xy 149.86 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "227ada1c-a4a0-41bd-b61a-2fe14e008608")
-	)
-	(wire
-		(pts
-			(xy 127 97.79) (xy 123.19 97.79)
+			(xy 121.92 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 168.91 95.25)
+			(xy 144.78 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -722,37 +702,37 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 97.79) (xy 123.19 102.87)
+			(xy 127 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4426f7bd-1cf1-40d7-ab47-bccaec42829b")
+		(uuid "58b89343-502b-4c40-bf26-3cd8a068ddd9")
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 123.19 97.79)
+			(xy 124.46 102.87) (xy 124.46 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "646a48cf-4ae6-4868-bdc1-ec681f4d861f")
+		(uuid "5aeeaba6-698f-40ce-bde5-22cda3df4e8e")
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 149.86 102.87)
+			(xy 168.91 105.41) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "756036a7-fb5e-465b-86ea-348a9632dfb7")
+		(uuid "73a8f116-e957-4f5a-9a6e-f0eee7a11b16")
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 168.91 105.41)
+			(xy 144.78 105.41) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
@@ -762,33 +742,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 102.87) (xy 149.86 105.41)
+			(xy 146.05 102.87) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91901c6d-bfbd-4a27-8fe0-a7ca2ff7c04b")
-	)
-	(wire
-		(pts
-			(xy 149.86 102.87) (xy 151.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4447f7-97af-4a42-b7e8-7cd9d9dd9a90")
-	)
-	(wire
-		(pts
-			(xy 144.78 105.41) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f560915-bb7f-4ea9-b1ff-ea692a5a11ad")
+		(uuid "aaa244a6-3e3a-4782-8db9-1824ff8ba3e0")
 	)
 	(wire
 		(pts
@@ -812,6 +772,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0de7b23-5941-4bf0-9e75-30ca39ba6308")
+	)
+	(wire
+		(pts
 			(xy 168.91 95.25) (xy 168.91 105.41)
 		)
 		(stroke
@@ -819,6 +789,16 @@
 			(type default)
 		)
 		(uuid "b0f3bd18-887a-4385-9bda-3c34522ead45")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77894cf-2170-4c17-89fe-4f269aaabb55")
 	)
 	(wire
 		(pts
@@ -832,6 +812,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcdf18e-cd95-4739-a058-bf64d9b0c5ad")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4223ba2-52ee-47f6-a1b4-1b37f61d6632")
+	)
+	(wire
+		(pts
 			(xy 110.49 105.41) (xy 110.49 107.95)
 		)
 		(stroke
@@ -842,23 +842,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 102.87) (xy 127 102.87)
+			(xy 148.59 97.79) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc0b8d44-5945-4a60-bda1-f646f30a59a3")
-	)
-	(wire
-		(pts
-			(xy 146.05 97.79) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9f821b-8312-4071-808f-3f60af9ff214")
+		(uuid "de88714e-ae20-4119-b241-171e09b38100")
 	)
 	(hierarchical_label "3.3vin"
 		(shape input)
@@ -873,23 +863,34 @@
 	)
 	(hierarchical_label "Xout(analog)"
 		(shape input)
-		(at 135.89 114.3 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4acb0b98-1666-4792-b5dc-d92ccdc118cc")
-	)
-	(hierarchical_label "Yout(analog)"
-		(shape input)
 		(at 135.89 83.82 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "4acb0b98-1666-4792-b5dc-d92ccdc118cc")
+	)
+	(hierarchical_label "3.3vin"
+		(shape input)
+		(at 151.13 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cfad6ef-7902-482a-a700-cb22ed5a8774")
+	)
+	(hierarchical_label "Yout(analog)"
+		(shape input)
+		(at 135.89 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "c813ce1a-cff3-4edf-9db4-4d0688524927")
 	)
@@ -961,7 +962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 102.87 90)
+		(at 168.91 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -970,7 +971,7 @@
 		(fields_autoplaced yes)
 		(uuid "67ccff68-0da9-4dfb-b2e7-b699fcf98c67")
 		(property "Reference" "#PWR057"
-			(at 157.48 102.87 0)
+			(at 168.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,16 +980,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 102.8699 90)
+			(at 168.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 102.87 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 102.87 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 102.87 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

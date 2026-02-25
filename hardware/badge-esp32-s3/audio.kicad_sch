@@ -1059,7 +1059,7 @@
 		)
 		(uuid "e593960e-29f7-484d-855a-e8c970f7b416")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "3.3v"
 		(shape input)
 		(at 146.05 74.93 180)
 		(effects
@@ -1400,7 +1400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "misc-lib:SOT-523_L1.6-W0.8-P1.00-BR"
+		(property "Footprint" "misc-lib:DTC114EE"
 			(at 162.56 100.33 0)
 			(effects
 				(font

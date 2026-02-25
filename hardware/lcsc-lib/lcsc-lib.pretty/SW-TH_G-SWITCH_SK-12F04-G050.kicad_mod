@@ -120,17 +120,6 @@
 		(layer "F.SilkS")
 		(uuid "185dbe67-b669-4e58-9967-820d9d66167b")
 	)
-	(fp_circle
-		(center -6.1 7.8)
-		(end -6.07 7.8)
-		(stroke
-			(width 0.06)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "363cee78-5ba5-48de-9d46-9417de2708f8")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
