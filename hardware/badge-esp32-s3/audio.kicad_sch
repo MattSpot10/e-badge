@@ -1218,6 +1218,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C57089"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "19e05ad7-c611-4e17-aa65-5c9306934d18")
 		)

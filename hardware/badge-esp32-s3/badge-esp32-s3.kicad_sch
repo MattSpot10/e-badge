@@ -2693,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 133.35) (xy 224.79 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033780e6-6433-4f6c-a31a-68907756f127")
+	)
+	(wire
+		(pts
 			(xy 251.46 148.59) (xy 255.27 148.59)
 		)
 		(stroke
@@ -2943,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 130.81) (xy 224.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39350b31-91e3-4744-9ef0-e66dd93c4489")
+	)
+	(wire
+		(pts
 			(xy 251.46 106.68) (xy 255.27 106.68)
 		)
 		(stroke
@@ -3060,16 +3080,6 @@
 			(type default)
 		)
 		(uuid "51e9dc72-f8d1-4afb-a4ac-583bfa790ea3")
-	)
-	(wire
-		(pts
-			(xy 224.79 133.35) (xy 223.52 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540ff13f-1546-49c9-a230-bbcb407e3352")
 	)
 	(wire
 		(pts
@@ -3460,16 +3470,6 @@
 			(type default)
 		)
 		(uuid "953bbf4b-57bd-4bc6-b478-3c5df199133d")
-	)
-	(wire
-		(pts
-			(xy 224.79 130.81) (xy 223.52 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a3db8c3-3d04-4be4-9434-e6e6efcd2fc5")
 	)
 	(wire
 		(pts
@@ -4082,7 +4082,7 @@
 		(uuid "008b870f-4819-4aeb-ad44-9a0c9710f096")
 	)
 	(label "AddrLedMid"
-		(at 224.79 110.49 0)
+		(at 224.79 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4182,7 +4182,7 @@
 		(uuid "0d1dc182-d554-48a7-ac1d-93525c4c495b")
 	)
 	(label "JoystickXMid"
-		(at 224.79 105.41 0)
+		(at 224.79 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5062,7 +5062,7 @@
 		(uuid "deed81cd-d72a-4239-a34d-d917390482d4")
 	)
 	(label "DownButtonMid"
-		(at 224.79 118.11 0)
+		(at 224.79 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5072,7 +5072,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b969")
 	)
 	(label "UpButtonMid"
-		(at 224.79 120.65 0)
+		(at 224.79 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96a")
 	)
 	(label "LeftButtonMid"
-		(at 224.79 115.57 0)
+		(at 224.79 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96b")
 	)
 	(label "AButtonMid"
-		(at 224.79 125.73 0)
+		(at 224.79 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5102,7 +5102,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96c")
 	)
 	(label "BButtonMid"
-		(at 224.79 123.19 0)
+		(at 224.79 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96d")
 	)
 	(label "RightButtonMid"
-		(at 224.79 113.03 0)
+		(at 224.79 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,7 +5122,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96e")
 	)
 	(label "JoystickYMid"
-		(at 224.79 107.95 0)
+		(at 224.79 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5132,7 +5132,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b96f")
 	)
 	(label "LEDSingleMid"
-		(at 224.79 135.89 0)
+		(at 224.79 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5142,7 +5142,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b970")
 	)
 	(label "RGBGreenMid"
-		(at 224.79 130.81 0)
+		(at 224.79 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b971")
 	)
 	(label "RGBBlueMid"
-		(at 224.79 133.35 0)
+		(at 224.79 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5172,7 +5172,7 @@
 		(uuid "df777783-1369-459b-87d6-b88b2d54b973")
 	)
 	(label "RGBRedMid"
-		(at 224.79 128.27 0)
+		(at 224.79 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,9 +8468,159 @@
 				(justify left top)
 			)
 		)
-		(pin "JoystickXMid" input
-			(at 223.52 105.41 0)
-			(uuid "448abd14-a4ef-47d7-91ad-f6a40857dee9")
+		(pin "IO2" bidirectional
+			(at 196.85 105.41 180)
+			(uuid "4d62da3c-beb5-4cdb-83cc-6a741b5f60c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO4" bidirectional
+			(at 196.85 107.95 180)
+			(uuid "8db0d058-c527-4a8f-8206-8e7251bfa7ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO5" bidirectional
+			(at 196.85 110.49 180)
+			(uuid "b86f8fbd-45e7-4a9b-a3df-fbbd8eecca4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO6" bidirectional
+			(at 196.85 113.03 180)
+			(uuid "7e9013e2-1551-4e35-b630-9d43589e5b87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO7" bidirectional
+			(at 196.85 115.57 180)
+			(uuid "60d120d0-8b78-47af-8ed1-48549a4c9449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO8" bidirectional
+			(at 196.85 118.11 180)
+			(uuid "f2341c61-802c-4af2-b989-7e83b7833ee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO9" bidirectional
+			(at 196.85 120.65 180)
+			(uuid "285e77d2-4993-4a40-9332-28396b2f7c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO10" bidirectional
+			(at 196.85 123.19 180)
+			(uuid "c19a672d-bf81-4979-b42e-d9de8c25f604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO11" bidirectional
+			(at 196.85 125.73 180)
+			(uuid "434a21ef-118d-4ccc-b530-35bbcfe27928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO12" bidirectional
+			(at 196.85 140.97 180)
+			(uuid "f8992c64-4a8b-4f6e-a213-b1c0fdacc3b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO21" bidirectional
+			(at 196.85 128.27 180)
+			(uuid "2056f944-0baf-456d-9231-fc9502b512b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO33" bidirectional
+			(at 196.85 133.35 180)
+			(uuid "bc970aa6-57ca-45d5-a553-644726b8dd02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO34" bidirectional
+			(at 196.85 135.89 180)
+			(uuid "00114dc1-4e95-499b-a41d-49197f3a0270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO47" bidirectional
+			(at 196.85 130.81 180)
+			(uuid "74429864-4dea-4732-b9bc-58e1a945d61a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO48" bidirectional
+			(at 196.85 138.43 180)
+			(uuid "0538c95c-70df-435c-b6e7-3aeabdb67d4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AButtonMid" input
+			(at 223.52 135.89 0)
+			(uuid "942c347e-3524-4a52-bbd5-51e3e892080a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,9 +8628,9 @@
 				(justify right)
 			)
 		)
-		(pin "AButtonMid" input
-			(at 223.52 125.73 0)
-			(uuid "2fc0758c-f952-4165-9fa4-8c822fcbdb0e")
+		(pin "AddrLED" input
+			(at 223.52 115.57 0)
+			(uuid "a5cc0c76-606c-412d-841a-08d67af49bba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,8 +8639,8 @@
 			)
 		)
 		(pin "BButtonMid" input
-			(at 223.52 123.19 0)
-			(uuid "e748b805-03d1-4f99-a38c-3ed48021536a")
+			(at 223.52 133.35 0)
+			(uuid "8da0ddfe-7366-4688-a0b2-20f0c365f1a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8650,7 @@
 		)
 		(pin "Buzzer" output
 			(at 223.52 138.43 0)
-			(uuid "50c51434-7f98-4424-9b44-b4a92378f7e4")
+			(uuid "33602375-46c7-4f6e-9bac-7f75c29f0aa1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,8 +8659,8 @@
 			)
 		)
 		(pin "DownButtonMid" input
-			(at 223.52 118.11 0)
-			(uuid "e1162b2a-e8d6-41ee-84d6-0bc804cd776d")
+			(at 223.52 130.81 0)
+			(uuid "9a91d2f8-c26d-4f99-82c3-932ae3231d71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,139 +8668,19 @@
 				(justify right)
 			)
 		)
-		(pin "IO1" bidirectional
-			(at 196.85 105.41 180)
-			(uuid "1ff888e8-90c0-4ae8-9a77-b11c57141cb9")
+		(pin "JoystickXMid" input
+			(at 223.52 118.11 0)
+			(uuid "71f6b9fb-1fbc-4e64-b45f-fd7223333165")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(pin "IO2" bidirectional
-			(at 196.85 107.95 180)
-			(uuid "c36d301d-2541-44c1-8c01-a756efa51e97")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO14" bidirectional
-			(at 196.85 113.03 180)
-			(uuid "0f16ca6d-41cc-4984-9298-120e432d2d64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO15" bidirectional
-			(at 196.85 115.57 180)
-			(uuid "28894fb8-ba1a-44f4-9ca5-14c043b249f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO16" bidirectional
-			(at 196.85 118.11 180)
-			(uuid "707dcedc-ec7c-49d6-96fe-df1690168dc1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO17" bidirectional
-			(at 196.85 120.65 180)
-			(uuid "da95fcf3-a26c-4189-9a01-a49f1ad5d807")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO18" bidirectional
-			(at 196.85 123.19 180)
-			(uuid "a4f86ac4-399b-4480-941b-92e4ed81d214")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO38" bidirectional
-			(at 196.85 125.73 180)
-			(uuid "0f7ba439-67e8-4273-bcd3-e7dc94649ab0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO4" bidirectional
-			(at 196.85 133.35 180)
-			(uuid "62d2aa55-c12a-48df-8b2c-05b385df7a65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO5" bidirectional
-			(at 196.85 130.81 180)
-			(uuid "f9f98573-f541-4b67-8ede-91730180ace5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO6" bidirectional
-			(at 196.85 128.27 180)
-			(uuid "e37bf5d2-3404-4df5-9698-56e670e8a507")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO41" bidirectional
-			(at 196.85 135.89 180)
-			(uuid "e0bf147e-2d18-4781-93a3-c1fb526708c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO42" bidirectional
-			(at 196.85 138.43 180)
-			(uuid "17d621f5-6a73-4911-8ad3-a8fcaadd862d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "JoystickYMid" input
-			(at 223.52 107.95 0)
-			(uuid "ceed0b89-0188-4ad8-bb59-2094096fa680")
+			(at 223.52 120.65 0)
+			(uuid "758f1e07-a447-42b2-aa6d-e59bb7c18bf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,8 +8689,8 @@
 			)
 		)
 		(pin "LEDSingle" output
-			(at 223.52 135.89 0)
-			(uuid "14b1b061-3c3e-41e1-8649-6f9e5aff7ba9")
+			(at 223.52 113.03 0)
+			(uuid "5858382c-5bc2-4f9b-8c03-bdc9b58341f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,8 +8699,8 @@
 			)
 		)
 		(pin "LeftButtonMid" input
-			(at 223.52 115.57 0)
-			(uuid "d982add7-6401-45f4-a576-d243fc6b319e")
+			(at 223.52 128.27 0)
+			(uuid "45e75125-d7a0-45a3-b12b-0a8585d2ff7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,8 +8709,8 @@
 			)
 		)
 		(pin "RGBBlueMid" output
-			(at 223.52 133.35 0)
-			(uuid "712005dc-b6e4-43d6-8cea-9093c47c114c")
+			(at 223.52 110.49 0)
+			(uuid "47afb86e-9c6c-412b-ab21-01499715026e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,8 +8719,8 @@
 			)
 		)
 		(pin "RGBGreenMid" output
-			(at 223.52 130.81 0)
-			(uuid "6d5d43c2-901c-459b-9fbd-c7a1935f8ffd")
+			(at 223.52 107.95 0)
+			(uuid "203349a7-1855-4aec-9eae-172661f3241e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,8 +8729,8 @@
 			)
 		)
 		(pin "RGBRedMid" output
-			(at 223.52 128.27 0)
-			(uuid "84aaa9a1-0347-4207-a4a8-c6ff178dc95b")
+			(at 223.52 105.41 0)
+			(uuid "ef52fec4-f6a9-44f4-834d-d6d84a534484")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,8 +8739,8 @@
 			)
 		)
 		(pin "RightButtonMid" input
-			(at 223.52 113.03 0)
-			(uuid "61fe9e3a-1e9b-4965-8077-9a8f37a9b2ec")
+			(at 223.52 123.19 0)
+			(uuid "beed3e06-238e-4b69-9f8f-0ab851fe0c84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,8 +8749,8 @@
 			)
 		)
 		(pin "UpButtonMid" input
-			(at 223.52 120.65 0)
-			(uuid "fb54c547-eb46-4b41-9ff7-f1286492f368")
+			(at 223.52 125.73 0)
+			(uuid "8dfe2499-3e9e-444e-aff6-bae02d1e7693")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,44 +8758,14 @@
 				(justify right)
 			)
 		)
-		(pin "AddrLED" input
-			(at 223.52 110.49 0)
-			(uuid "8f69f90a-078b-4f65-85ca-2d6e190fda7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO7" bidirectional
-			(at 196.85 110.49 180)
-			(uuid "af192110-6982-49c8-8901-5335ad61f2fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BatteryVoltage" output
+		(pin "BatteryVoltage" input
 			(at 223.52 140.97 0)
-			(uuid "0adf7c51-c106-44b4-9b89-87b11d096caf")
+			(uuid "2b79c57e-de28-44e2-8fb5-bb4e1a9c1ada")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "IO43" bidirectional
-			(at 196.85 140.97 180)
-			(uuid "c84a6ba2-1d4b-46f9-800a-896f023d0957")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

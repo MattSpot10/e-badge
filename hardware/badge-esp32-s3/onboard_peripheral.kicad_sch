@@ -5,36 +5,31 @@
 	(uuid "ae5d1b00-b9ab-4b40-a4af-20fcfcbe0c42")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc-lib:HX PM2.54-1X2P ZC-Y"
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "ProLib_pcs_2025-10-24 (3):HDR-TH_2P-P2.54-V-F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +56,15 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "hanxia(韩下)"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C22438152"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,51 +82,59 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
 					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HX PM2.54-1X2P ZC-Y_1_0"
-				(rectangle
-					(start -2.54 -3.81)
-					(end 2.54 3.81)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 2.54)
-					(radius 0.381)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -138,10 +149,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "2"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -734,42 +745,33 @@
 		(uuid "fbb4438c-5324-4faf-b0ab-13fa53d3ebeb")
 	)
 	(symbol
-		(lib_id "lcsc-lib:HX PM2.54-1X2P ZC-Y")
-		(at 26.67 154.94 180)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 26.67 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09b74979-2229-4f42-9c2f-480657e6b786")
-		(property "Reference" "CN2"
-			(at 26.67 146.05 0)
+		(uuid "dccf2644-ba47-425a-af9d-b56d0592450e")
+		(property "Reference" "J15"
+			(at 27.305 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 26.67 148.59 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 27.305 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "lcsc-lib:HDR-TH_2P-P2.54-V-F"
-			(at 26.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/HX%2520PM2.54-1x2P%2520ZC-Y/24075299.html"
-			(at 26.67 154.94 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 26.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,8 +779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Holes Structure:1x2P Pitch:2.54mm Row Spacing:- Circular Hole / Square Hole:Square Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:2P Current Rating:3A Voltage Rating (Max):1kV Holes Direction:Top Insulation Height:8.5mm Contact Mater"
-			(at 26.67 154.94 0)
+		(property "Datasheet" "~"
+			(at 26.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,8 +788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HX PM2.54-1x2P ZC-Y"
-			(at 26.67 154.94 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 26.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,52 +797,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "hanxia(韩下)"
-			(at 26.67 154.94 0)
+		(property "LCSC" "C7499322"
+			(at 26.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Supplier Part" "C22438152"
-			(at 26.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 26.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:2.54mm 直插"
-			(at 26.67 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c058860-092b-4d76-a4ba-290f0c04d28d")
 		)
 		(pin "2"
-			(uuid "c16538a0-bd15-4c8a-a7bb-f9b60f4938b9")
+			(uuid "a338529c-bd69-439e-819f-649bffbd4c87")
+		)
+		(pin "1"
+			(uuid "183b42e2-d7be-4117-a3d5-1db6378b4b54")
 		)
 		(instances
-			(project ""
+			(project "badge-esp32-s3"
 				(path "/e2af9a6c-dbe9-4de2-9ba6-ea213a7300ec/9feb22ac-0492-47b5-89fe-3e77a54de168"
-					(reference "CN2")
+					(reference "J15")
 					(unit 1)
 				)
 			)

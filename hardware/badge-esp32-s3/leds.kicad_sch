@@ -5295,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 208.28 59.69 0)
 			(effects
 				(font
@@ -5634,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -5883,7 +5883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -6008,7 +6008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -6133,7 +6133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 139.7 59.69 0)
 			(effects
 				(font
@@ -6258,7 +6258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 162.56 59.69 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -6508,7 +6508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 212.09 82.55 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -7911,7 +7911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 116.84 59.69 0)
 			(effects
 				(font
@@ -8231,7 +8231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -8356,7 +8356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -8480,7 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 189.23 82.55 0)
 			(effects
 				(font
@@ -8893,7 +8893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -9018,7 +9018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -9268,7 +9268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 234.95 82.55 0)
 			(effects
 				(font
@@ -9393,7 +9393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 257.81 82.55 0)
 			(effects
 				(font
@@ -9898,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -10023,7 +10023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C22371528"
+		(property "LCSC" "C22371528"
 			(at 168.91 105.41 0)
 			(effects
 				(font
