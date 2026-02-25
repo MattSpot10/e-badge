@@ -5085,7 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C5355380"
+		(property "LCSC" "C5355380"
 			(at 146.05 95.25 0)
 			(effects
 				(font

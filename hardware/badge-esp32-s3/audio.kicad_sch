@@ -1227,6 +1227,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "19e05ad7-c611-4e17-aa65-5c9306934d18")
 		)
@@ -1430,6 +1439,15 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94400"
 			(at 162.56 100.33 0)
 			(effects
 				(font

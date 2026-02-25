@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start 5.1 6.5)
 		(end 5.1 6)

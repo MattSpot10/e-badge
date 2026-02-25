@@ -2763,16 +2763,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 54.61) (xy 182.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146e61d4-a79b-42f2-98a1-b26bc0f391c4")
-	)
-	(wire
-		(pts
 			(xy 195.58 125.73) (xy 196.85 125.73)
 		)
 		(stroke
@@ -2940,16 +2930,6 @@
 			(type default)
 		)
 		(uuid "35ac6343-6478-4ca4-a79b-687701a3a19b")
-	)
-	(wire
-		(pts
-			(xy 133.35 54.61) (xy 182.88 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "364545b8-42a3-4c92-8ba6-d058da558ae9")
 	)
 	(wire
 		(pts
@@ -3553,7 +3533,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 55.88) (xy 207.01 55.88)
+			(xy 133.35 54.61) (xy 207.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4252,7 +4232,7 @@
 		(uuid "1fe3768d-892f-4383-9d48-d4a9a1c52e86")
 	)
 	(label "U0RX"
-		(at 182.88 55.88 0)
+		(at 182.88 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5941,6 +5921,15 @@
 			)
 		)
 		(property "LCSC Part" "C3013941"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-2.4765"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -8377,7 +8366,7 @@
 			)
 		)
 		(pin "TXD" output
-			(at 207.01 55.88 180)
+			(at 207.01 54.61 180)
 			(uuid "0dcb837c-46ce-417b-9d61-f395b2e6be2d")
 			(effects
 				(font

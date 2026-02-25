@@ -1343,7 +1343,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7500799"
+		(property "LCSC Part" "C7499350"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 109.22 140.97 0)
 			(effects
 				(font
