@@ -275,7 +275,7 @@
 		(uuid "88262e2f-ee15-4247-a793-50df70dbb617")
 		(effects
 			(font
-				(size 0.85 1)
+				(size 1 1)
 				(thickness 0.15)
 				(bold yes)
 			)

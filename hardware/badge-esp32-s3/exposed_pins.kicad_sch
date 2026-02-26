@@ -1772,6 +1772,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16661f84-5ac0-417c-b3c1-d0722e690f71")
+	)
+	(wire
+		(pts
 			(xy 144.78 99.06) (xy 140.97 99.06)
 		)
 		(stroke
@@ -1942,16 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 157.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba7481a-1511-4b9b-9adf-507b255f41ca")
-	)
-	(wire
-		(pts
 			(xy 152.4 33.02) (xy 152.4 39.37)
 		)
 		(stroke
@@ -2100,17 +2100,6 @@
 		)
 		(uuid "eb2c4e3d-78e4-46d7-a355-80df92e88ecf")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 161.29 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "026dba4d-059a-4657-83fd-ea2733e37fd8")
-	)
 	(hierarchical_label "SPI_MOSI"
 		(shape bidirectional)
 		(at 140.97 109.22 180)
@@ -2220,6 +2209,17 @@
 			(justify left)
 		)
 		(uuid "8eee656f-775c-4d67-8672-b4d273495657")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 161.29 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1879e50-b372-4be6-9bb6-6ea007ab1b5a")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)

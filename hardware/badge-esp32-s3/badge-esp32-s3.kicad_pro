@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|147150000|65325000|0e7496ef-dd17-49e9-92d6-30d7d01de0d4|00000000-0000-0000-0000-000000000000",
+          "This does not match because we added custom alignment for the assembly"
+        ],
+        [
+          "lib_footprint_mismatch|182970000|80810000|fa3e6369-0377-4b9c-a06a-d64ba2acb996|00000000-0000-0000-0000-000000000000",
+          "this does not match because we added custom alignment for assembly"
+        ],
+        [
+          "silk_edge_clearance|211500000|91240000|9a7314fc-0112-4008-993c-65a89d0bfe71|b9a921c9-80f1-4459-a49b-194e4171c3ee",
+          "we are okay with the switch silkscreen getting clipped"
+        ],
+        [
+          "silk_edge_clearance|211500000|94240000|9a7314fc-0112-4008-993c-65a89d0bfe71|5f78643c-ba49-4846-ac37-a064d34a6d8a",
+          "we are okay with switch silkscreen getting clipped"
+        ],
+        [
+          "silk_over_copper|109850000|101525000|3bf9c5cb-5fcb-44a7-a876-6b66de8f8ba2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|111500000|101525000|b90ca581-1ae8-4b0b-ae28-b8d90781a09d|00000000-0000-0000-0000-000000000000",
+          "This is where the actual screen sits"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -105,7 +130,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -127,7 +152,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
